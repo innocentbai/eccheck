@@ -1,0 +1,15 @@
+{
+  "mask_prob": 0.15,
+  "random_replace_prob": 0.1,
+  "unmask_replace_prob": 0.1,
+  "max_seq_length": 512,
+  "tokenizer": "roberta-base",
+  "num_layers": 6,
+  "num_heads": 8,
+  "ff_dim": 512,
+  "h_dim": 256,
+  "dropout": 0.1,
+  "batch_size": 8,
+  "num_iterations": 10000,
+  "checkpoint_every": 1000
+}

@@ -1,0 +1,27 @@
+09:42:22.674 train.py:84 INFO: [Rank 0/4] Initialized DeepSpeed
+09:42:22.675 train.py:84 INFO: [Rank 3/4] Initialized DeepSpeed
+09:42:22.676 train.py:84 INFO: [Rank 1/4] Initialized DeepSpeed
+09:42:22.678 train.py:84 INFO: [Rank 2/4] Initialized DeepSpeed
+09:42:22.771 train.py:89 INFO: [Rank 0/4] Tokenizer loaded successfully.
+09:42:22.775 train.py:89 INFO: [Rank 3/4] Tokenizer loaded successfully.
+09:42:22.780 train.py:89 INFO: [Rank 1/4] Tokenizer loaded successfully.
+09:42:22.782 train.py:89 INFO: [Rank 2/4] Tokenizer loaded successfully.
+09:42:23.639 train.py:151 INFO: [Rank 0/4] Dataset loaded successfully.
+09:42:23.768 train.py:151 INFO: [Rank 3/4] Dataset loaded successfully.
+09:42:23.815 train.py:151 INFO: [Rank 2/4] Dataset loaded successfully.
+09:42:23.830 train.py:151 INFO: [Rank 1/4] Dataset loaded successfully.
+09:42:30.246 train.py:160 INFO: [Rank 0/4] Model loaded successfully.
+09:42:30.775 train.py:160 INFO: [Rank 3/4] Model loaded successfully.
+09:42:31.380 train.py:160 INFO: [Rank 1/4] Model loaded successfully.
+09:42:32.052 train.py:160 INFO: [Rank 2/4] Model loaded successfully.
+09:42:32.791 train.py:191 INFO: [Rank 1/4] -----------> epochs:1 iterations:28147 batchsize:16 all_b:64
+09:42:32.791 train.py:198 INFO: [Rank 1/4] Load checkpoints use0.000s
+09:42:32.791 train.py:191 INFO: [Rank 3/4] -----------> epochs:1 iterations:28147 batchsize:16 all_b:64
+09:42:32.791 train.py:198 INFO: [Rank 3/4] Load checkpoints use0.000s
+09:42:32.792 train.py:191 INFO: [Rank 2/4] -----------> epochs:1 iterations:28147 batchsize:16 all_b:64
+09:42:32.792 train.py:198 INFO: [Rank 2/4] Load checkpoints use0.000s
+09:42:32.794 train.py:191 INFO: [Rank 0/4] -----------> epochs:1 iterations:28147 batchsize:16 all_b:64
+09:42:32.794 train.py:198 INFO: [Rank 0/4] Load checkpoints use0.000s
+09:42:43.886 train.py:219 INFO: [Epoch 0/1] Batch 0, Loss: 3.594609260559082, Time: 10.839822053909302
+09:42:54.302 train.py:219 INFO: [Epoch 0/1] Batch 1, Loss: 3.6128592491149902, Time: 10.412597894668579
+09:43:04.776 train.py:219 INFO: [Epoch 0/1] Batch 2, Loss: 3.611703395843506, Time: 10.46009612083435

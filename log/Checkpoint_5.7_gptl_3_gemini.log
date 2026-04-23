@@ -1,0 +1,292 @@
+11:49:36.115 train.py:85 INFO: [Rank 2/4] Initialized DeepSpeed
+11:49:36.115 train.py:85 INFO: [Rank 3/4] Initialized DeepSpeed
+11:49:36.120 train.py:85 INFO: [Rank 0/4] Initialized DeepSpeed
+11:49:36.121 train.py:85 INFO: [Rank 1/4] Initialized DeepSpeed
+11:49:36.192 train.py:89 INFO: [Rank 2/4] Tokenizer loaded successfully.
+11:49:36.201 train.py:89 INFO: [Rank 3/4] Tokenizer loaded successfully.
+11:49:36.237 train.py:89 INFO: [Rank 0/4] Tokenizer loaded successfully.
+11:49:36.248 train.py:89 INFO: [Rank 1/4] Tokenizer loaded successfully.
+11:49:37.168 train.py:154 INFO: [Rank 2/4] Dataset loaded successfully.
+11:49:37.184 train.py:154 INFO: [Rank 3/4] Dataset loaded successfully.
+11:49:37.225 train.py:154 INFO: [Rank 1/4] Dataset loaded successfully.
+11:49:37.632 train.py:154 INFO: [Rank 0/4] Dataset loaded successfully.
+11:49:37.952 train.py:158 INFO: [Rank 3/4] Model loaded successfully.
+11:49:37.960 train.py:158 INFO: [Rank 2/4] Model loaded successfully.
+11:49:37.969 train.py:158 INFO: [Rank 1/4] Model loaded successfully.
+11:49:38.253 train.py:158 INFO: [Rank 0/4] Model loaded successfully.
+11:50:00.168 train.py:190 INFO: [Rank 0/4] -----------> epochs:1 iterations:28147 batchsize:16 all_b:64
+11:50:00.168 train.py:201 INFO: [Rank 0/4] Load checkpoints use0.000s
+11:50:00.187 train.py:190 INFO: [Rank 3/4] -----------> epochs:1 iterations:28147 batchsize:16 all_b:64
+11:50:00.187 train.py:201 INFO: [Rank 3/4] Load checkpoints use0.000s
+11:50:00.205 train.py:190 INFO: [Rank 2/4] -----------> epochs:1 iterations:28147 batchsize:16 all_b:64
+11:50:00.205 train.py:201 INFO: [Rank 2/4] Load checkpoints use0.000s
+11:50:00.252 train.py:190 INFO: [Rank 1/4] -----------> epochs:1 iterations:28147 batchsize:16 all_b:64
+11:50:00.252 train.py:201 INFO: [Rank 1/4] Load checkpoints use0.000s
+11:50:04.322 train.py:222 INFO: [Epoch 0/1] Batch 0, Loss: 3.8389158248901367, Time: 3.8798155784606934
+11:50:07.867 train.py:222 INFO: [Epoch 0/1] Batch 1, Loss: 11.856821060180664, Time: 3.543938398361206
+11:50:11.409 train.py:222 INFO: [Epoch 0/1] Batch 2, Loss: 12.836077690124512, Time: 3.5419416427612305
+11:50:14.955 train.py:222 INFO: [Epoch 0/1] Batch 3, Loss: 5.860588550567627, Time: 3.5403854846954346
+11:50:21.497 train.py:234 INFO: base checkpoint takes 6.542s
+11:50:25.005 train.py:222 INFO: [Epoch 0/1] Batch 4, Loss: 4.758357048034668, Time: 3.5063042640686035
+11:50:28.548 train.py:222 INFO: [Epoch 0/1] Batch 5, Loss: 3.8608438968658447, Time: 3.54252290725708
+11:50:32.096 train.py:222 INFO: [Epoch 0/1] Batch 6, Loss: 3.6909430027008057, Time: 3.5482017993927
+11:50:39.139 train.py:234 INFO: base checkpoint takes 7.042s
+11:50:42.655 train.py:222 INFO: [Epoch 0/1] Batch 7, Loss: 3.992100238800049, Time: 3.5133261680603027
+11:50:46.202 train.py:222 INFO: [Epoch 0/1] Batch 8, Loss: 3.448211669921875, Time: 3.5453739166259766
+11:50:49.764 train.py:222 INFO: [Epoch 0/1] Batch 9, Loss: 3.4484498500823975, Time: 3.5607972145080566
+11:50:56.671 train.py:234 INFO: base checkpoint takes 6.907s
+11:51:00.198 train.py:222 INFO: [Epoch 0/1] Batch 10, Loss: 3.4429471492767334, Time: 3.5239951610565186
+11:51:03.752 train.py:222 INFO: [Epoch 0/1] Batch 11, Loss: 3.4796433448791504, Time: 3.5522408485412598
+11:51:07.320 train.py:222 INFO: [Epoch 0/1] Batch 12, Loss: 3.3312482833862305, Time: 3.565747022628784
+11:51:14.067 train.py:234 INFO: base checkpoint takes 6.747s
+11:51:17.601 train.py:222 INFO: [Epoch 0/1] Batch 13, Loss: 3.2001779079437256, Time: 3.5315487384796143
+11:51:21.157 train.py:222 INFO: [Epoch 0/1] Batch 14, Loss: 3.6029882431030273, Time: 3.5542044639587402
+11:51:24.747 train.py:222 INFO: [Epoch 0/1] Batch 15, Loss: 3.219964027404785, Time: 3.5887110233306885
+11:51:31.527 train.py:234 INFO: base checkpoint takes 6.780s
+11:51:35.058 train.py:222 INFO: [Epoch 0/1] Batch 16, Loss: 3.465557098388672, Time: 3.5282838344573975
+11:51:38.619 train.py:222 INFO: [Epoch 0/1] Batch 17, Loss: 3.194276809692383, Time: 3.559284210205078
+11:51:42.199 train.py:222 INFO: [Epoch 0/1] Batch 18, Loss: 3.1933534145355225, Time: 3.5788118839263916
+11:51:49.002 train.py:234 INFO: base checkpoint takes 6.802s
+11:51:52.551 train.py:222 INFO: [Epoch 0/1] Batch 19, Loss: 3.094949245452881, Time: 3.5467867851257324
+11:51:56.133 train.py:222 INFO: [Epoch 0/1] Batch 20, Loss: 3.1255478858947754, Time: 3.58039927482605
+11:51:59.715 train.py:222 INFO: [Epoch 0/1] Batch 21, Loss: 3.5019290447235107, Time: 3.5808520317077637
+11:52:06.511 train.py:234 INFO: base checkpoint takes 6.796s
+11:52:10.046 train.py:222 INFO: [Epoch 0/1] Batch 22, Loss: 3.1214473247528076, Time: 3.531602621078491
+11:52:13.620 train.py:222 INFO: [Epoch 0/1] Batch 23, Loss: 3.277087688446045, Time: 3.5727570056915283
+11:52:17.191 train.py:222 INFO: [Epoch 0/1] Batch 24, Loss: 2.917004108428955, Time: 3.5695908069610596
+11:52:23.985 train.py:234 INFO: base checkpoint takes 6.793s
+11:52:27.528 train.py:222 INFO: [Epoch 0/1] Batch 25, Loss: 3.431828498840332, Time: 3.539710760116577
+11:52:31.103 train.py:222 INFO: [Epoch 0/1] Batch 26, Loss: 3.459165334701538, Time: 3.5729880332946777
+11:52:34.675 train.py:222 INFO: [Epoch 0/1] Batch 27, Loss: 3.164510726928711, Time: 3.57089900970459
+11:52:41.683 train.py:234 INFO: base checkpoint takes 7.008s
+11:52:45.226 train.py:222 INFO: [Epoch 0/1] Batch 28, Loss: 3.641676425933838, Time: 3.5400803089141846
+11:52:48.809 train.py:222 INFO: [Epoch 0/1] Batch 29, Loss: 3.1388213634490967, Time: 3.581613540649414
+11:52:52.389 train.py:222 INFO: [Epoch 0/1] Batch 30, Loss: 2.9550464153289795, Time: 3.5778703689575195
+11:52:59.316 train.py:234 INFO: base checkpoint takes 6.927s
+11:53:02.851 train.py:222 INFO: [Epoch 0/1] Batch 31, Loss: 3.0634257793426514, Time: 3.531189441680908
+11:53:06.425 train.py:222 INFO: [Epoch 0/1] Batch 32, Loss: 2.9122719764709473, Time: 3.5724356174468994
+11:53:10.017 train.py:222 INFO: [Epoch 0/1] Batch 33, Loss: 2.956937313079834, Time: 3.590217351913452
+11:53:16.830 train.py:234 INFO: base checkpoint takes 6.813s
+11:53:20.367 train.py:222 INFO: [Epoch 0/1] Batch 34, Loss: 3.014789581298828, Time: 3.533937454223633
+11:53:23.935 train.py:222 INFO: [Epoch 0/1] Batch 35, Loss: 3.0921061038970947, Time: 3.566424608230591
+11:53:27.504 train.py:222 INFO: [Epoch 0/1] Batch 36, Loss: 3.347395420074463, Time: 3.5674164295196533
+11:53:34.279 train.py:234 INFO: base checkpoint takes 6.775s
+11:53:37.824 train.py:222 INFO: [Epoch 0/1] Batch 37, Loss: 2.984647512435913, Time: 3.5422773361206055
+11:53:41.388 train.py:222 INFO: [Epoch 0/1] Batch 38, Loss: 3.391221284866333, Time: 3.5634243488311768
+11:53:44.971 train.py:222 INFO: [Epoch 0/1] Batch 39, Loss: 3.25589919090271, Time: 3.5806732177734375
+11:53:51.701 train.py:234 INFO: base checkpoint takes 6.730s
+11:53:55.241 train.py:222 INFO: [Epoch 0/1] Batch 40, Loss: 3.292649745941162, Time: 3.537282705307007
+11:53:58.822 train.py:222 INFO: [Epoch 0/1] Batch 41, Loss: 3.2411587238311768, Time: 3.579500675201416
+11:54:02.419 train.py:222 INFO: [Epoch 0/1] Batch 42, Loss: 3.1613311767578125, Time: 3.5946006774902344
+11:54:09.152 train.py:234 INFO: base checkpoint takes 6.734s
+11:54:12.698 train.py:222 INFO: [Epoch 0/1] Batch 43, Loss: 3.2425460815429688, Time: 3.543241024017334
+11:54:16.264 train.py:222 INFO: [Epoch 0/1] Batch 44, Loss: 3.098165512084961, Time: 3.5641801357269287
+11:54:19.847 train.py:222 INFO: [Epoch 0/1] Batch 45, Loss: 3.1722986698150635, Time: 3.5805208683013916
+11:54:26.714 train.py:234 INFO: base checkpoint takes 6.867s
+11:54:30.254 train.py:222 INFO: [Epoch 0/1] Batch 46, Loss: 3.278918743133545, Time: 3.53831148147583
+11:54:33.841 train.py:222 INFO: [Epoch 0/1] Batch 47, Loss: 3.1402881145477295, Time: 3.5851404666900635
+11:54:37.431 train.py:222 INFO: [Epoch 0/1] Batch 48, Loss: 2.999980926513672, Time: 3.5876893997192383
+11:54:44.102 train.py:234 INFO: base checkpoint takes 6.670s
+11:54:47.652 train.py:222 INFO: [Epoch 0/1] Batch 49, Loss: 2.952918767929077, Time: 3.5484700202941895
+11:54:51.234 train.py:222 INFO: [Epoch 0/1] Batch 50, Loss: 3.7353105545043945, Time: 3.579503059387207
+11:54:54.812 train.py:222 INFO: [Epoch 0/1] Batch 51, Loss: 3.3151817321777344, Time: 3.5767624378204346
+11:55:01.471 train.py:234 INFO: base checkpoint takes 6.658s
+11:55:05.011 train.py:222 INFO: [Epoch 0/1] Batch 52, Loss: 3.635601758956909, Time: 3.5379881858825684
+11:55:08.580 train.py:222 INFO: [Epoch 0/1] Batch 53, Loss: 3.2769813537597656, Time: 3.5668630599975586
+11:55:12.176 train.py:222 INFO: [Epoch 0/1] Batch 54, Loss: 3.355947494506836, Time: 3.595200538635254
+11:55:18.851 train.py:234 INFO: base checkpoint takes 6.674s
+11:55:22.404 train.py:222 INFO: [Epoch 0/1] Batch 55, Loss: 3.1807467937469482, Time: 3.549849033355713
+11:55:25.991 train.py:222 INFO: [Epoch 0/1] Batch 56, Loss: 3.213742256164551, Time: 3.5852997303009033
+11:55:29.577 train.py:222 INFO: [Epoch 0/1] Batch 57, Loss: 3.2823948860168457, Time: 3.5846924781799316
+11:55:36.251 train.py:234 INFO: base checkpoint takes 6.674s
+11:55:39.797 train.py:222 INFO: [Epoch 0/1] Batch 58, Loss: 3.037957191467285, Time: 3.544179677963257
+11:55:43.378 train.py:222 INFO: [Epoch 0/1] Batch 59, Loss: 3.4324746131896973, Time: 3.5787672996520996
+11:55:46.981 train.py:222 INFO: [Epoch 0/1] Batch 60, Loss: 3.521749258041382, Time: 3.6015701293945312
+11:55:53.717 train.py:234 INFO: base checkpoint takes 6.736s
+11:55:57.255 train.py:222 INFO: [Epoch 0/1] Batch 61, Loss: 3.364689350128174, Time: 3.5356295108795166
+11:56:00.845 train.py:222 INFO: [Epoch 0/1] Batch 62, Loss: 3.466850757598877, Time: 3.5889594554901123
+11:56:04.438 train.py:222 INFO: [Epoch 0/1] Batch 63, Loss: 3.1569924354553223, Time: 3.5905888080596924
+11:56:11.106 train.py:234 INFO: base checkpoint takes 6.668s
+11:56:14.659 train.py:222 INFO: [Epoch 0/1] Batch 64, Loss: 3.216884136199951, Time: 3.5496413707733154
+11:56:18.241 train.py:222 INFO: [Epoch 0/1] Batch 65, Loss: 3.3553831577301025, Time: 3.581298828125
+11:56:21.837 train.py:222 INFO: [Epoch 0/1] Batch 66, Loss: 3.0114026069641113, Time: 3.594514846801758
+11:56:28.572 train.py:234 INFO: base checkpoint takes 6.734s
+11:56:32.123 train.py:222 INFO: [Epoch 0/1] Batch 67, Loss: 3.168748140335083, Time: 3.5486440658569336
+11:56:35.723 train.py:222 INFO: [Epoch 0/1] Batch 68, Loss: 3.428269863128662, Time: 3.598127841949463
+11:56:39.316 train.py:222 INFO: [Epoch 0/1] Batch 69, Loss: 3.054489850997925, Time: 3.5915229320526123
+11:56:46.084 train.py:234 INFO: base checkpoint takes 6.768s
+11:56:49.633 train.py:222 INFO: [Epoch 0/1] Batch 70, Loss: 3.279308319091797, Time: 3.5464272499084473
+11:56:53.228 train.py:222 INFO: [Epoch 0/1] Batch 71, Loss: 3.49230694770813, Time: 3.5930168628692627
+11:56:56.815 train.py:222 INFO: [Epoch 0/1] Batch 72, Loss: 3.0840561389923096, Time: 3.585853338241577
+11:57:03.585 train.py:234 INFO: base checkpoint takes 6.770s
+11:57:07.130 train.py:222 INFO: [Epoch 0/1] Batch 73, Loss: 3.222036361694336, Time: 3.5422399044036865
+11:57:10.709 train.py:222 INFO: [Epoch 0/1] Batch 74, Loss: 3.0152323246002197, Time: 3.577430009841919
+11:57:14.305 train.py:222 INFO: [Epoch 0/1] Batch 75, Loss: 3.1547656059265137, Time: 3.593648910522461
+11:57:21.021 train.py:234 INFO: base checkpoint takes 6.716s
+11:57:24.562 train.py:222 INFO: [Epoch 0/1] Batch 76, Loss: 3.002453088760376, Time: 3.538738250732422
+11:57:28.153 train.py:222 INFO: [Epoch 0/1] Batch 77, Loss: 3.4378116130828857, Time: 3.5893404483795166
+11:57:31.734 train.py:222 INFO: [Epoch 0/1] Batch 78, Loss: 2.99025297164917, Time: 3.579651117324829
+11:57:38.511 train.py:234 INFO: base checkpoint takes 6.777s
+11:57:42.061 train.py:222 INFO: [Epoch 0/1] Batch 79, Loss: 3.109830617904663, Time: 3.5482821464538574
+11:57:45.643 train.py:222 INFO: [Epoch 0/1] Batch 80, Loss: 3.2379090785980225, Time: 3.579688310623169
+11:57:49.234 train.py:222 INFO: [Epoch 0/1] Batch 81, Loss: 3.365875244140625, Time: 3.589200496673584
+11:57:56.183 train.py:234 INFO: base checkpoint takes 6.949s
+11:57:59.731 train.py:222 INFO: [Epoch 0/1] Batch 82, Loss: 3.3295912742614746, Time: 3.5460188388824463
+11:58:03.311 train.py:222 INFO: [Epoch 0/1] Batch 83, Loss: 3.4656670093536377, Time: 3.577928304672241
+11:58:06.898 train.py:222 INFO: [Epoch 0/1] Batch 84, Loss: 3.160278081893921, Time: 3.585061550140381
+11:58:13.793 train.py:234 INFO: base checkpoint takes 6.896s
+11:58:17.342 train.py:222 INFO: [Epoch 0/1] Batch 85, Loss: 3.3325796127319336, Time: 3.54642653465271
+11:58:20.919 train.py:222 INFO: [Epoch 0/1] Batch 86, Loss: 3.4245781898498535, Time: 3.5752906799316406
+11:58:24.503 train.py:222 INFO: [Epoch 0/1] Batch 87, Loss: 3.390653371810913, Time: 3.5822594165802
+11:58:31.296 train.py:234 INFO: base checkpoint takes 6.792s
+11:58:34.848 train.py:222 INFO: [Epoch 0/1] Batch 88, Loss: 3.0447590351104736, Time: 3.5496745109558105
+11:58:38.439 train.py:222 INFO: [Epoch 0/1] Batch 89, Loss: 2.919158935546875, Time: 3.5893023014068604
+11:58:42.036 train.py:222 INFO: [Epoch 0/1] Batch 90, Loss: 3.487565517425537, Time: 3.594348907470703
+11:58:49.188 train.py:234 INFO: base checkpoint takes 7.152s
+11:58:52.726 train.py:222 INFO: [Epoch 0/1] Batch 91, Loss: 3.4029500484466553, Time: 3.5358710289001465
+11:58:56.319 train.py:222 INFO: [Epoch 0/1] Batch 92, Loss: 3.186444044113159, Time: 3.591611385345459
+11:58:59.921 train.py:222 INFO: [Epoch 0/1] Batch 93, Loss: 3.29931640625, Time: 3.5998027324676514
+11:59:06.726 train.py:234 INFO: base checkpoint takes 6.805s
+11:59:10.289 train.py:222 INFO: [Epoch 0/1] Batch 94, Loss: 3.279496908187866, Time: 3.559521436691284
+11:59:13.858 train.py:222 INFO: [Epoch 0/1] Batch 95, Loss: 3.4001715183258057, Time: 3.568429708480835
+11:59:17.441 train.py:222 INFO: [Epoch 0/1] Batch 96, Loss: 2.7737386226654053, Time: 3.5808606147766113
+11:59:24.244 train.py:234 INFO: base checkpoint takes 6.803s
+11:59:27.793 train.py:222 INFO: [Epoch 0/1] Batch 97, Loss: 3.370243549346924, Time: 3.5461623668670654
+11:59:31.378 train.py:222 INFO: [Epoch 0/1] Batch 98, Loss: 3.4700562953948975, Time: 3.5819180011749268
+11:59:34.964 train.py:222 INFO: [Epoch 0/1] Batch 99, Loss: 2.852710008621216, Time: 3.5850367546081543
+11:59:41.840 train.py:234 INFO: base checkpoint takes 6.876s
+11:59:45.397 train.py:222 INFO: [Epoch 0/1] Batch 100, Loss: 3.239981174468994, Time: 3.554203748703003
+11:59:48.979 train.py:222 INFO: [Epoch 0/1] Batch 101, Loss: 3.39028000831604, Time: 3.5805277824401855
+11:59:52.563 train.py:222 INFO: [Epoch 0/1] Batch 102, Loss: 3.120002508163452, Time: 3.5810585021972656
+11:59:59.582 train.py:234 INFO: base checkpoint takes 7.019s
+12:00:03.136 train.py:222 INFO: [Epoch 0/1] Batch 103, Loss: 3.32973051071167, Time: 3.550114631652832
+12:00:06.716 train.py:222 INFO: [Epoch 0/1] Batch 104, Loss: 3.266214609146118, Time: 3.579040288925171
+12:00:10.290 train.py:222 INFO: [Epoch 0/1] Batch 105, Loss: 3.2797951698303223, Time: 3.571302652359009
+12:00:17.372 train.py:234 INFO: base checkpoint takes 7.081s
+12:00:20.921 train.py:222 INFO: [Epoch 0/1] Batch 106, Loss: 3.288891553878784, Time: 3.5461292266845703
+12:00:24.498 train.py:222 INFO: [Epoch 0/1] Batch 107, Loss: 2.736400604248047, Time: 3.5752780437469482
+12:00:28.092 train.py:222 INFO: [Epoch 0/1] Batch 108, Loss: 3.5430257320404053, Time: 3.5931236743927
+12:00:35.234 train.py:234 INFO: base checkpoint takes 7.141s
+12:00:38.777 train.py:222 INFO: [Epoch 0/1] Batch 109, Loss: 3.293903350830078, Time: 3.540294885635376
+12:00:42.354 train.py:222 INFO: [Epoch 0/1] Batch 110, Loss: 3.340337038040161, Time: 3.574892997741699
+12:00:45.939 train.py:222 INFO: [Epoch 0/1] Batch 111, Loss: 3.487550735473633, Time: 3.582908868789673
+12:00:52.891 train.py:234 INFO: base checkpoint takes 6.951s
+12:00:56.441 train.py:222 INFO: [Epoch 0/1] Batch 112, Loss: 3.266901969909668, Time: 3.5472300052642822
+12:01:00.020 train.py:222 INFO: [Epoch 0/1] Batch 113, Loss: 3.4059228897094727, Time: 3.5779268741607666
+12:01:03.593 train.py:222 INFO: [Epoch 0/1] Batch 114, Loss: 2.9718706607818604, Time: 3.5711281299591064
+12:01:10.554 train.py:234 INFO: base checkpoint takes 6.961s
+12:01:14.102 train.py:222 INFO: [Epoch 0/1] Batch 115, Loss: 3.407390594482422, Time: 3.5441532135009766
+12:01:17.684 train.py:222 INFO: [Epoch 0/1] Batch 116, Loss: 3.1921026706695557, Time: 3.5812742710113525
+12:01:21.271 train.py:222 INFO: [Epoch 0/1] Batch 117, Loss: 3.07397723197937, Time: 3.585144519805908
+12:01:28.150 train.py:234 INFO: base checkpoint takes 6.879s
+12:01:31.701 train.py:222 INFO: [Epoch 0/1] Batch 118, Loss: 2.879608631134033, Time: 3.548206329345703
+12:01:35.284 train.py:222 INFO: [Epoch 0/1] Batch 119, Loss: 3.239081859588623, Time: 3.5811870098114014
+12:01:38.869 train.py:222 INFO: [Epoch 0/1] Batch 120, Loss: 3.2019193172454834, Time: 3.5835299491882324
+12:01:45.760 train.py:234 INFO: base checkpoint takes 6.891s
+12:01:49.310 train.py:222 INFO: [Epoch 0/1] Batch 121, Loss: 3.310213327407837, Time: 3.5471291542053223
+12:01:52.891 train.py:222 INFO: [Epoch 0/1] Batch 122, Loss: 3.541583299636841, Time: 3.579457998275757
+12:01:56.473 train.py:222 INFO: [Epoch 0/1] Batch 123, Loss: 3.2867512702941895, Time: 3.580392360687256
+12:02:03.383 train.py:234 INFO: base checkpoint takes 6.910s
+12:02:06.929 train.py:222 INFO: [Epoch 0/1] Batch 124, Loss: 3.451206922531128, Time: 3.543839693069458
+12:02:10.513 train.py:222 INFO: [Epoch 0/1] Batch 125, Loss: 3.4719085693359375, Time: 3.5821125507354736
+12:02:14.098 train.py:222 INFO: [Epoch 0/1] Batch 126, Loss: 3.2744131088256836, Time: 3.5820932388305664
+12:02:20.988 train.py:234 INFO: base checkpoint takes 6.890s
+12:02:24.542 train.py:222 INFO: [Epoch 0/1] Batch 127, Loss: 3.6050009727478027, Time: 3.5512702465057373
+12:02:28.132 train.py:222 INFO: [Epoch 0/1] Batch 128, Loss: 3.5495059490203857, Time: 3.5876996517181396
+12:02:31.727 train.py:222 INFO: [Epoch 0/1] Batch 129, Loss: 3.2830939292907715, Time: 3.5933775901794434
+12:02:38.663 train.py:234 INFO: base checkpoint takes 6.936s
+12:02:42.215 train.py:222 INFO: [Epoch 0/1] Batch 130, Loss: 3.287745952606201, Time: 3.548699140548706
+12:02:45.787 train.py:222 INFO: [Epoch 0/1] Batch 131, Loss: 3.240419387817383, Time: 3.570878028869629
+12:02:49.367 train.py:222 INFO: [Epoch 0/1] Batch 132, Loss: 3.2048423290252686, Time: 3.5780112743377686
+12:02:56.268 train.py:234 INFO: base checkpoint takes 6.901s
+12:02:59.798 train.py:222 INFO: [Epoch 0/1] Batch 133, Loss: 3.364243507385254, Time: 3.5275955200195312
+12:03:03.375 train.py:222 INFO: [Epoch 0/1] Batch 134, Loss: 3.4635753631591797, Time: 3.5731217861175537
+12:03:06.956 train.py:222 INFO: [Epoch 0/1] Batch 135, Loss: 3.2688610553741455, Time: 3.5790984630584717
+12:03:13.911 train.py:234 INFO: base checkpoint takes 6.955s
+12:03:17.468 train.py:222 INFO: [Epoch 0/1] Batch 136, Loss: 3.2721710205078125, Time: 3.553729772567749
+12:03:21.050 train.py:222 INFO: [Epoch 0/1] Batch 137, Loss: 3.3703253269195557, Time: 3.580052137374878
+12:03:24.636 train.py:222 INFO: [Epoch 0/1] Batch 138, Loss: 3.2449724674224854, Time: 3.585256814956665
+12:03:31.554 train.py:234 INFO: base checkpoint takes 6.918s
+12:03:35.110 train.py:222 INFO: [Epoch 0/1] Batch 139, Loss: 3.1735405921936035, Time: 3.5532217025756836
+12:03:38.704 train.py:222 INFO: [Epoch 0/1] Batch 140, Loss: 3.1651408672332764, Time: 3.5923354625701904
+12:03:42.276 train.py:222 INFO: [Epoch 0/1] Batch 141, Loss: 3.413680076599121, Time: 3.5705761909484863
+12:03:49.128 train.py:234 INFO: base checkpoint takes 6.851s
+12:03:52.675 train.py:222 INFO: [Epoch 0/1] Batch 142, Loss: 3.3900012969970703, Time: 3.5443813800811768
+12:03:56.254 train.py:222 INFO: [Epoch 0/1] Batch 143, Loss: 3.187391757965088, Time: 3.5781590938568115
+12:03:59.832 train.py:222 INFO: [Epoch 0/1] Batch 144, Loss: 3.5237162113189697, Time: 3.576413869857788
+12:04:06.745 train.py:234 INFO: base checkpoint takes 6.913s
+12:04:10.297 train.py:222 INFO: [Epoch 0/1] Batch 145, Loss: 3.2820284366607666, Time: 3.549778938293457
+12:04:13.879 train.py:222 INFO: [Epoch 0/1] Batch 146, Loss: 3.3606741428375244, Time: 3.57967209815979
+12:04:17.455 train.py:222 INFO: [Epoch 0/1] Batch 147, Loss: 3.1708035469055176, Time: 3.5740835666656494
+12:04:24.370 train.py:234 INFO: base checkpoint takes 6.915s
+12:04:27.911 train.py:222 INFO: [Epoch 0/1] Batch 148, Loss: 3.331818103790283, Time: 3.5379703044891357
+12:04:31.495 train.py:222 INFO: [Epoch 0/1] Batch 149, Loss: 3.2226924896240234, Time: 3.582773447036743
+12:04:35.099 train.py:222 INFO: [Epoch 0/1] Batch 150, Loss: 3.420666456222534, Time: 3.6026124954223633
+12:04:41.904 train.py:234 INFO: base checkpoint takes 6.805s
+12:04:45.457 train.py:222 INFO: [Epoch 0/1] Batch 151, Loss: 3.6288108825683594, Time: 3.5504629611968994
+12:04:49.030 train.py:222 INFO: [Epoch 0/1] Batch 152, Loss: 3.595216989517212, Time: 3.5711231231689453
+12:04:52.623 train.py:222 INFO: [Epoch 0/1] Batch 153, Loss: 3.166074752807617, Time: 3.59116268157959
+12:04:59.456 train.py:234 INFO: base checkpoint takes 6.833s
+12:05:03.002 train.py:222 INFO: [Epoch 0/1] Batch 154, Loss: 3.3640167713165283, Time: 3.543689727783203
+12:05:06.585 train.py:222 INFO: [Epoch 0/1] Batch 155, Loss: 3.2965550422668457, Time: 3.5815651416778564
+12:05:10.168 train.py:222 INFO: [Epoch 0/1] Batch 156, Loss: 3.5920896530151367, Time: 3.5811989307403564
+12:05:16.974 train.py:234 INFO: base checkpoint takes 6.806s
+12:05:20.513 train.py:222 INFO: [Epoch 0/1] Batch 157, Loss: 3.231017827987671, Time: 3.537323474884033
+12:05:24.090 train.py:222 INFO: [Epoch 0/1] Batch 158, Loss: 3.2025887966156006, Time: 3.5751590728759766
+12:05:27.669 train.py:222 INFO: [Epoch 0/1] Batch 159, Loss: 3.3651769161224365, Time: 3.577471971511841
+12:05:34.530 train.py:234 INFO: base checkpoint takes 6.861s
+12:05:38.071 train.py:222 INFO: [Epoch 0/1] Batch 160, Loss: 3.17006254196167, Time: 3.5378220081329346
+12:05:41.656 train.py:222 INFO: [Epoch 0/1] Batch 161, Loss: 3.5449178218841553, Time: 3.5836899280548096
+12:05:45.248 train.py:222 INFO: [Epoch 0/1] Batch 162, Loss: 3.191091299057007, Time: 3.5900211334228516
+12:05:52.043 train.py:234 INFO: base checkpoint takes 6.795s
+12:05:55.588 train.py:222 INFO: [Epoch 0/1] Batch 163, Loss: 3.345205783843994, Time: 3.542550802230835
+12:05:59.178 train.py:222 INFO: [Epoch 0/1] Batch 164, Loss: 3.203739881515503, Time: 3.5879242420196533
+12:06:02.753 train.py:222 INFO: [Epoch 0/1] Batch 165, Loss: 3.5194811820983887, Time: 3.5736589431762695
+12:06:09.552 train.py:234 INFO: base checkpoint takes 6.798s
+12:06:13.107 train.py:222 INFO: [Epoch 0/1] Batch 166, Loss: 3.620584011077881, Time: 3.552581310272217
+12:06:16.686 train.py:222 INFO: [Epoch 0/1] Batch 167, Loss: 3.4566750526428223, Time: 3.577690839767456
+12:06:20.265 train.py:222 INFO: [Epoch 0/1] Batch 168, Loss: 3.3183844089508057, Time: 3.5777761936187744
+12:06:27.093 train.py:234 INFO: base checkpoint takes 6.827s
+12:06:30.640 train.py:222 INFO: [Epoch 0/1] Batch 169, Loss: 3.2012526988983154, Time: 3.545630693435669
+12:06:34.232 train.py:222 INFO: [Epoch 0/1] Batch 170, Loss: 3.3506205081939697, Time: 3.589524269104004
+12:06:37.814 train.py:222 INFO: [Epoch 0/1] Batch 171, Loss: 3.3293941020965576, Time: 3.580402374267578
+12:06:44.607 train.py:234 INFO: base checkpoint takes 6.793s
+12:06:48.150 train.py:222 INFO: [Epoch 0/1] Batch 172, Loss: 2.964245557785034, Time: 3.540503740310669
+12:06:51.730 train.py:222 INFO: [Epoch 0/1] Batch 173, Loss: 3.415257453918457, Time: 3.5783894062042236
+12:06:55.320 train.py:222 INFO: [Epoch 0/1] Batch 174, Loss: 3.5887575149536133, Time: 3.5883569717407227
+12:07:02.191 train.py:234 INFO: base checkpoint takes 6.870s
+12:07:05.740 train.py:222 INFO: [Epoch 0/1] Batch 175, Loss: 3.3407657146453857, Time: 3.547323226928711
+12:07:09.339 train.py:222 INFO: [Epoch 0/1] Batch 176, Loss: 3.293750047683716, Time: 3.5968339443206787
+12:07:12.934 train.py:222 INFO: [Epoch 0/1] Batch 177, Loss: 3.6068639755249023, Time: 3.5935001373291016
+12:07:19.621 train.py:234 INFO: base checkpoint takes 6.687s
+12:07:23.185 train.py:222 INFO: [Epoch 0/1] Batch 178, Loss: 3.1051011085510254, Time: 3.561383008956909
+12:07:26.759 train.py:222 INFO: [Epoch 0/1] Batch 179, Loss: 3.282620906829834, Time: 3.5729856491088867
+12:07:30.344 train.py:222 INFO: [Epoch 0/1] Batch 180, Loss: 3.1458353996276855, Time: 3.583646535873413
+12:07:37.135 train.py:234 INFO: base checkpoint takes 6.791s
+12:07:40.677 train.py:222 INFO: [Epoch 0/1] Batch 181, Loss: 3.897006034851074, Time: 3.539267063140869
+12:07:44.245 train.py:222 INFO: [Epoch 0/1] Batch 182, Loss: 3.510248899459839, Time: 3.566119909286499
+12:07:47.826 train.py:222 INFO: [Epoch 0/1] Batch 183, Loss: 3.179715156555176, Time: 3.57938289642334
+12:07:54.746 train.py:234 INFO: base checkpoint takes 6.921s
+12:07:58.304 train.py:222 INFO: [Epoch 0/1] Batch 184, Loss: 3.085862636566162, Time: 3.554044485092163
+12:08:01.887 train.py:222 INFO: [Epoch 0/1] Batch 185, Loss: 3.372882843017578, Time: 3.5809123516082764
+12:08:05.484 train.py:222 INFO: [Epoch 0/1] Batch 186, Loss: 3.342769145965576, Time: 3.595916271209717
+12:08:12.456 train.py:234 INFO: base checkpoint takes 6.971s
+12:08:16.010 train.py:222 INFO: [Epoch 0/1] Batch 187, Loss: 3.4194579124450684, Time: 3.552100658416748
+12:08:19.593 train.py:222 INFO: [Epoch 0/1] Batch 188, Loss: 3.6055397987365723, Time: 3.5814461708068848
+12:08:23.161 train.py:222 INFO: [Epoch 0/1] Batch 189, Loss: 3.641153335571289, Time: 3.5660626888275146
+12:08:30.038 train.py:234 INFO: base checkpoint takes 6.877s
+12:08:33.585 train.py:222 INFO: [Epoch 0/1] Batch 190, Loss: 3.616205930709839, Time: 3.544347047805786
+12:08:37.164 train.py:222 INFO: [Epoch 0/1] Batch 191, Loss: 3.145815372467041, Time: 3.577420949935913
+12:08:40.758 train.py:222 INFO: [Epoch 0/1] Batch 192, Loss: 3.4374582767486572, Time: 3.592421293258667
+12:08:47.746 train.py:234 INFO: base checkpoint takes 6.988s
+12:08:51.293 train.py:222 INFO: [Epoch 0/1] Batch 193, Loss: 3.4398255348205566, Time: 3.5450351238250732
+12:08:54.875 train.py:222 INFO: [Epoch 0/1] Batch 194, Loss: 3.756375551223755, Time: 3.580233097076416
+12:08:58.456 train.py:222 INFO: [Epoch 0/1] Batch 195, Loss: 3.274123430252075, Time: 3.57971453666687
+12:09:05.346 train.py:234 INFO: base checkpoint takes 6.890s
+12:09:08.893 train.py:222 INFO: [Epoch 0/1] Batch 196, Loss: 3.4290120601654053, Time: 3.5446810722351074
+12:09:12.466 train.py:222 INFO: [Epoch 0/1] Batch 197, Loss: 3.0997893810272217, Time: 3.5706284046173096
+12:09:16.051 train.py:222 INFO: [Epoch 0/1] Batch 198, Loss: 3.5076541900634766, Time: 3.5842742919921875
+12:09:22.949 train.py:234 INFO: base checkpoint takes 6.897s
+12:09:26.497 train.py:222 INFO: [Epoch 0/1] Batch 199, Loss: 3.5941619873046875, Time: 3.5456771850585938
+12:09:30.080 train.py:222 INFO: [Epoch 0/1] Batch 200, Loss: 3.290158271789551, Time: 3.5812315940856934
+12:09:30.196 train.py:240 INFO: [Rank 0/4] Batch 200  ———————————————>  ALL Time: 1170.0274879932404

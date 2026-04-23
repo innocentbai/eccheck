@@ -1,0 +1,476 @@
+08:22:13.220 bert_train.py:87 INFO: [Rank 2/4] Initialized DeepSpeed
+08:22:13.223 bert_train.py:87 INFO: [Rank 0/4] Initialized DeepSpeed
+08:22:13.223 bert_train.py:87 INFO: [Rank 3/4] Initialized DeepSpeed
+08:22:13.225 bert_train.py:87 INFO: [Rank 1/4] Initialized DeepSpeed
+08:22:13.274 bert_train.py:91 INFO: [Rank 2/4] Tokenizer loaded successfully.
+08:22:13.277 bert_train.py:91 INFO: [Rank 0/4] Tokenizer loaded successfully.
+08:22:13.288 bert_train.py:91 INFO: [Rank 3/4] Tokenizer loaded successfully.
+08:22:13.292 bert_train.py:91 INFO: [Rank 1/4] Tokenizer loaded successfully.
+08:23:30.147 bert_train.py:154 INFO: [Rank 3/4] Dataset loaded successfully.
+08:23:30.807 bert_train.py:154 INFO: [Rank 1/4] Dataset loaded successfully.
+08:23:30.878 bert_train.py:154 INFO: [Rank 2/4] Dataset loaded successfully.
+08:23:30.880 bert_train.py:154 INFO: [Rank 0/4] Dataset loaded successfully.
+08:23:31.075 bert_train.py:160 INFO: [Rank 3/4] Model loaded successfully.
+08:23:31.754 bert_train.py:160 INFO: [Rank 2/4] Model loaded successfully.
+08:23:31.780 bert_train.py:160 INFO: [Rank 0/4] Model loaded successfully.
+08:23:31.801 bert_train.py:160 INFO: [Rank 1/4] Model loaded successfully.
+08:23:33.380 bert_train.py:191 INFO: [Rank 0/4] -----------> epochs:1 iterations:14074 batchsize:32 all_b:128
+08:23:33.380 bert_train.py:198 INFO: [Rank 0/4] Load checkpoints use0.000s
+08:23:33.387 bert_train.py:191 INFO: [Rank 3/4] -----------> epochs:1 iterations:14074 batchsize:32 all_b:128
+08:23:33.387 bert_train.py:198 INFO: [Rank 3/4] Load checkpoints use0.000s
+08:23:33.416 bert_train.py:191 INFO: [Rank 2/4] -----------> epochs:1 iterations:14074 batchsize:32 all_b:128
+08:23:33.417 bert_train.py:198 INFO: [Rank 2/4] Load checkpoints use0.000s
+08:23:33.427 bert_train.py:191 INFO: [Rank 1/4] -----------> epochs:1 iterations:14074 batchsize:32 all_b:128
+08:23:33.427 bert_train.py:198 INFO: [Rank 1/4] Load checkpoints use0.000s
+08:23:37.088 bert_train.py:219 INFO: [Epoch 0/1] Batch 0, Loss: 3.2014217376708984, Time: 3.1847128868103027
+08:23:39.938 bert_train.py:219 INFO: [Epoch 0/1] Batch 1, Loss: 17.91360855102539, Time: 2.8494248390197754
+08:23:42.812 bert_train.py:219 INFO: [Epoch 0/1] Batch 2, Loss: 11.555071830749512, Time: 2.8568832874298096
+08:23:46.228 bert_train.py:231 INFO: base checkpoint takes 3.415s
+08:23:49.062 bert_train.py:219 INFO: [Epoch 0/1] Batch 3, Loss: 15.650812149047852, Time: 2.833467960357666
+08:23:51.929 bert_train.py:219 INFO: [Epoch 0/1] Batch 4, Loss: 9.64314079284668, Time: 2.866018772125244
+08:23:55.649 bert_train.py:231 INFO: base checkpoint takes 3.323s
+08:23:58.491 bert_train.py:219 INFO: [Epoch 0/1] Batch 5, Loss: 7.586470127105713, Time: 2.840313196182251
+08:24:01.373 bert_train.py:219 INFO: [Epoch 0/1] Batch 6, Loss: 7.666866779327393, Time: 2.8815109729766846
+08:24:05.036 bert_train.py:231 INFO: base checkpoint takes 3.280s
+08:24:07.885 bert_train.py:219 INFO: [Epoch 0/1] Batch 7, Loss: 7.36681604385376, Time: 2.8473896980285645
+08:24:10.752 bert_train.py:219 INFO: [Epoch 0/1] Batch 8, Loss: 5.479189395904541, Time: 2.866114616394043
+08:24:14.429 bert_train.py:231 INFO: base checkpoint takes 3.264s
+08:24:17.282 bert_train.py:219 INFO: [Epoch 0/1] Batch 9, Loss: 3.970634937286377, Time: 2.8525164127349854
+08:24:20.155 bert_train.py:219 INFO: [Epoch 0/1] Batch 10, Loss: 3.426525115966797, Time: 2.870283365249634
+08:24:23.782 bert_train.py:231 INFO: base checkpoint takes 3.245s
+08:24:26.615 bert_train.py:219 INFO: [Epoch 0/1] Batch 11, Loss: 2.5600709915161133, Time: 2.8320698738098145
+08:24:29.486 bert_train.py:219 INFO: [Epoch 0/1] Batch 12, Loss: 2.9136962890625, Time: 2.869889497756958
+08:24:33.093 bert_train.py:231 INFO: base checkpoint takes 3.245s
+08:24:35.943 bert_train.py:219 INFO: [Epoch 0/1] Batch 13, Loss: 2.621701240539551, Time: 2.8488550186157227
+08:24:38.821 bert_train.py:219 INFO: [Epoch 0/1] Batch 14, Loss: 2.8675384521484375, Time: 2.87811017036438
+08:24:42.469 bert_train.py:231 INFO: base checkpoint takes 3.267s
+08:24:45.328 bert_train.py:219 INFO: [Epoch 0/1] Batch 15, Loss: 2.0282065868377686, Time: 2.8588480949401855
+08:24:48.214 bert_train.py:219 INFO: [Epoch 0/1] Batch 16, Loss: 1.741817593574524, Time: 2.88502836227417
+08:24:51.852 bert_train.py:231 INFO: base checkpoint takes 3.225s
+08:24:54.712 bert_train.py:219 INFO: [Epoch 0/1] Batch 17, Loss: 2.0698487758636475, Time: 2.8572707176208496
+08:24:57.591 bert_train.py:219 INFO: [Epoch 0/1] Batch 18, Loss: 2.1504509449005127, Time: 2.8766140937805176
+08:25:01.217 bert_train.py:231 INFO: base checkpoint takes 3.243s
+08:25:04.076 bert_train.py:219 INFO: [Epoch 0/1] Batch 19, Loss: 2.0710060596466064, Time: 2.856365203857422
+08:25:06.972 bert_train.py:219 INFO: [Epoch 0/1] Batch 20, Loss: 2.0150463581085205, Time: 2.8937792778015137
+08:25:10.602 bert_train.py:231 INFO: base checkpoint takes 3.219s
+08:25:13.464 bert_train.py:219 INFO: [Epoch 0/1] Batch 21, Loss: 1.7288858890533447, Time: 2.85957932472229
+08:25:16.338 bert_train.py:219 INFO: [Epoch 0/1] Batch 22, Loss: 1.8750896453857422, Time: 2.8716275691986084
+08:25:19.948 bert_train.py:231 INFO: base checkpoint takes 3.281s
+08:25:22.810 bert_train.py:219 INFO: [Epoch 0/1] Batch 23, Loss: 1.9588346481323242, Time: 2.85969614982605
+08:25:25.710 bert_train.py:219 INFO: [Epoch 0/1] Batch 24, Loss: 1.7024871110916138, Time: 2.8989851474761963
+08:25:29.352 bert_train.py:231 INFO: base checkpoint takes 3.226s
+08:25:32.212 bert_train.py:219 INFO: [Epoch 0/1] Batch 25, Loss: 2.267150402069092, Time: 2.857447624206543
+08:25:35.121 bert_train.py:219 INFO: [Epoch 0/1] Batch 26, Loss: 1.6466459035873413, Time: 2.907473564147949
+08:25:38.747 bert_train.py:231 INFO: base checkpoint takes 3.244s
+08:25:41.608 bert_train.py:219 INFO: [Epoch 0/1] Batch 27, Loss: 1.898882508277893, Time: 2.859018564224243
+08:25:44.515 bert_train.py:219 INFO: [Epoch 0/1] Batch 28, Loss: 2.16194486618042, Time: 2.9044876098632812
+08:25:48.147 bert_train.py:231 INFO: base checkpoint takes 3.222s
+08:25:51.027 bert_train.py:219 INFO: [Epoch 0/1] Batch 29, Loss: 1.7870845794677734, Time: 2.8762011528015137
+08:25:53.941 bert_train.py:219 INFO: [Epoch 0/1] Batch 30, Loss: 2.0584726333618164, Time: 2.912696361541748
+08:25:57.565 bert_train.py:231 INFO: base checkpoint takes 3.243s
+08:26:00.433 bert_train.py:219 INFO: [Epoch 0/1] Batch 31, Loss: 2.337904453277588, Time: 2.8653781414031982
+08:26:03.324 bert_train.py:219 INFO: [Epoch 0/1] Batch 32, Loss: 2.368908405303955, Time: 2.889435291290283
+08:26:06.957 bert_train.py:231 INFO: base checkpoint takes 3.220s
+08:26:09.831 bert_train.py:219 INFO: [Epoch 0/1] Batch 33, Loss: 1.89982008934021, Time: 2.8680758476257324
+08:26:12.739 bert_train.py:219 INFO: [Epoch 0/1] Batch 34, Loss: 1.7960196733474731, Time: 2.905363082885742
+08:26:16.448 bert_train.py:231 INFO: base checkpoint takes 3.326s
+08:26:19.316 bert_train.py:219 INFO: [Epoch 0/1] Batch 35, Loss: 2.0713183879852295, Time: 2.8652892112731934
+08:26:22.217 bert_train.py:219 INFO: [Epoch 0/1] Batch 36, Loss: 1.8909273147583008, Time: 2.8986635208129883
+08:26:25.952 bert_train.py:231 INFO: base checkpoint takes 3.311s
+08:26:28.810 bert_train.py:219 INFO: [Epoch 0/1] Batch 37, Loss: 2.287417411804199, Time: 2.8540151119232178
+08:26:31.703 bert_train.py:219 INFO: [Epoch 0/1] Batch 38, Loss: 2.106895685195923, Time: 2.8908944129943848
+08:26:35.341 bert_train.py:231 INFO: base checkpoint takes 3.257s
+08:26:38.207 bert_train.py:219 INFO: [Epoch 0/1] Batch 39, Loss: 2.0632357597351074, Time: 2.8638384342193604
+08:26:41.103 bert_train.py:219 INFO: [Epoch 0/1] Batch 40, Loss: 2.1257026195526123, Time: 2.8946099281311035
+08:26:44.743 bert_train.py:231 INFO: base checkpoint takes 3.230s
+08:26:47.619 bert_train.py:219 INFO: [Epoch 0/1] Batch 41, Loss: 1.8173620700836182, Time: 2.873202085494995
+08:26:50.518 bert_train.py:219 INFO: [Epoch 0/1] Batch 42, Loss: 2.2763924598693848, Time: 2.89675235748291
+08:26:54.157 bert_train.py:231 INFO: base checkpoint takes 3.255s
+08:26:57.011 bert_train.py:219 INFO: [Epoch 0/1] Batch 43, Loss: 2.2368764877319336, Time: 2.8508641719818115
+08:26:59.908 bert_train.py:219 INFO: [Epoch 0/1] Batch 44, Loss: 1.8035794496536255, Time: 2.8949944972991943
+08:27:03.529 bert_train.py:231 INFO: base checkpoint takes 3.210s
+08:27:06.395 bert_train.py:219 INFO: [Epoch 0/1] Batch 45, Loss: 2.9380970001220703, Time: 2.8640522956848145
+08:27:09.309 bert_train.py:219 INFO: [Epoch 0/1] Batch 46, Loss: 1.7816190719604492, Time: 2.9119420051574707
+08:27:12.926 bert_train.py:231 INFO: base checkpoint takes 3.234s
+08:27:15.796 bert_train.py:219 INFO: [Epoch 0/1] Batch 47, Loss: 2.086059093475342, Time: 2.866814136505127
+08:27:18.684 bert_train.py:219 INFO: [Epoch 0/1] Batch 48, Loss: 2.048191547393799, Time: 2.8873722553253174
+08:27:22.306 bert_train.py:231 INFO: base checkpoint takes 3.209s
+08:27:25.180 bert_train.py:219 INFO: [Epoch 0/1] Batch 49, Loss: 2.0634331703186035, Time: 2.8721652030944824
+08:27:28.081 bert_train.py:219 INFO: [Epoch 0/1] Batch 50, Loss: 2.3673274517059326, Time: 2.898886203765869
+08:27:31.718 bert_train.py:231 INFO: base checkpoint takes 3.254s
+08:27:34.594 bert_train.py:219 INFO: [Epoch 0/1] Batch 51, Loss: 2.4476377964019775, Time: 2.8730990886688232
+08:27:37.490 bert_train.py:219 INFO: [Epoch 0/1] Batch 52, Loss: 2.035377025604248, Time: 2.8940696716308594
+08:27:41.115 bert_train.py:231 INFO: base checkpoint takes 3.212s
+08:27:43.993 bert_train.py:219 INFO: [Epoch 0/1] Batch 53, Loss: 2.0557079315185547, Time: 2.874952554702759
+08:27:46.900 bert_train.py:219 INFO: [Epoch 0/1] Batch 54, Loss: 2.4534432888031006, Time: 2.9056477546691895
+08:27:50.513 bert_train.py:231 INFO: base checkpoint takes 3.231s
+08:27:53.384 bert_train.py:219 INFO: [Epoch 0/1] Batch 55, Loss: 2.2665443420410156, Time: 2.868516445159912
+08:27:56.274 bert_train.py:219 INFO: [Epoch 0/1] Batch 56, Loss: 2.093693256378174, Time: 2.888230085372925
+08:27:59.975 bert_train.py:231 INFO: base checkpoint takes 3.206s
+08:28:02.838 bert_train.py:219 INFO: [Epoch 0/1] Batch 57, Loss: 1.943947434425354, Time: 2.85917592048645
+08:28:05.742 bert_train.py:219 INFO: [Epoch 0/1] Batch 58, Loss: 1.6820095777511597, Time: 2.9017415046691895
+08:28:09.416 bert_train.py:231 INFO: base checkpoint takes 3.288s
+08:28:12.285 bert_train.py:219 INFO: [Epoch 0/1] Batch 59, Loss: 1.9948047399520874, Time: 2.865812301635742
+08:28:15.182 bert_train.py:219 INFO: [Epoch 0/1] Batch 60, Loss: 1.8609622716903687, Time: 2.8949131965637207
+08:28:18.911 bert_train.py:231 INFO: base checkpoint takes 3.314s
+08:28:21.765 bert_train.py:219 INFO: [Epoch 0/1] Batch 61, Loss: 2.214747905731201, Time: 2.8507888317108154
+08:28:24.656 bert_train.py:219 INFO: [Epoch 0/1] Batch 62, Loss: 2.0255441665649414, Time: 2.8891232013702393
+08:28:28.341 bert_train.py:231 INFO: base checkpoint takes 3.300s
+08:28:31.218 bert_train.py:219 INFO: [Epoch 0/1] Batch 63, Loss: 2.254040241241455, Time: 2.873441219329834
+08:28:34.113 bert_train.py:219 INFO: [Epoch 0/1] Batch 64, Loss: 2.266653537750244, Time: 2.8936116695404053
+08:28:37.812 bert_train.py:231 INFO: base checkpoint takes 3.283s
+08:28:40.684 bert_train.py:219 INFO: [Epoch 0/1] Batch 65, Loss: 1.7939870357513428, Time: 2.8705625534057617
+08:28:43.573 bert_train.py:219 INFO: [Epoch 0/1] Batch 66, Loss: 2.1073391437530518, Time: 2.887105941772461
+08:28:47.242 bert_train.py:231 INFO: base checkpoint takes 3.288s
+08:28:50.114 bert_train.py:219 INFO: [Epoch 0/1] Batch 67, Loss: 2.2597084045410156, Time: 2.8687851428985596
+08:28:53.005 bert_train.py:219 INFO: [Epoch 0/1] Batch 68, Loss: 1.9089109897613525, Time: 2.888746738433838
+08:28:56.646 bert_train.py:231 INFO: base checkpoint takes 3.234s
+08:28:59.528 bert_train.py:219 INFO: [Epoch 0/1] Batch 69, Loss: 2.2502942085266113, Time: 2.8793716430664062
+08:29:02.440 bert_train.py:219 INFO: [Epoch 0/1] Batch 70, Loss: 1.7638723850250244, Time: 2.9106175899505615
+08:29:06.010 bert_train.py:231 INFO: base checkpoint takes 3.241s
+08:29:08.885 bert_train.py:219 INFO: [Epoch 0/1] Batch 71, Loss: 1.9181644916534424, Time: 2.872169017791748
+08:29:11.774 bert_train.py:219 INFO: [Epoch 0/1] Batch 72, Loss: 2.6835498809814453, Time: 2.8833916187286377
+08:29:15.572 bert_train.py:231 INFO: base checkpoint takes 3.381s
+08:29:18.445 bert_train.py:219 INFO: [Epoch 0/1] Batch 73, Loss: 2.1230483055114746, Time: 2.8698878288269043
+08:29:21.349 bert_train.py:219 INFO: [Epoch 0/1] Batch 74, Loss: 2.409355878829956, Time: 2.901757001876831
+08:29:25.094 bert_train.py:231 INFO: base checkpoint takes 3.358s
+08:29:27.970 bert_train.py:219 INFO: [Epoch 0/1] Batch 75, Loss: 2.1779134273529053, Time: 2.872680902481079
+08:29:30.866 bert_train.py:219 INFO: [Epoch 0/1] Batch 76, Loss: 1.9109251499176025, Time: 2.8945181369781494
+08:29:34.497 bert_train.py:231 INFO: base checkpoint takes 3.220s
+08:29:37.365 bert_train.py:219 INFO: [Epoch 0/1] Batch 77, Loss: 2.1669960021972656, Time: 2.864884853363037
+08:29:40.268 bert_train.py:219 INFO: [Epoch 0/1] Batch 78, Loss: 2.2565972805023193, Time: 2.901627540588379
+08:29:43.906 bert_train.py:231 INFO: base checkpoint takes 3.253s
+08:29:46.785 bert_train.py:219 INFO: [Epoch 0/1] Batch 79, Loss: 1.873988389968872, Time: 2.8767950534820557
+08:29:49.683 bert_train.py:219 INFO: [Epoch 0/1] Batch 80, Loss: 2.2173032760620117, Time: 2.895392656326294
+08:29:53.310 bert_train.py:231 INFO: base checkpoint takes 3.212s
+08:29:56.189 bert_train.py:219 INFO: [Epoch 0/1] Batch 81, Loss: 2.2892191410064697, Time: 2.8761744499206543
+08:29:59.094 bert_train.py:219 INFO: [Epoch 0/1] Batch 82, Loss: 2.2362287044525146, Time: 2.9026360511779785
+08:30:02.729 bert_train.py:231 INFO: base checkpoint takes 3.255s
+08:30:05.616 bert_train.py:219 INFO: [Epoch 0/1] Batch 83, Loss: 2.1467087268829346, Time: 2.8838248252868652
+08:30:08.523 bert_train.py:219 INFO: [Epoch 0/1] Batch 84, Loss: 2.1198179721832275, Time: 2.9054715633392334
+08:30:12.147 bert_train.py:231 INFO: base checkpoint takes 3.209s
+08:30:15.025 bert_train.py:219 INFO: [Epoch 0/1] Batch 85, Loss: 2.2587339878082275, Time: 2.874971389770508
+08:30:17.919 bert_train.py:219 INFO: [Epoch 0/1] Batch 86, Loss: 2.305774450302124, Time: 2.8917410373687744
+08:30:21.541 bert_train.py:231 INFO: base checkpoint takes 3.239s
+08:30:24.413 bert_train.py:219 INFO: [Epoch 0/1] Batch 87, Loss: 2.221208095550537, Time: 2.8700108528137207
+08:30:27.322 bert_train.py:219 INFO: [Epoch 0/1] Batch 88, Loss: 2.4410417079925537, Time: 2.906376838684082
+08:30:30.964 bert_train.py:231 INFO: base checkpoint takes 3.230s
+08:30:33.841 bert_train.py:219 INFO: [Epoch 0/1] Batch 89, Loss: 2.177216053009033, Time: 2.8746860027313232
+08:30:36.755 bert_train.py:219 INFO: [Epoch 0/1] Batch 90, Loss: 2.56884765625, Time: 2.9118454456329346
+08:30:40.373 bert_train.py:231 INFO: base checkpoint takes 3.237s
+08:30:43.252 bert_train.py:219 INFO: [Epoch 0/1] Batch 91, Loss: 1.9502747058868408, Time: 2.876370668411255
+08:30:46.156 bert_train.py:219 INFO: [Epoch 0/1] Batch 92, Loss: 1.7660785913467407, Time: 2.9012160301208496
+08:30:49.779 bert_train.py:231 INFO: base checkpoint takes 3.209s
+08:30:52.652 bert_train.py:219 INFO: [Epoch 0/1] Batch 93, Loss: 2.3956961631774902, Time: 2.8708548545837402
+08:30:55.549 bert_train.py:219 INFO: [Epoch 0/1] Batch 94, Loss: 2.447420835494995, Time: 2.89514422416687
+08:30:59.165 bert_train.py:231 INFO: base checkpoint takes 3.233s
+08:31:02.028 bert_train.py:219 INFO: [Epoch 0/1] Batch 95, Loss: 2.3003838062286377, Time: 2.860069513320923
+08:31:04.944 bert_train.py:219 INFO: [Epoch 0/1] Batch 96, Loss: 2.5081284046173096, Time: 2.914371967315674
+08:31:08.569 bert_train.py:231 INFO: base checkpoint takes 3.210s
+08:31:11.439 bert_train.py:219 INFO: [Epoch 0/1] Batch 97, Loss: 2.276496648788452, Time: 2.8680880069732666
+08:31:14.351 bert_train.py:219 INFO: [Epoch 0/1] Batch 98, Loss: 2.4205358028411865, Time: 2.9102041721343994
+08:31:17.987 bert_train.py:231 INFO: base checkpoint takes 3.255s
+08:31:20.857 bert_train.py:219 INFO: [Epoch 0/1] Batch 99, Loss: 2.693673849105835, Time: 2.868165969848633
+08:31:23.749 bert_train.py:219 INFO: [Epoch 0/1] Batch 100, Loss: 2.012842893600464, Time: 2.8897414207458496
+08:31:27.447 bert_train.py:231 INFO: base checkpoint takes 3.213s
+08:31:30.324 bert_train.py:219 INFO: [Epoch 0/1] Batch 101, Loss: 2.197859048843384, Time: 2.874643087387085
+08:31:33.237 bert_train.py:219 INFO: [Epoch 0/1] Batch 102, Loss: 2.0010385513305664, Time: 2.910750150680542
+08:31:36.872 bert_train.py:231 INFO: base checkpoint takes 3.252s
+08:31:39.739 bert_train.py:219 INFO: [Epoch 0/1] Batch 103, Loss: 2.4036598205566406, Time: 2.8649544715881348
+08:31:42.646 bert_train.py:219 INFO: [Epoch 0/1] Batch 104, Loss: 2.4905405044555664, Time: 2.9047799110412598
+08:31:46.265 bert_train.py:231 INFO: base checkpoint takes 3.208s
+08:31:49.148 bert_train.py:219 INFO: [Epoch 0/1] Batch 105, Loss: 2.2070152759552, Time: 2.88033127784729
+08:31:52.036 bert_train.py:219 INFO: [Epoch 0/1] Batch 106, Loss: 2.0782535076141357, Time: 2.886111259460449
+08:31:55.652 bert_train.py:231 INFO: base checkpoint takes 3.230s
+08:31:58.535 bert_train.py:219 INFO: [Epoch 0/1] Batch 107, Loss: 2.0487070083618164, Time: 2.8810439109802246
+08:32:01.437 bert_train.py:219 INFO: [Epoch 0/1] Batch 108, Loss: 2.079106330871582, Time: 2.899789333343506
+08:32:05.058 bert_train.py:231 INFO: base checkpoint takes 3.208s
+08:32:07.927 bert_train.py:219 INFO: [Epoch 0/1] Batch 109, Loss: 2.2331254482269287, Time: 2.8662149906158447
+08:32:10.841 bert_train.py:219 INFO: [Epoch 0/1] Batch 110, Loss: 2.0907249450683594, Time: 2.91223406791687
+08:32:14.457 bert_train.py:231 INFO: base checkpoint takes 3.231s
+08:32:17.335 bert_train.py:219 INFO: [Epoch 0/1] Batch 111, Loss: 2.184875011444092, Time: 2.8763844966888428
+08:32:20.226 bert_train.py:219 INFO: [Epoch 0/1] Batch 112, Loss: 2.274604558944702, Time: 2.8890786170959473
+08:32:23.844 bert_train.py:231 INFO: base checkpoint takes 3.209s
+08:32:26.717 bert_train.py:219 INFO: [Epoch 0/1] Batch 113, Loss: 2.324659824371338, Time: 2.870145559310913
+08:32:29.607 bert_train.py:219 INFO: [Epoch 0/1] Batch 114, Loss: 2.2231221199035645, Time: 2.8880059719085693
+08:32:33.231 bert_train.py:231 INFO: base checkpoint takes 3.231s
+08:32:36.108 bert_train.py:219 INFO: [Epoch 0/1] Batch 115, Loss: 1.7222820520401, Time: 2.873173713684082
+08:32:39.010 bert_train.py:219 INFO: [Epoch 0/1] Batch 116, Loss: 2.347608804702759, Time: 2.8999574184417725
+08:32:42.697 bert_train.py:231 INFO: base checkpoint takes 3.276s
+08:32:45.580 bert_train.py:219 INFO: [Epoch 0/1] Batch 117, Loss: 2.4631080627441406, Time: 2.8800482749938965
+08:32:48.482 bert_train.py:219 INFO: [Epoch 0/1] Batch 118, Loss: 2.8601770401000977, Time: 2.9003264904022217
+08:32:52.142 bert_train.py:231 INFO: base checkpoint takes 3.276s
+08:32:55.014 bert_train.py:219 INFO: [Epoch 0/1] Batch 119, Loss: 2.9847147464752197, Time: 2.8694679737091064
+08:32:57.916 bert_train.py:219 INFO: [Epoch 0/1] Batch 120, Loss: 2.3915812969207764, Time: 2.8997690677642822
+08:33:01.588 bert_train.py:231 INFO: base checkpoint takes 3.256s
+08:33:04.454 bert_train.py:219 INFO: [Epoch 0/1] Batch 121, Loss: 1.6792601346969604, Time: 2.864356517791748
+08:33:07.348 bert_train.py:219 INFO: [Epoch 0/1] Batch 122, Loss: 2.5051894187927246, Time: 2.892106533050537
+08:33:11.011 bert_train.py:231 INFO: base checkpoint takes 3.280s
+08:33:13.888 bert_train.py:219 INFO: [Epoch 0/1] Batch 123, Loss: 2.1349711418151855, Time: 2.8745291233062744
+08:33:16.775 bert_train.py:219 INFO: [Epoch 0/1] Batch 124, Loss: 1.8591679334640503, Time: 2.8845653533935547
+08:33:20.450 bert_train.py:231 INFO: base checkpoint takes 3.261s
+08:33:23.315 bert_train.py:219 INFO: [Epoch 0/1] Batch 125, Loss: 2.36834979057312, Time: 2.862433433532715
+08:33:26.211 bert_train.py:219 INFO: [Epoch 0/1] Batch 126, Loss: 2.4843270778656006, Time: 2.894422769546509
+08:33:29.873 bert_train.py:231 INFO: base checkpoint takes 3.278s
+08:33:32.746 bert_train.py:219 INFO: [Epoch 0/1] Batch 127, Loss: 2.6497480869293213, Time: 2.871412754058838
+08:33:35.647 bert_train.py:219 INFO: [Epoch 0/1] Batch 128, Loss: 2.00129771232605, Time: 2.8990695476531982
+08:33:39.316 bert_train.py:231 INFO: base checkpoint takes 3.252s
+08:33:42.199 bert_train.py:219 INFO: [Epoch 0/1] Batch 129, Loss: 2.4293875694274902, Time: 2.8773488998413086
+08:33:45.102 bert_train.py:219 INFO: [Epoch 0/1] Batch 130, Loss: 2.2482054233551025, Time: 2.9009249210357666
+08:33:48.827 bert_train.py:231 INFO: base checkpoint takes 3.341s
+08:33:51.689 bert_train.py:219 INFO: [Epoch 0/1] Batch 131, Loss: 1.8833390474319458, Time: 2.8595612049102783
+08:33:54.596 bert_train.py:219 INFO: [Epoch 0/1] Batch 132, Loss: 2.3020784854888916, Time: 2.904392957687378
+08:33:58.320 bert_train.py:231 INFO: base checkpoint takes 3.308s
+08:34:01.193 bert_train.py:219 INFO: [Epoch 0/1] Batch 133, Loss: 2.6516692638397217, Time: 2.870129108428955
+08:34:04.109 bert_train.py:219 INFO: [Epoch 0/1] Batch 134, Loss: 2.2018003463745117, Time: 2.9140307903289795
+08:34:07.825 bert_train.py:231 INFO: base checkpoint takes 3.340s
+08:34:10.709 bert_train.py:219 INFO: [Epoch 0/1] Batch 135, Loss: 2.469524621963501, Time: 2.880936622619629
+08:34:13.598 bert_train.py:219 INFO: [Epoch 0/1] Batch 136, Loss: 2.1405234336853027, Time: 2.8872179985046387
+08:34:17.253 bert_train.py:231 INFO: base checkpoint takes 3.293s
+08:34:20.116 bert_train.py:219 INFO: [Epoch 0/1] Batch 137, Loss: 2.6522176265716553, Time: 2.860349178314209
+08:34:23.026 bert_train.py:219 INFO: [Epoch 0/1] Batch 138, Loss: 1.6595286130905151, Time: 2.908266067504883
+08:34:26.753 bert_train.py:231 INFO: base checkpoint takes 3.342s
+08:34:29.622 bert_train.py:219 INFO: [Epoch 0/1] Batch 139, Loss: 2.2716434001922607, Time: 2.8663506507873535
+08:34:32.538 bert_train.py:219 INFO: [Epoch 0/1] Batch 140, Loss: 2.31900954246521, Time: 2.9140267372131348
+08:34:36.243 bert_train.py:231 INFO: base checkpoint takes 3.290s
+08:34:39.126 bert_train.py:219 INFO: [Epoch 0/1] Batch 141, Loss: 2.391120195388794, Time: 2.8805289268493652
+08:34:42.030 bert_train.py:219 INFO: [Epoch 0/1] Batch 142, Loss: 2.6285552978515625, Time: 2.9023385047912598
+08:34:45.745 bert_train.py:231 INFO: base checkpoint takes 3.328s
+08:34:48.615 bert_train.py:219 INFO: [Epoch 0/1] Batch 143, Loss: 2.022231101989746, Time: 2.8667795658111572
+08:34:51.508 bert_train.py:219 INFO: [Epoch 0/1] Batch 144, Loss: 2.350013494491577, Time: 2.89090633392334
+08:34:55.208 bert_train.py:231 INFO: base checkpoint takes 3.287s
+08:34:58.081 bert_train.py:219 INFO: [Epoch 0/1] Batch 145, Loss: 2.2253363132476807, Time: 2.8702564239501953
+08:35:00.982 bert_train.py:219 INFO: [Epoch 0/1] Batch 146, Loss: 2.129338502883911, Time: 2.9000048637390137
+08:35:04.676 bert_train.py:231 INFO: base checkpoint takes 3.309s
+08:35:07.539 bert_train.py:219 INFO: [Epoch 0/1] Batch 147, Loss: 2.0892083644866943, Time: 2.8596699237823486
+08:35:10.453 bert_train.py:219 INFO: [Epoch 0/1] Batch 148, Loss: 2.527294397354126, Time: 2.911911725997925
+08:35:14.156 bert_train.py:231 INFO: base checkpoint takes 3.287s
+08:35:17.027 bert_train.py:219 INFO: [Epoch 0/1] Batch 149, Loss: 2.4058430194854736, Time: 2.8684890270233154
+08:35:19.934 bert_train.py:219 INFO: [Epoch 0/1] Batch 150, Loss: 1.9984625577926636, Time: 2.905290126800537
+08:35:23.652 bert_train.py:231 INFO: base checkpoint takes 3.332s
+08:35:26.530 bert_train.py:219 INFO: [Epoch 0/1] Batch 151, Loss: 2.370774507522583, Time: 2.875545024871826
+08:35:29.418 bert_train.py:219 INFO: [Epoch 0/1] Batch 152, Loss: 2.000225782394409, Time: 2.886172294616699
+08:35:33.121 bert_train.py:231 INFO: base checkpoint takes 3.286s
+08:35:35.995 bert_train.py:219 INFO: [Epoch 0/1] Batch 153, Loss: 2.1836438179016113, Time: 2.86953067779541
+08:35:38.886 bert_train.py:219 INFO: [Epoch 0/1] Batch 154, Loss: 2.193598508834839, Time: 2.8892362117767334
+08:35:42.568 bert_train.py:231 INFO: base checkpoint takes 3.298s
+08:35:45.434 bert_train.py:219 INFO: [Epoch 0/1] Batch 155, Loss: 2.8506500720977783, Time: 2.8641252517700195
+08:35:48.332 bert_train.py:219 INFO: [Epoch 0/1] Batch 156, Loss: 2.332338809967041, Time: 2.8954076766967773
+08:35:52.051 bert_train.py:231 INFO: base checkpoint takes 3.303s
+08:35:54.931 bert_train.py:219 INFO: [Epoch 0/1] Batch 157, Loss: 2.2651519775390625, Time: 2.8768410682678223
+08:35:57.828 bert_train.py:219 INFO: [Epoch 0/1] Batch 158, Loss: 2.244415521621704, Time: 2.895493984222412
+08:36:01.484 bert_train.py:231 INFO: base checkpoint takes 3.274s
+08:36:04.362 bert_train.py:219 INFO: [Epoch 0/1] Batch 159, Loss: 2.526970863342285, Time: 2.875124931335449
+08:36:07.255 bert_train.py:219 INFO: [Epoch 0/1] Batch 160, Loss: 2.387474298477173, Time: 2.8907735347747803
+08:36:10.919 bert_train.py:231 INFO: base checkpoint takes 3.251s
+08:36:13.801 bert_train.py:219 INFO: [Epoch 0/1] Batch 161, Loss: 2.5386948585510254, Time: 2.878525733947754
+08:36:16.701 bert_train.py:219 INFO: [Epoch 0/1] Batch 162, Loss: 2.5459542274475098, Time: 2.898110866546631
+08:36:20.410 bert_train.py:231 INFO: base checkpoint takes 3.324s
+08:36:23.272 bert_train.py:219 INFO: [Epoch 0/1] Batch 163, Loss: 2.5995841026306152, Time: 2.8592796325683594
+08:36:26.162 bert_train.py:219 INFO: [Epoch 0/1] Batch 164, Loss: 2.6115565299987793, Time: 2.8878118991851807
+08:36:29.883 bert_train.py:231 INFO: base checkpoint takes 3.304s
+08:36:32.757 bert_train.py:219 INFO: [Epoch 0/1] Batch 165, Loss: 2.2943994998931885, Time: 2.8708198070526123
+08:36:35.661 bert_train.py:219 INFO: [Epoch 0/1] Batch 166, Loss: 2.5932865142822266, Time: 2.9025235176086426
+08:36:39.365 bert_train.py:231 INFO: base checkpoint takes 3.318s
+08:36:42.244 bert_train.py:219 INFO: [Epoch 0/1] Batch 167, Loss: 2.0717833042144775, Time: 2.8770852088928223
+08:36:45.142 bert_train.py:219 INFO: [Epoch 0/1] Batch 168, Loss: 2.139770984649658, Time: 2.895019769668579
+08:36:48.835 bert_train.py:231 INFO: base checkpoint takes 3.277s
+08:36:51.694 bert_train.py:219 INFO: [Epoch 0/1] Batch 169, Loss: 2.3378384113311768, Time: 2.8569495677948
+08:36:54.608 bert_train.py:219 INFO: [Epoch 0/1] Batch 170, Loss: 2.7664806842803955, Time: 2.9113595485687256
+08:36:58.317 bert_train.py:231 INFO: base checkpoint takes 3.324s
+08:37:01.191 bert_train.py:219 INFO: [Epoch 0/1] Batch 171, Loss: 2.0790035724639893, Time: 2.8714544773101807
+08:37:04.095 bert_train.py:219 INFO: [Epoch 0/1] Batch 172, Loss: 2.0924878120422363, Time: 2.9016644954681396
+08:37:07.785 bert_train.py:231 INFO: base checkpoint takes 3.278s
+08:37:10.658 bert_train.py:219 INFO: [Epoch 0/1] Batch 173, Loss: 2.840540647506714, Time: 2.8699982166290283
+08:37:13.556 bert_train.py:219 INFO: [Epoch 0/1] Batch 174, Loss: 2.5227465629577637, Time: 2.896792411804199
+08:37:17.235 bert_train.py:231 INFO: base checkpoint takes 3.296s
+08:37:20.108 bert_train.py:219 INFO: [Epoch 0/1] Batch 175, Loss: 1.9345462322235107, Time: 2.8702948093414307
+08:37:23.020 bert_train.py:219 INFO: [Epoch 0/1] Batch 176, Loss: 2.462454319000244, Time: 2.9084346294403076
+08:37:26.755 bert_train.py:231 INFO: base checkpoint takes 3.319s
+08:37:29.621 bert_train.py:219 INFO: [Epoch 0/1] Batch 177, Loss: 2.2469727993011475, Time: 2.8629822731018066
+08:37:32.535 bert_train.py:219 INFO: [Epoch 0/1] Batch 178, Loss: 2.5781097412109375, Time: 2.912209987640381
+08:37:36.380 bert_train.py:231 INFO: base checkpoint takes 3.459s
+08:37:39.250 bert_train.py:219 INFO: [Epoch 0/1] Batch 179, Loss: 2.311380624771118, Time: 2.8674569129943848
+08:37:42.157 bert_train.py:219 INFO: [Epoch 0/1] Batch 180, Loss: 2.4742610454559326, Time: 2.904917001724243
+08:37:45.849 bert_train.py:231 INFO: base checkpoint takes 3.279s
+08:37:48.725 bert_train.py:219 INFO: [Epoch 0/1] Batch 181, Loss: 2.4127867221832275, Time: 2.8729231357574463
+08:37:51.622 bert_train.py:219 INFO: [Epoch 0/1] Batch 182, Loss: 2.4269604682922363, Time: 2.8946635723114014
+08:37:55.312 bert_train.py:231 INFO: base checkpoint takes 3.307s
+08:37:58.182 bert_train.py:219 INFO: [Epoch 0/1] Batch 183, Loss: 2.189804792404175, Time: 2.8666703701019287
+08:38:01.078 bert_train.py:219 INFO: [Epoch 0/1] Batch 184, Loss: 2.5821337699890137, Time: 2.8940775394439697
+08:38:04.771 bert_train.py:231 INFO: base checkpoint takes 3.279s
+08:38:07.650 bert_train.py:219 INFO: [Epoch 0/1] Batch 185, Loss: 2.253002882003784, Time: 2.8754994869232178
+08:38:10.567 bert_train.py:219 INFO: [Epoch 0/1] Batch 186, Loss: 2.0756678581237793, Time: 2.9145636558532715
+08:38:14.271 bert_train.py:231 INFO: base checkpoint takes 3.317s
+08:38:17.152 bert_train.py:219 INFO: [Epoch 0/1] Batch 187, Loss: 2.237527370452881, Time: 2.877748966217041
+08:38:20.057 bert_train.py:219 INFO: [Epoch 0/1] Batch 188, Loss: 1.9491245746612549, Time: 2.902864456176758
+08:38:23.812 bert_train.py:231 INFO: base checkpoint takes 3.313s
+08:38:26.691 bert_train.py:219 INFO: [Epoch 0/1] Batch 189, Loss: 2.300598621368408, Time: 2.87650203704834
+08:38:29.585 bert_train.py:219 INFO: [Epoch 0/1] Batch 190, Loss: 2.3676517009735107, Time: 2.8919050693511963
+08:38:33.237 bert_train.py:231 INFO: base checkpoint takes 3.267s
+08:38:36.118 bert_train.py:219 INFO: [Epoch 0/1] Batch 191, Loss: 2.4649758338928223, Time: 2.8779311180114746
+08:38:39.021 bert_train.py:219 INFO: [Epoch 0/1] Batch 192, Loss: 2.383452892303467, Time: 2.901073455810547
+08:38:42.659 bert_train.py:231 INFO: base checkpoint takes 3.225s
+08:38:45.537 bert_train.py:219 INFO: [Epoch 0/1] Batch 193, Loss: 2.474461317062378, Time: 2.8754284381866455
+08:38:48.443 bert_train.py:219 INFO: [Epoch 0/1] Batch 194, Loss: 2.6064047813415527, Time: 2.903446674346924
+08:38:52.094 bert_train.py:231 INFO: base checkpoint takes 3.268s
+08:38:54.972 bert_train.py:219 INFO: [Epoch 0/1] Batch 195, Loss: 2.7821407318115234, Time: 2.8753490447998047
+08:38:57.880 bert_train.py:219 INFO: [Epoch 0/1] Batch 196, Loss: 2.3491621017456055, Time: 2.9055445194244385
+08:39:01.514 bert_train.py:231 INFO: base checkpoint takes 3.225s
+08:39:04.373 bert_train.py:219 INFO: [Epoch 0/1] Batch 197, Loss: 2.815863847732544, Time: 2.856260061264038
+08:39:07.277 bert_train.py:219 INFO: [Epoch 0/1] Batch 198, Loss: 2.2144362926483154, Time: 2.9020566940307617
+08:39:10.927 bert_train.py:231 INFO: base checkpoint takes 3.265s
+08:39:13.801 bert_train.py:219 INFO: [Epoch 0/1] Batch 199, Loss: 2.312497854232788, Time: 2.871610641479492
+08:39:16.702 bert_train.py:219 INFO: [Epoch 0/1] Batch 200, Loss: 2.323087453842163, Time: 2.8980135917663574
+08:39:20.398 bert_train.py:231 INFO: base checkpoint takes 3.258s
+08:39:23.301 bert_train.py:219 INFO: [Epoch 0/1] Batch 201, Loss: 2.5765128135681152, Time: 2.9005441665649414
+08:39:26.197 bert_train.py:219 INFO: [Epoch 0/1] Batch 202, Loss: 2.736095666885376, Time: 2.895415782928467
+08:39:29.858 bert_train.py:231 INFO: base checkpoint takes 3.275s
+08:39:32.738 bert_train.py:219 INFO: [Epoch 0/1] Batch 203, Loss: 2.177274703979492, Time: 2.8779971599578857
+08:39:35.634 bert_train.py:219 INFO: [Epoch 0/1] Batch 204, Loss: 2.494539260864258, Time: 2.893484115600586
+08:39:39.299 bert_train.py:231 INFO: base checkpoint takes 3.254s
+08:39:42.187 bert_train.py:219 INFO: [Epoch 0/1] Batch 205, Loss: 2.514672040939331, Time: 2.8853633403778076
+08:39:45.083 bert_train.py:219 INFO: [Epoch 0/1] Batch 206, Loss: 2.1402223110198975, Time: 2.8943939208984375
+08:39:48.763 bert_train.py:231 INFO: base checkpoint takes 3.297s
+08:39:51.647 bert_train.py:219 INFO: [Epoch 0/1] Batch 207, Loss: 2.5332250595092773, Time: 2.8808560371398926
+08:39:54.540 bert_train.py:219 INFO: [Epoch 0/1] Batch 208, Loss: 2.5191702842712402, Time: 2.891261577606201
+08:39:58.203 bert_train.py:231 INFO: base checkpoint takes 3.252s
+08:40:01.083 bert_train.py:219 INFO: [Epoch 0/1] Batch 209, Loss: 2.5839579105377197, Time: 2.878296375274658
+08:40:03.976 bert_train.py:219 INFO: [Epoch 0/1] Batch 210, Loss: 2.995553493499756, Time: 2.8910582065582275
+08:40:07.648 bert_train.py:231 INFO: base checkpoint takes 3.286s
+08:40:10.526 bert_train.py:219 INFO: [Epoch 0/1] Batch 211, Loss: 2.7756543159484863, Time: 2.8759636878967285
+08:40:13.431 bert_train.py:219 INFO: [Epoch 0/1] Batch 212, Loss: 2.2678394317626953, Time: 2.9022607803344727
+08:40:17.099 bert_train.py:231 INFO: base checkpoint takes 3.253s
+08:40:19.974 bert_train.py:219 INFO: [Epoch 0/1] Batch 213, Loss: 2.658186912536621, Time: 2.8732590675354004
+08:40:22.893 bert_train.py:219 INFO: [Epoch 0/1] Batch 214, Loss: 2.036404609680176, Time: 2.9166171550750732
+08:40:26.556 bert_train.py:231 INFO: base checkpoint takes 3.277s
+08:40:29.430 bert_train.py:219 INFO: [Epoch 0/1] Batch 215, Loss: 2.248980760574341, Time: 2.871148109436035
+08:40:32.348 bert_train.py:219 INFO: [Epoch 0/1] Batch 216, Loss: 3.063917636871338, Time: 2.9156157970428467
+08:40:36.015 bert_train.py:231 INFO: base checkpoint takes 3.254s
+08:40:38.891 bert_train.py:219 INFO: [Epoch 0/1] Batch 217, Loss: 2.5392231941223145, Time: 2.8735246658325195
+08:40:41.808 bert_train.py:219 INFO: [Epoch 0/1] Batch 218, Loss: 2.2786474227905273, Time: 2.9145705699920654
+08:40:45.469 bert_train.py:231 INFO: base checkpoint takes 3.278s
+08:40:48.348 bert_train.py:219 INFO: [Epoch 0/1] Batch 219, Loss: 2.1853220462799072, Time: 2.8764140605926514
+08:40:51.256 bert_train.py:219 INFO: [Epoch 0/1] Batch 220, Loss: 2.578322649002075, Time: 2.9056384563446045
+08:40:54.945 bert_train.py:231 INFO: base checkpoint takes 3.276s
+08:40:57.824 bert_train.py:219 INFO: [Epoch 0/1] Batch 221, Loss: 2.4925384521484375, Time: 2.876854419708252
+08:41:00.737 bert_train.py:219 INFO: [Epoch 0/1] Batch 222, Loss: 2.0792458057403564, Time: 2.911492109298706
+08:41:04.401 bert_train.py:231 INFO: base checkpoint takes 3.277s
+08:41:07.280 bert_train.py:219 INFO: [Epoch 0/1] Batch 223, Loss: 2.0206844806671143, Time: 2.8760735988616943
+08:41:10.195 bert_train.py:219 INFO: [Epoch 0/1] Batch 224, Loss: 2.4765145778656006, Time: 2.9131367206573486
+08:41:13.861 bert_train.py:231 INFO: base checkpoint takes 3.254s
+08:41:16.751 bert_train.py:219 INFO: [Epoch 0/1] Batch 225, Loss: 2.519681215286255, Time: 2.8878841400146484
+08:41:19.655 bert_train.py:219 INFO: [Epoch 0/1] Batch 226, Loss: 2.537548065185547, Time: 2.9025912284851074
+08:41:23.317 bert_train.py:231 INFO: base checkpoint takes 3.278s
+08:41:26.191 bert_train.py:219 INFO: [Epoch 0/1] Batch 227, Loss: 2.2615139484405518, Time: 2.8715193271636963
+08:41:29.102 bert_train.py:219 INFO: [Epoch 0/1] Batch 228, Loss: 2.2417232990264893, Time: 2.908442497253418
+08:41:32.768 bert_train.py:231 INFO: base checkpoint takes 3.255s
+08:41:35.647 bert_train.py:219 INFO: [Epoch 0/1] Batch 229, Loss: 2.3711562156677246, Time: 2.8762741088867188
+08:41:38.559 bert_train.py:219 INFO: [Epoch 0/1] Batch 230, Loss: 3.0477354526519775, Time: 2.9092960357666016
+08:41:42.219 bert_train.py:231 INFO: base checkpoint takes 3.277s
+08:41:45.095 bert_train.py:219 INFO: [Epoch 0/1] Batch 231, Loss: 2.570068597793579, Time: 2.8741700649261475
+08:41:47.999 bert_train.py:219 INFO: [Epoch 0/1] Batch 232, Loss: 2.7165050506591797, Time: 2.901898145675659
+08:41:51.665 bert_train.py:231 INFO: base checkpoint takes 3.253s
+08:41:54.540 bert_train.py:219 INFO: [Epoch 0/1] Batch 233, Loss: 2.7176718711853027, Time: 2.8737125396728516
+08:41:57.441 bert_train.py:219 INFO: [Epoch 0/1] Batch 234, Loss: 3.2811219692230225, Time: 2.899235963821411
+08:42:01.131 bert_train.py:231 INFO: base checkpoint takes 3.303s
+08:42:04.006 bert_train.py:219 INFO: [Epoch 0/1] Batch 235, Loss: 2.7073397636413574, Time: 2.8730499744415283
+08:42:06.899 bert_train.py:219 INFO: [Epoch 0/1] Batch 236, Loss: 2.3869547843933105, Time: 2.890388011932373
+08:42:10.564 bert_train.py:231 INFO: base checkpoint takes 3.252s
+08:42:13.437 bert_train.py:219 INFO: [Epoch 0/1] Batch 237, Loss: 2.2999329566955566, Time: 2.870199680328369
+08:42:16.347 bert_train.py:219 INFO: [Epoch 0/1] Batch 238, Loss: 2.5076050758361816, Time: 2.9075112342834473
+08:42:20.016 bert_train.py:231 INFO: base checkpoint takes 3.285s
+08:42:22.884 bert_train.py:219 INFO: [Epoch 0/1] Batch 239, Loss: 2.0940845012664795, Time: 2.8645691871643066
+08:42:25.781 bert_train.py:219 INFO: [Epoch 0/1] Batch 240, Loss: 2.236769914627075, Time: 2.8949801921844482
+08:42:29.450 bert_train.py:231 INFO: base checkpoint takes 3.254s
+08:42:32.328 bert_train.py:219 INFO: [Epoch 0/1] Batch 241, Loss: 2.639266014099121, Time: 2.8749687671661377
+08:42:35.236 bert_train.py:219 INFO: [Epoch 0/1] Batch 242, Loss: 3.079991579055786, Time: 2.906797409057617
+08:42:38.946 bert_train.py:231 INFO: base checkpoint takes 3.323s
+08:42:41.830 bert_train.py:219 INFO: [Epoch 0/1] Batch 243, Loss: 3.15254282951355, Time: 2.881084442138672
+08:42:44.730 bert_train.py:219 INFO: [Epoch 0/1] Batch 244, Loss: 2.710352659225464, Time: 2.8979685306549072
+08:42:48.447 bert_train.py:231 INFO: base checkpoint takes 3.302s
+08:42:51.322 bert_train.py:219 INFO: [Epoch 0/1] Batch 245, Loss: 2.1993939876556396, Time: 2.8711585998535156
+08:42:54.235 bert_train.py:219 INFO: [Epoch 0/1] Batch 246, Loss: 2.8811442852020264, Time: 2.911179780960083
+08:42:57.939 bert_train.py:231 INFO: base checkpoint takes 3.319s
+08:43:00.808 bert_train.py:219 INFO: [Epoch 0/1] Batch 247, Loss: 2.8827362060546875, Time: 2.866515636444092
+08:43:03.724 bert_train.py:219 INFO: [Epoch 0/1] Batch 248, Loss: 2.625277042388916, Time: 2.9139885902404785
+08:43:07.416 bert_train.py:231 INFO: base checkpoint takes 3.278s
+08:43:10.293 bert_train.py:219 INFO: [Epoch 0/1] Batch 249, Loss: 1.9169948101043701, Time: 2.873718738555908
+08:43:13.190 bert_train.py:219 INFO: [Epoch 0/1] Batch 250, Loss: 2.4462149143218994, Time: 2.8954355716705322
+08:43:16.890 bert_train.py:231 INFO: base checkpoint takes 3.318s
+08:43:19.783 bert_train.py:219 INFO: [Epoch 0/1] Batch 251, Loss: 2.934795379638672, Time: 2.890535831451416
+08:43:22.684 bert_train.py:219 INFO: [Epoch 0/1] Batch 252, Loss: 2.447251558303833, Time: 2.898792028427124
+08:43:26.376 bert_train.py:231 INFO: base checkpoint takes 3.276s
+08:43:29.251 bert_train.py:219 INFO: [Epoch 0/1] Batch 253, Loss: 2.7061588764190674, Time: 2.8722684383392334
+08:43:32.148 bert_train.py:219 INFO: [Epoch 0/1] Batch 254, Loss: 2.423417806625366, Time: 2.894867181777954
+08:43:35.826 bert_train.py:231 INFO: base checkpoint takes 3.295s
+08:43:38.710 bert_train.py:219 INFO: [Epoch 0/1] Batch 255, Loss: 2.1794445514678955, Time: 2.8817262649536133
+08:43:41.612 bert_train.py:219 INFO: [Epoch 0/1] Batch 256, Loss: 2.554142713546753, Time: 2.8995954990386963
+08:43:45.323 bert_train.py:231 INFO: base checkpoint takes 3.297s
+08:43:48.196 bert_train.py:219 INFO: [Epoch 0/1] Batch 257, Loss: 2.5855586528778076, Time: 2.8709828853607178
+08:43:51.106 bert_train.py:219 INFO: [Epoch 0/1] Batch 258, Loss: 2.5589170455932617, Time: 2.907923936843872
+08:43:54.785 bert_train.py:231 INFO: base checkpoint takes 3.295s
+08:43:57.666 bert_train.py:219 INFO: [Epoch 0/1] Batch 259, Loss: 2.546405792236328, Time: 2.87858247756958
+08:44:00.574 bert_train.py:219 INFO: [Epoch 0/1] Batch 260, Loss: 2.4950129985809326, Time: 2.9060018062591553
+08:44:04.268 bert_train.py:231 INFO: base checkpoint takes 3.280s
+08:44:07.151 bert_train.py:219 INFO: [Epoch 0/1] Batch 261, Loss: 3.2673707008361816, Time: 2.881021738052368
+08:44:10.064 bert_train.py:219 INFO: [Epoch 0/1] Batch 262, Loss: 2.639979124069214, Time: 2.911015033721924
+08:44:13.745 bert_train.py:231 INFO: base checkpoint takes 3.295s
+08:44:16.621 bert_train.py:219 INFO: [Epoch 0/1] Batch 263, Loss: 2.185324192047119, Time: 2.8733980655670166
+08:44:19.526 bert_train.py:219 INFO: [Epoch 0/1] Batch 264, Loss: 2.385923385620117, Time: 2.902658224105835
+08:44:23.214 bert_train.py:231 INFO: base checkpoint takes 3.275s
+08:44:26.092 bert_train.py:219 INFO: [Epoch 0/1] Batch 265, Loss: 2.52681040763855, Time: 2.8738961219787598
+08:44:28.997 bert_train.py:219 INFO: [Epoch 0/1] Batch 266, Loss: 2.3880162239074707, Time: 2.902759313583374
+08:44:32.697 bert_train.py:231 INFO: base checkpoint takes 3.330s
+08:44:35.579 bert_train.py:219 INFO: [Epoch 0/1] Batch 267, Loss: 2.698410749435425, Time: 2.8788504600524902
+08:44:38.495 bert_train.py:219 INFO: [Epoch 0/1] Batch 268, Loss: 2.8085100650787354, Time: 2.9146463871002197
+08:44:42.221 bert_train.py:231 INFO: base checkpoint takes 3.313s
+08:44:45.093 bert_train.py:219 INFO: [Epoch 0/1] Batch 269, Loss: 2.1642391681671143, Time: 2.868886709213257
+08:44:48.006 bert_train.py:219 INFO: [Epoch 0/1] Batch 270, Loss: 2.4273924827575684, Time: 2.9108500480651855
+08:44:51.728 bert_train.py:231 INFO: base checkpoint takes 3.340s
+08:44:54.612 bert_train.py:219 INFO: [Epoch 0/1] Batch 271, Loss: 2.4133777618408203, Time: 2.8808226585388184
+08:44:57.516 bert_train.py:219 INFO: [Epoch 0/1] Batch 272, Loss: 2.4206058979034424, Time: 2.902033805847168
+08:45:01.225 bert_train.py:231 INFO: base checkpoint takes 3.297s
+08:45:04.096 bert_train.py:219 INFO: [Epoch 0/1] Batch 273, Loss: 2.84928822517395, Time: 2.8688805103302
+08:45:06.994 bert_train.py:219 INFO: [Epoch 0/1] Batch 274, Loss: 2.82149600982666, Time: 2.896515369415283
+08:45:10.715 bert_train.py:231 INFO: base checkpoint takes 3.334s
+08:45:13.588 bert_train.py:219 INFO: [Epoch 0/1] Batch 275, Loss: 2.1730730533599854, Time: 2.869971752166748
+08:45:16.489 bert_train.py:219 INFO: [Epoch 0/1] Batch 276, Loss: 2.426574945449829, Time: 2.8984904289245605
+08:45:20.220 bert_train.py:231 INFO: base checkpoint takes 3.319s
+08:45:23.091 bert_train.py:219 INFO: [Epoch 0/1] Batch 277, Loss: 2.910271406173706, Time: 2.867633819580078
+08:45:25.992 bert_train.py:219 INFO: [Epoch 0/1] Batch 278, Loss: 2.101180076599121, Time: 2.899681329727173
+08:45:29.692 bert_train.py:231 INFO: base checkpoint takes 3.311s
+08:45:32.569 bert_train.py:219 INFO: [Epoch 0/1] Batch 279, Loss: 2.073868751525879, Time: 2.8742706775665283
+08:45:35.475 bert_train.py:219 INFO: [Epoch 0/1] Batch 280, Loss: 2.1791348457336426, Time: 2.904266834259033
+08:45:39.183 bert_train.py:231 INFO: base checkpoint takes 3.294s
+08:45:42.059 bert_train.py:219 INFO: [Epoch 0/1] Batch 281, Loss: 2.822448253631592, Time: 2.8737094402313232
+08:45:44.960 bert_train.py:219 INFO: [Epoch 0/1] Batch 282, Loss: 2.6541714668273926, Time: 2.8992056846618652
+08:45:48.679 bert_train.py:231 INFO: base checkpoint takes 3.335s
+08:45:51.558 bert_train.py:219 INFO: [Epoch 0/1] Batch 283, Loss: 2.531747817993164, Time: 2.876354694366455
+08:45:54.459 bert_train.py:219 INFO: [Epoch 0/1] Batch 284, Loss: 2.5657572746276855, Time: 2.898470401763916
+08:45:58.169 bert_train.py:231 INFO: base checkpoint takes 3.294s
+08:46:01.043 bert_train.py:219 INFO: [Epoch 0/1] Batch 285, Loss: 2.45597243309021, Time: 2.87087082862854
+08:46:03.938 bert_train.py:219 INFO: [Epoch 0/1] Batch 286, Loss: 2.3083081245422363, Time: 2.8939552307128906
+08:46:07.626 bert_train.py:231 INFO: base checkpoint takes 3.304s
+08:46:10.496 bert_train.py:219 INFO: [Epoch 0/1] Batch 287, Loss: 3.1016249656677246, Time: 2.8665218353271484
+08:46:13.399 bert_train.py:219 INFO: [Epoch 0/1] Batch 288, Loss: 2.1952948570251465, Time: 2.9006166458129883
+08:46:17.107 bert_train.py:231 INFO: base checkpoint takes 3.293s
+08:46:19.995 bert_train.py:219 INFO: [Epoch 0/1] Batch 289, Loss: 2.220853090286255, Time: 2.883667230606079
+08:46:22.891 bert_train.py:219 INFO: [Epoch 0/1] Batch 290, Loss: 2.758568048477173, Time: 2.893639326095581
+08:46:26.601 bert_train.py:231 INFO: base checkpoint takes 3.324s
+08:46:29.481 bert_train.py:219 INFO: [Epoch 0/1] Batch 291, Loss: 2.5957515239715576, Time: 2.876628875732422
+08:46:32.389 bert_train.py:219 INFO: [Epoch 0/1] Batch 292, Loss: 2.6379170417785645, Time: 2.905818462371826
+08:46:36.106 bert_train.py:231 INFO: base checkpoint takes 3.304s
+08:46:38.982 bert_train.py:219 INFO: [Epoch 0/1] Batch 293, Loss: 2.53600811958313, Time: 2.8729631900787354
+08:46:41.875 bert_train.py:219 INFO: [Epoch 0/1] Batch 294, Loss: 2.744279623031616, Time: 2.890894889831543
+08:46:45.590 bert_train.py:231 INFO: base checkpoint takes 3.329s
+08:46:48.458 bert_train.py:219 INFO: [Epoch 0/1] Batch 295, Loss: 2.882530689239502, Time: 2.8649346828460693
+08:46:51.372 bert_train.py:219 INFO: [Epoch 0/1] Batch 296, Loss: 2.211913585662842, Time: 2.9118854999542236
+08:46:55.100 bert_train.py:231 INFO: base checkpoint takes 3.298s
+08:46:57.983 bert_train.py:219 INFO: [Epoch 0/1] Batch 297, Loss: 2.966749668121338, Time: 2.8806843757629395
+08:47:00.881 bert_train.py:219 INFO: [Epoch 0/1] Batch 298, Loss: 2.6665704250335693, Time: 2.8952198028564453
+08:47:04.547 bert_train.py:231 INFO: base checkpoint takes 3.280s
+08:47:07.419 bert_train.py:219 INFO: [Epoch 0/1] Batch 299, Loss: 2.9398443698883057, Time: 2.869647264480591
+08:47:10.320 bert_train.py:219 INFO: [Epoch 0/1] Batch 300, Loss: 2.601658582687378, Time: 2.8982675075531006
+08:47:14.249 bert_train.py:231 INFO: base checkpoint takes 3.535s
+08:47:14.375 bert_train.py:240 INFO: [Rank 0/4] Batch 300  ———————————————>  ALL Time: 1420.99472117424

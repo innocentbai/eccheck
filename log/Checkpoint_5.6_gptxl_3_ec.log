@@ -1,0 +1,959 @@
+13:51:54.229 train.py:85 INFO: [Rank 2/4] Initialized DeepSpeed
+13:51:54.232 train.py:85 INFO: [Rank 3/4] Initialized DeepSpeed
+13:51:54.235 train.py:85 INFO: [Rank 0/4] Initialized DeepSpeed
+13:51:54.236 train.py:85 INFO: [Rank 1/4] Initialized DeepSpeed
+13:51:54.319 train.py:89 INFO: [Rank 0/4] Tokenizer loaded successfully.
+13:51:54.345 train.py:89 INFO: [Rank 2/4] Tokenizer loaded successfully.
+13:51:54.364 train.py:89 INFO: [Rank 1/4] Tokenizer loaded successfully.
+13:51:54.365 train.py:89 INFO: [Rank 3/4] Tokenizer loaded successfully.
+13:53:03.881 train.py:154 INFO: [Rank 3/4] Dataset loaded successfully.
+13:53:04.424 train.py:154 INFO: [Rank 1/4] Dataset loaded successfully.
+13:53:05.137 train.py:154 INFO: [Rank 0/4] Dataset loaded successfully.
+13:53:05.223 train.py:158 INFO: [Rank 3/4] Model loaded successfully.
+13:53:05.284 train.py:154 INFO: [Rank 2/4] Dataset loaded successfully.
+13:53:05.756 train.py:158 INFO: [Rank 1/4] Model loaded successfully.
+13:53:06.791 train.py:158 INFO: [Rank 2/4] Model loaded successfully.
+13:53:06.807 train.py:158 INFO: [Rank 0/4] Model loaded successfully.
+13:53:08.159 fused_adam.py:133 INFO: <Rank0/4> counts file init OK!! path is "/home/lff/eccheck/ckpt/counts"
+13:53:11.712 train.py:190 INFO: [Rank 2/4] -----------> epochs:1 iterations:28147 batchsize:16 all_b:64
+13:53:11.712 train.py:201 INFO: [Rank 2/4] Load checkpoints use0.000s
+13:53:12.059 train.py:190 INFO: [Rank 0/4] -----------> epochs:1 iterations:28147 batchsize:16 all_b:64
+13:53:12.059 train.py:201 INFO: [Rank 0/4] Load checkpoints use0.000s
+13:53:12.241 train.py:190 INFO: [Rank 1/4] -----------> epochs:1 iterations:28147 batchsize:16 all_b:64
+13:53:12.242 train.py:201 INFO: [Rank 1/4] Load checkpoints use0.000s
+13:53:12.436 train.py:190 INFO: [Rank 3/4] -----------> epochs:1 iterations:28147 batchsize:16 all_b:64
+13:53:12.437 train.py:201 INFO: [Rank 3/4] Load checkpoints use0.000s
+13:53:34.851 train.py:222 INFO: [Epoch 0/1] Batch 0, Loss: 3.73272442817688, Time: 8.996560335159302
+13:53:41.966 fused_adam.py:235 INFO: <Rank0/4> <iteration1> ckpt blocking cost ——————> 2.0503997802734375e-05
+13:53:41.967 fused_adam.py:235 INFO: <Rank2/4> <iteration1> ckpt blocking cost ——————> 1.1682510375976562e-05
+13:53:41.967 fused_adam.py:235 INFO: <Rank1/4> <iteration1> ckpt blocking cost ——————> 1.9550323486328125e-05
+13:53:41.968 fused_adam.py:235 INFO: <Rank3/4> <iteration1> ckpt blocking cost ——————> 2.5272369384765625e-05
+13:53:41.997 train.py:222 INFO: [Epoch 0/1] Batch 1, Loss: 14.116687774658203, Time: 7.14595627784729
+13:53:49.185 train.py:222 INFO: [Epoch 0/1] Batch 2, Loss: 14.612537384033203, Time: 7.187420845031738
+13:53:56.351 fused_adam.py:283 INFO: <Rank2/4> <iteration3> ckpt in memory is beginning!
+13:53:56.351 fused_adam.py:283 INFO: <Rank1/4> <iteration3> ckpt in memory is beginning!
+13:53:56.351 fused_adam.py:283 INFO: <Rank0/4> <iteration3> ckpt in memory is beginning!
+13:53:56.352 fused_adam.py:283 INFO: <Rank3/4> <iteration3> ckpt in memory is beginning!
+13:53:56.395 train.py:222 INFO: [Epoch 0/1] Batch 3, Loss: 7.879299163818359, Time: 7.209127902984619
+13:54:00.805 fused_adam.py:370 INFO: <Rank1/4> <iteration3> ckpt finished!! in memory cost ——————> 17G	/home/lff/eccheck/ckpt/
+13:54:00.839 fused_adam.py:370 INFO: <Rank2/4> <iteration3> ckpt finished!! in memory cost ——————> 17G	/home/lff/eccheck/ckpt/
+13:54:00.882 fused_adam.py:370 INFO: <Rank3/4> <iteration3> ckpt finished!! in memory cost ——————> 17G	/home/lff/eccheck/ckpt/
+13:54:01.992 fused_adam.py:370 INFO: <Rank0/4> <iteration3> ckpt finished!! in memory cost ——————> 19G	/home/lff/eccheck/ckpt/
+13:54:03.213 fused_adam.py:413 INFO: <Rank1/4> <iteration3> model_0_slice1 Encode Mission OK!  ——————> time: 5.33 seconds
+13:54:03.371 fused_adam.py:413 INFO: <Rank2/4> <iteration3> model_0_slice2 Encode Mission OK!  ——————> time: 5.44 seconds
+13:54:03.385 fused_adam.py:413 INFO: <Rank3/4> <iteration3> model_0_slice3 Encode Mission OK!  ——————> time: 5.43 seconds
+13:54:03.591 fused_adam.py:235 INFO: <Rank2/4> <iteration4> ckpt blocking cost ——————> 1.1682510375976562e-05
+13:54:03.592 fused_adam.py:235 INFO: <Rank1/4> <iteration4> ckpt blocking cost ——————> 2.7418136596679688e-05
+13:54:03.592 fused_adam.py:235 INFO: <Rank0/4> <iteration4> ckpt blocking cost ——————> 1.4543533325195312e-05
+13:54:03.596 fused_adam.py:235 INFO: <Rank3/4> <iteration4> ckpt blocking cost ——————> 3.62396240234375e-05
+13:54:03.623 train.py:222 INFO: [Epoch 0/1] Batch 4, Loss: 5.790163993835449, Time: 7.226047039031982
+13:54:04.392 fused_adam.py:413 INFO: <Rank0/4> <iteration3> model_0_slice0 Encode Mission OK!  ——————> time: 6.09 seconds
+13:54:09.783 fused_adam.py:413 INFO: <Rank1/4> <iteration3> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.57 seconds
+13:54:09.784 fused_adam.py:438 INFO: <Rank1/4> <iteration3> All Encode Mission OK!!
+13:54:09.966 fused_adam.py:413 INFO: <Rank2/4> <iteration3> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.59 seconds
+13:54:09.967 fused_adam.py:438 INFO: <Rank2/4> <iteration3> All Encode Mission OK!!
+13:54:10.097 fused_adam.py:413 INFO: <Rank3/4> <iteration3> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.71 seconds
+13:54:10.097 fused_adam.py:438 INFO: <Rank3/4> <iteration3> All Encode Mission OK!!
+13:54:10.841 train.py:222 INFO: [Epoch 0/1] Batch 5, Loss: 4.0846967697143555, Time: 7.217417478561401
+13:54:12.290 fused_adam.py:413 INFO: <Rank0/4> <iteration3> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.90 seconds
+13:54:12.290 fused_adam.py:438 INFO: <Rank0/4> <iteration3> All Encode Mission OK!!
+13:54:18.044 fused_adam.py:283 INFO: <Rank2/4> <iteration6> ckpt in memory is beginning!
+13:54:18.044 fused_adam.py:283 INFO: <Rank0/4> <iteration6> ckpt in memory is beginning!
+13:54:18.045 fused_adam.py:283 INFO: <Rank1/4> <iteration6> ckpt in memory is beginning!
+13:54:18.046 fused_adam.py:283 INFO: <Rank3/4> <iteration6> ckpt in memory is beginning!
+13:54:18.093 train.py:222 INFO: [Epoch 0/1] Batch 6, Loss: 3.686450242996216, Time: 7.252114772796631
+13:54:21.834 fused_adam.py:370 INFO: <Rank3/4> <iteration6> ckpt finished!! in memory cost ——————> 54G	/home/lff/eccheck/ckpt/
+13:54:22.490 fused_adam.py:370 INFO: <Rank2/4> <iteration6> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:54:22.644 fused_adam.py:370 INFO: <Rank1/4> <iteration6> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:54:23.552 fused_adam.py:370 INFO: <Rank0/4> <iteration6> ckpt finished!! in memory cost ——————> 58G	/home/lff/eccheck/ckpt/
+13:54:24.901 fused_adam.py:413 INFO: <Rank1/4> <iteration6> model_0_slice1 Encode Mission OK!  ——————> time: 5.31 seconds
+13:54:25.005 fused_adam.py:413 INFO: <Rank2/4> <iteration6> model_0_slice2 Encode Mission OK!  ——————> time: 5.47 seconds
+13:54:25.337 fused_adam.py:235 INFO: <Rank2/4> <iteration7> ckpt blocking cost ——————> 6.198883056640625e-06
+13:54:25.337 fused_adam.py:235 INFO: <Rank1/4> <iteration7> ckpt blocking cost ——————> 1.4543533325195312e-05
+13:54:25.337 fused_adam.py:235 INFO: <Rank0/4> <iteration7> ckpt blocking cost ——————> 1.1682510375976562e-05
+13:54:25.340 fused_adam.py:235 INFO: <Rank3/4> <iteration7> ckpt blocking cost ——————> 1.71661376953125e-05
+13:54:25.368 train.py:222 INFO: [Epoch 0/1] Batch 7, Loss: 3.8701303005218506, Time: 7.274260520935059
+13:54:25.567 fused_adam.py:413 INFO: <Rank3/4> <iteration6> model_0_slice3 Encode Mission OK!  ——————> time: 5.99 seconds
+13:54:25.978 fused_adam.py:413 INFO: <Rank0/4> <iteration6> model_0_slice0 Encode Mission OK!  ——————> time: 6.09 seconds
+13:54:31.453 fused_adam.py:413 INFO: <Rank1/4> <iteration6> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.55 seconds
+13:54:31.454 fused_adam.py:438 INFO: <Rank1/4> <iteration6> All Encode Mission OK!!
+13:54:31.553 fused_adam.py:413 INFO: <Rank2/4> <iteration6> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.55 seconds
+13:54:31.553 fused_adam.py:438 INFO: <Rank2/4> <iteration6> All Encode Mission OK!!
+13:54:32.171 fused_adam.py:413 INFO: <Rank3/4> <iteration6> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.60 seconds
+13:54:32.171 fused_adam.py:438 INFO: <Rank3/4> <iteration6> All Encode Mission OK!!
+13:54:32.617 train.py:222 INFO: [Epoch 0/1] Batch 8, Loss: 3.3214948177337646, Time: 7.247004985809326
+13:54:33.813 fused_adam.py:413 INFO: <Rank0/4> <iteration6> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.83 seconds
+13:54:36.342 fused_adam.py:436 INFO: <Rank0/4> <iteration6> Have cleared old ckpt and ec_parity!!
+13:54:36.342 fused_adam.py:438 INFO: <Rank0/4> <iteration6> All Encode Mission OK!!
+13:54:39.857 fused_adam.py:283 INFO: <Rank2/4> <iteration9> ckpt in memory is beginning!
+13:54:39.858 fused_adam.py:283 INFO: <Rank0/4> <iteration9> ckpt in memory is beginning!
+13:54:39.858 fused_adam.py:283 INFO: <Rank1/4> <iteration9> ckpt in memory is beginning!
+13:54:39.859 fused_adam.py:283 INFO: <Rank3/4> <iteration9> ckpt in memory is beginning!
+13:54:39.915 train.py:222 INFO: [Epoch 0/1] Batch 9, Loss: 3.3641436100006104, Time: 7.295851230621338
+13:54:43.128 fused_adam.py:370 INFO: <Rank2/4> <iteration9> ckpt finished!! in memory cost ——————> 52G	/home/lff/eccheck/ckpt/
+13:54:44.484 fused_adam.py:370 INFO: <Rank3/4> <iteration9> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:54:44.663 fused_adam.py:370 INFO: <Rank1/4> <iteration9> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:54:45.535 fused_adam.py:370 INFO: <Rank0/4> <iteration9> ckpt finished!! in memory cost ——————> 59G	/home/lff/eccheck/ckpt/
+13:54:46.518 fused_adam.py:413 INFO: <Rank2/4> <iteration9> model_0_slice2 Encode Mission OK!  ——————> time: 5.53 seconds
+13:54:46.772 fused_adam.py:413 INFO: <Rank3/4> <iteration9> model_0_slice3 Encode Mission OK!  ——————> time: 5.35 seconds
+13:54:47.034 fused_adam.py:413 INFO: <Rank1/4> <iteration9> model_0_slice1 Encode Mission OK!  ——————> time: 5.35 seconds
+13:54:47.188 fused_adam.py:235 INFO: <Rank2/4> <iteration10> ckpt blocking cost ——————> 1.33514404296875e-05
+13:54:47.189 fused_adam.py:235 INFO: <Rank0/4> <iteration10> ckpt blocking cost ——————> 1.2874603271484375e-05
+13:54:47.189 fused_adam.py:235 INFO: <Rank1/4> <iteration10> ckpt blocking cost ——————> 1.430511474609375e-05
+13:54:47.192 fused_adam.py:235 INFO: <Rank3/4> <iteration10> ckpt blocking cost ——————> 1.7881393432617188e-05
+13:54:47.220 train.py:222 INFO: [Epoch 0/1] Batch 10, Loss: 3.3778109550476074, Time: 7.302249431610107
+13:54:47.860 fused_adam.py:413 INFO: <Rank0/4> <iteration9> model_0_slice0 Encode Mission OK!  ——————> time: 6.14 seconds
+13:54:53.034 fused_adam.py:413 INFO: <Rank2/4> <iteration9> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.52 seconds
+13:54:53.034 fused_adam.py:438 INFO: <Rank2/4> <iteration9> All Encode Mission OK!!
+13:54:53.411 fused_adam.py:413 INFO: <Rank3/4> <iteration9> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.64 seconds
+13:54:53.412 fused_adam.py:438 INFO: <Rank3/4> <iteration9> All Encode Mission OK!!
+13:54:53.602 fused_adam.py:413 INFO: <Rank1/4> <iteration9> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.57 seconds
+13:54:53.602 fused_adam.py:438 INFO: <Rank1/4> <iteration9> All Encode Mission OK!!
+13:54:54.500 train.py:222 INFO: [Epoch 0/1] Batch 11, Loss: 3.400364875793457, Time: 7.27873969078064
+13:54:55.548 fused_adam.py:413 INFO: <Rank0/4> <iteration9> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.69 seconds
+13:54:58.034 fused_adam.py:436 INFO: <Rank0/4> <iteration9> Have cleared old ckpt and ec_parity!!
+13:54:58.035 fused_adam.py:438 INFO: <Rank0/4> <iteration9> All Encode Mission OK!!
+13:55:01.771 fused_adam.py:283 INFO: <Rank0/4> <iteration12> ckpt in memory is beginning!
+13:55:01.771 fused_adam.py:283 INFO: <Rank1/4> <iteration12> ckpt in memory is beginning!
+13:55:01.771 fused_adam.py:283 INFO: <Rank2/4> <iteration12> ckpt in memory is beginning!
+13:55:01.772 fused_adam.py:283 INFO: <Rank3/4> <iteration12> ckpt in memory is beginning!
+13:55:01.827 train.py:222 INFO: [Epoch 0/1] Batch 12, Loss: 3.2133355140686035, Time: 7.324735403060913
+13:55:04.948 fused_adam.py:370 INFO: <Rank1/4> <iteration12> ckpt finished!! in memory cost ——————> 53G	/home/lff/eccheck/ckpt/
+13:55:05.768 fused_adam.py:370 INFO: <Rank2/4> <iteration12> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+13:55:06.313 fused_adam.py:370 INFO: <Rank3/4> <iteration12> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:55:06.925 fused_adam.py:370 INFO: <Rank0/4> <iteration12> ckpt finished!! in memory cost ——————> 58G	/home/lff/eccheck/ckpt/
+13:55:08.181 fused_adam.py:413 INFO: <Rank1/4> <iteration12> model_0_slice1 Encode Mission OK!  ——————> time: 5.31 seconds
+13:55:08.258 fused_adam.py:413 INFO: <Rank2/4> <iteration12> model_0_slice2 Encode Mission OK!  ——————> time: 5.35 seconds
+13:55:08.625 fused_adam.py:413 INFO: <Rank3/4> <iteration12> model_0_slice3 Encode Mission OK!  ——————> time: 5.32 seconds
+13:55:09.162 fused_adam.py:235 INFO: <Rank2/4> <iteration13> ckpt blocking cost ——————> 1.7404556274414062e-05
+13:55:09.162 fused_adam.py:235 INFO: <Rank0/4> <iteration13> ckpt blocking cost ——————> 1.4066696166992188e-05
+13:55:09.162 fused_adam.py:235 INFO: <Rank1/4> <iteration13> ckpt blocking cost ——————> 1.1444091796875e-05
+13:55:09.166 fused_adam.py:235 INFO: <Rank3/4> <iteration13> ckpt blocking cost ——————> 2.09808349609375e-05
+13:55:09.193 train.py:222 INFO: [Epoch 0/1] Batch 13, Loss: 3.0992727279663086, Time: 7.363525629043579
+13:55:09.274 fused_adam.py:413 INFO: <Rank0/4> <iteration12> model_0_slice0 Encode Mission OK!  ——————> time: 6.01 seconds
+13:55:14.814 fused_adam.py:413 INFO: <Rank2/4> <iteration12> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.56 seconds
+13:55:14.815 fused_adam.py:438 INFO: <Rank2/4> <iteration12> All Encode Mission OK!!
+13:55:14.822 fused_adam.py:413 INFO: <Rank1/4> <iteration12> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.64 seconds
+13:55:14.823 fused_adam.py:438 INFO: <Rank1/4> <iteration12> All Encode Mission OK!!
+13:55:15.290 fused_adam.py:413 INFO: <Rank3/4> <iteration12> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.67 seconds
+13:55:15.291 fused_adam.py:438 INFO: <Rank3/4> <iteration12> All Encode Mission OK!!
+13:55:16.495 train.py:222 INFO: [Epoch 0/1] Batch 14, Loss: 3.503948926925659, Time: 7.2999632358551025
+13:55:16.963 fused_adam.py:413 INFO: <Rank0/4> <iteration12> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.69 seconds
+13:55:19.531 fused_adam.py:436 INFO: <Rank0/4> <iteration12> Have cleared old ckpt and ec_parity!!
+13:55:19.531 fused_adam.py:438 INFO: <Rank0/4> <iteration12> All Encode Mission OK!!
+13:55:23.806 fused_adam.py:283 INFO: <Rank2/4> <iteration15> ckpt in memory is beginning!
+13:55:23.806 fused_adam.py:283 INFO: <Rank0/4> <iteration15> ckpt in memory is beginning!
+13:55:23.806 fused_adam.py:283 INFO: <Rank1/4> <iteration15> ckpt in memory is beginning!
+13:55:23.807 fused_adam.py:283 INFO: <Rank3/4> <iteration15> ckpt in memory is beginning!
+13:55:23.863 train.py:222 INFO: [Epoch 0/1] Batch 15, Loss: 3.117332935333252, Time: 7.365826606750488
+13:55:27.417 fused_adam.py:370 INFO: <Rank3/4> <iteration15> ckpt finished!! in memory cost ——————> 53G	/home/lff/eccheck/ckpt/
+13:55:28.261 fused_adam.py:370 INFO: <Rank2/4> <iteration15> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:55:28.459 fused_adam.py:370 INFO: <Rank1/4> <iteration15> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:55:29.353 fused_adam.py:370 INFO: <Rank0/4> <iteration15> ckpt finished!! in memory cost ——————> 59G	/home/lff/eccheck/ckpt/
+13:55:30.361 fused_adam.py:413 INFO: <Rank3/4> <iteration15> model_0_slice3 Encode Mission OK!  ——————> time: 5.43 seconds
+13:55:30.687 fused_adam.py:413 INFO: <Rank2/4> <iteration15> model_0_slice2 Encode Mission OK!  ——————> time: 5.33 seconds
+13:55:30.848 fused_adam.py:413 INFO: <Rank1/4> <iteration15> model_0_slice1 Encode Mission OK!  ——————> time: 5.37 seconds
+13:55:31.183 fused_adam.py:235 INFO: <Rank2/4> <iteration16> ckpt blocking cost ——————> 1.4781951904296875e-05
+13:55:31.183 fused_adam.py:235 INFO: <Rank0/4> <iteration16> ckpt blocking cost ——————> 1.430511474609375e-05
+13:55:31.183 fused_adam.py:235 INFO: <Rank1/4> <iteration16> ckpt blocking cost ——————> 1.3113021850585938e-05
+13:55:31.186 fused_adam.py:235 INFO: <Rank3/4> <iteration16> ckpt blocking cost ——————> 2.193450927734375e-05
+13:55:31.214 train.py:222 INFO: [Epoch 0/1] Batch 16, Loss: 3.332026243209839, Time: 7.348315715789795
+13:55:31.694 fused_adam.py:413 INFO: <Rank0/4> <iteration15> model_0_slice0 Encode Mission OK!  ——————> time: 6.01 seconds
+13:55:36.972 fused_adam.py:413 INFO: <Rank3/4> <iteration15> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.61 seconds
+13:55:36.972 fused_adam.py:438 INFO: <Rank3/4> <iteration15> All Encode Mission OK!!
+13:55:37.205 fused_adam.py:413 INFO: <Rank2/4> <iteration15> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.52 seconds
+13:55:37.205 fused_adam.py:438 INFO: <Rank2/4> <iteration15> All Encode Mission OK!!
+13:55:37.378 fused_adam.py:413 INFO: <Rank1/4> <iteration15> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.53 seconds
+13:55:37.378 fused_adam.py:438 INFO: <Rank1/4> <iteration15> All Encode Mission OK!!
+13:55:38.539 train.py:222 INFO: [Epoch 0/1] Batch 17, Loss: 3.0805673599243164, Time: 7.32304835319519
+13:55:39.397 fused_adam.py:413 INFO: <Rank0/4> <iteration15> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.70 seconds
+13:55:41.962 fused_adam.py:436 INFO: <Rank0/4> <iteration15> Have cleared old ckpt and ec_parity!!
+13:55:41.962 fused_adam.py:438 INFO: <Rank0/4> <iteration15> All Encode Mission OK!!
+13:55:45.853 fused_adam.py:283 INFO: <Rank2/4> <iteration18> ckpt in memory is beginning!
+13:55:45.854 fused_adam.py:283 INFO: <Rank0/4> <iteration18> ckpt in memory is beginning!
+13:55:45.854 fused_adam.py:283 INFO: <Rank1/4> <iteration18> ckpt in memory is beginning!
+13:55:45.855 fused_adam.py:283 INFO: <Rank3/4> <iteration18> ckpt in memory is beginning!
+13:55:45.910 train.py:222 INFO: [Epoch 0/1] Batch 18, Loss: 3.1322388648986816, Time: 7.369025230407715
+13:55:48.897 fused_adam.py:370 INFO: <Rank2/4> <iteration18> ckpt finished!! in memory cost ——————> 53G	/home/lff/eccheck/ckpt/
+13:55:49.083 fused_adam.py:370 INFO: <Rank3/4> <iteration18> ckpt finished!! in memory cost ——————> 54G	/home/lff/eccheck/ckpt/
+13:55:50.550 fused_adam.py:370 INFO: <Rank1/4> <iteration18> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:55:51.297 fused_adam.py:370 INFO: <Rank0/4> <iteration18> ckpt finished!! in memory cost ——————> 59G	/home/lff/eccheck/ckpt/
+13:55:52.318 fused_adam.py:413 INFO: <Rank2/4> <iteration18> model_0_slice2 Encode Mission OK!  ——————> time: 5.41 seconds
+13:55:52.349 fused_adam.py:413 INFO: <Rank3/4> <iteration18> model_0_slice3 Encode Mission OK!  ——————> time: 5.33 seconds
+13:55:52.957 fused_adam.py:413 INFO: <Rank1/4> <iteration18> model_0_slice1 Encode Mission OK!  ——————> time: 5.35 seconds
+13:55:53.289 fused_adam.py:235 INFO: <Rank2/4> <iteration19> ckpt blocking cost ——————> 1.1920928955078125e-05
+13:55:53.289 fused_adam.py:235 INFO: <Rank1/4> <iteration19> ckpt blocking cost ——————> 9.5367431640625e-06
+13:55:53.289 fused_adam.py:235 INFO: <Rank0/4> <iteration19> ckpt blocking cost ——————> 1.52587890625e-05
+13:55:53.290 fused_adam.py:235 INFO: <Rank3/4> <iteration19> ckpt blocking cost ——————> 2.0742416381835938e-05
+13:55:53.320 train.py:222 INFO: [Epoch 0/1] Batch 19, Loss: 3.016854763031006, Time: 7.408278942108154
+13:55:53.694 fused_adam.py:413 INFO: <Rank0/4> <iteration18> model_0_slice0 Encode Mission OK!  ——————> time: 6.03 seconds
+13:55:58.815 fused_adam.py:413 INFO: <Rank2/4> <iteration18> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.50 seconds
+13:55:58.815 fused_adam.py:438 INFO: <Rank2/4> <iteration18> All Encode Mission OK!!
+13:55:58.948 fused_adam.py:413 INFO: <Rank3/4> <iteration18> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.60 seconds
+13:55:58.949 fused_adam.py:438 INFO: <Rank3/4> <iteration18> All Encode Mission OK!!
+13:55:59.468 fused_adam.py:413 INFO: <Rank1/4> <iteration18> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.51 seconds
+13:55:59.468 fused_adam.py:438 INFO: <Rank1/4> <iteration18> All Encode Mission OK!!
+13:56:00.670 train.py:222 INFO: [Epoch 0/1] Batch 20, Loss: 3.0794765949249268, Time: 7.347823858261108
+13:56:01.484 fused_adam.py:413 INFO: <Rank0/4> <iteration18> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.79 seconds
+13:56:04.088 fused_adam.py:436 INFO: <Rank0/4> <iteration18> Have cleared old ckpt and ec_parity!!
+13:56:04.088 fused_adam.py:438 INFO: <Rank0/4> <iteration18> All Encode Mission OK!!
+13:56:07.969 fused_adam.py:283 INFO: <Rank0/4> <iteration21> ckpt in memory is beginning!
+13:56:07.969 fused_adam.py:283 INFO: <Rank1/4> <iteration21> ckpt in memory is beginning!
+13:56:07.969 fused_adam.py:283 INFO: <Rank2/4> <iteration21> ckpt in memory is beginning!
+13:56:07.971 fused_adam.py:283 INFO: <Rank3/4> <iteration21> ckpt in memory is beginning!
+13:56:08.025 train.py:222 INFO: [Epoch 0/1] Batch 21, Loss: 3.404256820678711, Time: 7.353031873703003
+13:56:12.301 fused_adam.py:370 INFO: <Rank2/4> <iteration21> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:56:12.489 fused_adam.py:370 INFO: <Rank3/4> <iteration21> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:56:12.585 fused_adam.py:370 INFO: <Rank1/4> <iteration21> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:56:13.430 fused_adam.py:370 INFO: <Rank0/4> <iteration21> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+13:56:14.808 fused_adam.py:413 INFO: <Rank2/4> <iteration21> model_0_slice2 Encode Mission OK!  ——————> time: 5.35 seconds
+13:56:14.931 fused_adam.py:413 INFO: <Rank1/4> <iteration21> model_0_slice1 Encode Mission OK!  ——————> time: 5.42 seconds
+13:56:14.948 fused_adam.py:413 INFO: <Rank3/4> <iteration21> model_0_slice3 Encode Mission OK!  ——————> time: 5.40 seconds
+13:56:15.364 fused_adam.py:235 INFO: <Rank2/4> <iteration22> ckpt blocking cost ——————> 4.291534423828125e-06
+13:56:15.364 fused_adam.py:235 INFO: <Rank1/4> <iteration22> ckpt blocking cost ——————> 8.58306884765625e-06
+13:56:15.364 fused_adam.py:235 INFO: <Rank0/4> <iteration22> ckpt blocking cost ——————> 3.814697265625e-06
+13:56:15.365 fused_adam.py:235 INFO: <Rank3/4> <iteration22> ckpt blocking cost ——————> 1.5974044799804688e-05
+13:56:15.395 train.py:222 INFO: [Epoch 0/1] Batch 22, Loss: 3.0041544437408447, Time: 7.367876052856445
+13:56:15.855 fused_adam.py:413 INFO: <Rank0/4> <iteration21> model_0_slice0 Encode Mission OK!  ——————> time: 6.07 seconds
+13:56:21.337 fused_adam.py:413 INFO: <Rank2/4> <iteration21> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.53 seconds
+13:56:21.337 fused_adam.py:438 INFO: <Rank2/4> <iteration21> All Encode Mission OK!!
+13:56:21.495 fused_adam.py:413 INFO: <Rank1/4> <iteration21> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.56 seconds
+13:56:21.495 fused_adam.py:438 INFO: <Rank1/4> <iteration21> All Encode Mission OK!!
+13:56:21.520 fused_adam.py:413 INFO: <Rank3/4> <iteration21> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.57 seconds
+13:56:21.520 fused_adam.py:438 INFO: <Rank3/4> <iteration21> All Encode Mission OK!!
+13:56:22.764 train.py:222 INFO: [Epoch 0/1] Batch 23, Loss: 3.226203680038452, Time: 7.3676698207855225
+13:56:23.607 fused_adam.py:413 INFO: <Rank0/4> <iteration21> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.75 seconds
+13:56:26.150 fused_adam.py:436 INFO: <Rank0/4> <iteration21> Have cleared old ckpt and ec_parity!!
+13:56:26.150 fused_adam.py:438 INFO: <Rank0/4> <iteration21> All Encode Mission OK!!
+13:56:30.063 fused_adam.py:283 INFO: <Rank2/4> <iteration24> ckpt in memory is beginning!
+13:56:30.063 fused_adam.py:283 INFO: <Rank0/4> <iteration24> ckpt in memory is beginning!
+13:56:30.063 fused_adam.py:283 INFO: <Rank1/4> <iteration24> ckpt in memory is beginning!
+13:56:30.064 fused_adam.py:283 INFO: <Rank3/4> <iteration24> ckpt in memory is beginning!
+13:56:30.120 train.py:222 INFO: [Epoch 0/1] Batch 24, Loss: 2.828536033630371, Time: 7.3541505336761475
+13:56:33.245 fused_adam.py:370 INFO: <Rank3/4> <iteration24> ckpt finished!! in memory cost ——————> 53G	/home/lff/eccheck/ckpt/
+13:56:33.894 fused_adam.py:370 INFO: <Rank2/4> <iteration24> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+13:56:34.155 fused_adam.py:370 INFO: <Rank1/4> <iteration24> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:56:35.614 fused_adam.py:370 INFO: <Rank0/4> <iteration24> ckpt finished!! in memory cost ——————> 60G	/home/lff/eccheck/ckpt/
+13:56:36.379 fused_adam.py:413 INFO: <Rank2/4> <iteration24> model_0_slice2 Encode Mission OK!  ——————> time: 5.30 seconds
+13:56:36.503 fused_adam.py:413 INFO: <Rank3/4> <iteration24> model_0_slice3 Encode Mission OK!  ——————> time: 5.33 seconds
+13:56:37.459 fused_adam.py:413 INFO: <Rank1/4> <iteration24> model_0_slice1 Encode Mission OK!  ——————> time: 5.39 seconds
+13:56:37.459 fused_adam.py:235 INFO: <Rank2/4> <iteration25> ckpt blocking cost ——————> 1.239776611328125e-05
+13:56:37.460 fused_adam.py:235 INFO: <Rank0/4> <iteration25> ckpt blocking cost ——————> 1.1682510375976562e-05
+13:56:37.460 fused_adam.py:235 INFO: <Rank1/4> <iteration25> ckpt blocking cost ——————> 3.814697265625e-06
+13:56:37.464 fused_adam.py:235 INFO: <Rank3/4> <iteration25> ckpt blocking cost ——————> 1.8835067749023438e-05
+13:56:37.490 train.py:222 INFO: [Epoch 0/1] Batch 25, Loss: 3.344264268875122, Time: 7.367893218994141
+13:56:37.932 fused_adam.py:413 INFO: <Rank0/4> <iteration24> model_0_slice0 Encode Mission OK!  ——————> time: 5.99 seconds
+13:56:42.858 fused_adam.py:413 INFO: <Rank2/4> <iteration24> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.48 seconds
+13:56:42.859 fused_adam.py:438 INFO: <Rank2/4> <iteration24> All Encode Mission OK!!
+13:56:43.184 fused_adam.py:413 INFO: <Rank3/4> <iteration24> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.68 seconds
+13:56:43.185 fused_adam.py:438 INFO: <Rank3/4> <iteration24> All Encode Mission OK!!
+13:56:43.992 fused_adam.py:413 INFO: <Rank1/4> <iteration24> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.53 seconds
+13:56:43.993 fused_adam.py:438 INFO: <Rank1/4> <iteration24> All Encode Mission OK!!
+13:56:44.839 train.py:222 INFO: [Epoch 0/1] Batch 26, Loss: 3.410123825073242, Time: 7.346005201339722
+13:56:45.659 fused_adam.py:413 INFO: <Rank0/4> <iteration24> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.73 seconds
+13:56:48.288 fused_adam.py:436 INFO: <Rank0/4> <iteration24> Have cleared old ckpt and ec_parity!!
+13:56:48.288 fused_adam.py:438 INFO: <Rank0/4> <iteration24> All Encode Mission OK!!
+13:56:52.145 fused_adam.py:283 INFO: <Rank2/4> <iteration27> ckpt in memory is beginning!
+13:56:52.145 fused_adam.py:283 INFO: <Rank1/4> <iteration27> ckpt in memory is beginning!
+13:56:52.145 fused_adam.py:283 INFO: <Rank0/4> <iteration27> ckpt in memory is beginning!
+13:56:52.147 fused_adam.py:283 INFO: <Rank3/4> <iteration27> ckpt in memory is beginning!
+13:56:52.202 train.py:222 INFO: [Epoch 0/1] Batch 27, Loss: 3.120323419570923, Time: 7.3618128299713135
+13:56:55.815 fused_adam.py:370 INFO: <Rank1/4> <iteration27> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+13:56:55.982 fused_adam.py:370 INFO: <Rank2/4> <iteration27> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+13:56:56.679 fused_adam.py:370 INFO: <Rank3/4> <iteration27> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:56:57.367 fused_adam.py:370 INFO: <Rank0/4> <iteration27> ckpt finished!! in memory cost ——————> 58G	/home/lff/eccheck/ckpt/
+13:56:58.487 fused_adam.py:413 INFO: <Rank2/4> <iteration27> model_0_slice2 Encode Mission OK!  ——————> time: 5.32 seconds
+13:56:59.116 fused_adam.py:413 INFO: <Rank3/4> <iteration27> model_0_slice3 Encode Mission OK!  ——————> time: 5.39 seconds
+13:56:59.196 fused_adam.py:413 INFO: <Rank1/4> <iteration27> model_0_slice1 Encode Mission OK!  ——————> time: 5.50 seconds
+13:56:59.530 fused_adam.py:235 INFO: <Rank2/4> <iteration28> ckpt blocking cost ——————> 4.76837158203125e-06
+13:56:59.530 fused_adam.py:235 INFO: <Rank0/4> <iteration28> ckpt blocking cost ——————> 1.2874603271484375e-05
+13:56:59.531 fused_adam.py:235 INFO: <Rank1/4> <iteration28> ckpt blocking cost ——————> 1.6450881958007812e-05
+13:56:59.533 fused_adam.py:235 INFO: <Rank3/4> <iteration28> ckpt blocking cost ——————> 2.0742416381835938e-05
+13:56:59.562 train.py:222 INFO: [Epoch 0/1] Batch 28, Loss: 3.5944793224334717, Time: 7.357341051101685
+13:56:59.764 fused_adam.py:413 INFO: <Rank0/4> <iteration27> model_0_slice0 Encode Mission OK!  ——————> time: 6.06 seconds
+13:57:05.051 fused_adam.py:413 INFO: <Rank2/4> <iteration27> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.56 seconds
+13:57:05.052 fused_adam.py:438 INFO: <Rank2/4> <iteration27> All Encode Mission OK!!
+13:57:05.773 fused_adam.py:413 INFO: <Rank3/4> <iteration27> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.66 seconds
+13:57:05.773 fused_adam.py:438 INFO: <Rank3/4> <iteration27> All Encode Mission OK!!
+13:57:05.773 fused_adam.py:413 INFO: <Rank1/4> <iteration27> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.58 seconds
+13:57:05.774 fused_adam.py:438 INFO: <Rank1/4> <iteration27> All Encode Mission OK!!
+13:57:06.935 train.py:222 INFO: [Epoch 0/1] Batch 29, Loss: 3.12884783744812, Time: 7.37113881111145
+13:57:07.533 fused_adam.py:413 INFO: <Rank0/4> <iteration27> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.77 seconds
+13:57:10.122 fused_adam.py:436 INFO: <Rank0/4> <iteration27> Have cleared old ckpt and ec_parity!!
+13:57:10.122 fused_adam.py:438 INFO: <Rank0/4> <iteration27> All Encode Mission OK!!
+13:57:14.289 fused_adam.py:283 INFO: <Rank2/4> <iteration30> ckpt in memory is beginning!
+13:57:14.289 fused_adam.py:283 INFO: <Rank0/4> <iteration30> ckpt in memory is beginning!
+13:57:14.289 fused_adam.py:283 INFO: <Rank1/4> <iteration30> ckpt in memory is beginning!
+13:57:14.291 fused_adam.py:283 INFO: <Rank3/4> <iteration30> ckpt in memory is beginning!
+13:57:14.345 train.py:222 INFO: [Epoch 0/1] Batch 30, Loss: 2.8967645168304443, Time: 7.408560276031494
+13:57:17.511 fused_adam.py:370 INFO: <Rank3/4> <iteration30> ckpt finished!! in memory cost ——————> 53G	/home/lff/eccheck/ckpt/
+13:57:18.141 fused_adam.py:370 INFO: <Rank2/4> <iteration30> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+13:57:18.849 fused_adam.py:370 INFO: <Rank1/4> <iteration30> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+13:57:18.911 fused_adam.py:370 INFO: <Rank0/4> <iteration30> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+13:57:20.613 fused_adam.py:413 INFO: <Rank2/4> <iteration30> model_0_slice2 Encode Mission OK!  ——————> time: 5.30 seconds
+13:57:21.284 fused_adam.py:413 INFO: <Rank3/4> <iteration30> model_0_slice3 Encode Mission OK!  ——————> time: 5.83 seconds
+13:57:21.292 fused_adam.py:413 INFO: <Rank1/4> <iteration30> model_0_slice1 Encode Mission OK!  ——————> time: 5.41 seconds
+13:57:21.728 fused_adam.py:235 INFO: <Rank2/4> <iteration31> ckpt blocking cost ——————> 1.621246337890625e-05
+13:57:21.728 fused_adam.py:235 INFO: <Rank0/4> <iteration31> ckpt blocking cost ——————> 3.814697265625e-06
+13:57:21.728 fused_adam.py:235 INFO: <Rank1/4> <iteration31> ckpt blocking cost ——————> 8.821487426757812e-06
+13:57:21.729 fused_adam.py:235 INFO: <Rank3/4> <iteration31> ckpt blocking cost ——————> 1.7404556274414062e-05
+13:57:21.759 train.py:222 INFO: [Epoch 0/1] Batch 31, Loss: 2.9854230880737305, Time: 7.411688566207886
+13:57:22.111 fused_adam.py:413 INFO: <Rank0/4> <iteration30> model_0_slice0 Encode Mission OK!  ——————> time: 6.00 seconds
+13:57:27.117 fused_adam.py:413 INFO: <Rank2/4> <iteration30> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.50 seconds
+13:57:27.118 fused_adam.py:438 INFO: <Rank2/4> <iteration30> All Encode Mission OK!!
+13:57:27.912 fused_adam.py:413 INFO: <Rank1/4> <iteration30> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.62 seconds
+13:57:27.912 fused_adam.py:438 INFO: <Rank1/4> <iteration30> All Encode Mission OK!!
+13:57:27.934 fused_adam.py:413 INFO: <Rank3/4> <iteration30> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.65 seconds
+13:57:27.934 fused_adam.py:438 INFO: <Rank3/4> <iteration30> All Encode Mission OK!!
+13:57:29.109 train.py:222 INFO: [Epoch 0/1] Batch 32, Loss: 2.8998165130615234, Time: 7.348424196243286
+13:57:29.894 fused_adam.py:413 INFO: <Rank0/4> <iteration30> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.78 seconds
+13:57:32.537 fused_adam.py:436 INFO: <Rank0/4> <iteration30> Have cleared old ckpt and ec_parity!!
+13:57:32.538 fused_adam.py:438 INFO: <Rank0/4> <iteration30> All Encode Mission OK!!
+13:57:36.466 fused_adam.py:283 INFO: <Rank0/4> <iteration33> ckpt in memory is beginning!
+13:57:36.466 fused_adam.py:283 INFO: <Rank2/4> <iteration33> ckpt in memory is beginning!
+13:57:36.467 fused_adam.py:283 INFO: <Rank1/4> <iteration33> ckpt in memory is beginning!
+13:57:36.468 fused_adam.py:283 INFO: <Rank3/4> <iteration33> ckpt in memory is beginning!
+13:57:36.523 train.py:222 INFO: [Epoch 0/1] Batch 33, Loss: 2.898383378982544, Time: 7.41167140007019
+13:57:40.301 fused_adam.py:370 INFO: <Rank2/4> <iteration33> ckpt finished!! in memory cost ——————> 54G	/home/lff/eccheck/ckpt/
+13:57:40.963 fused_adam.py:370 INFO: <Rank3/4> <iteration33> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:57:41.502 fused_adam.py:370 INFO: <Rank1/4> <iteration33> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+13:57:42.089 fused_adam.py:370 INFO: <Rank0/4> <iteration33> ckpt finished!! in memory cost ——————> 59G	/home/lff/eccheck/ckpt/
+13:57:42.959 fused_adam.py:413 INFO: <Rank2/4> <iteration33> model_0_slice2 Encode Mission OK!  ——————> time: 5.47 seconds
+13:57:43.405 fused_adam.py:413 INFO: <Rank3/4> <iteration33> model_0_slice3 Encode Mission OK!  ——————> time: 5.37 seconds
+13:57:43.889 fused_adam.py:235 INFO: <Rank0/4> <iteration34> ckpt blocking cost ——————> 1.33514404296875e-05
+13:57:43.889 fused_adam.py:235 INFO: <Rank2/4> <iteration34> ckpt blocking cost ——————> 1.1920928955078125e-05
+13:57:43.889 fused_adam.py:235 INFO: <Rank1/4> <iteration34> ckpt blocking cost ——————> 1.5497207641601562e-05
+13:57:43.892 fused_adam.py:235 INFO: <Rank3/4> <iteration34> ckpt blocking cost ——————> 1.9550323486328125e-05
+13:57:43.920 train.py:222 INFO: [Epoch 0/1] Batch 34, Loss: 2.8846137523651123, Time: 7.394429445266724
+13:57:43.928 fused_adam.py:413 INFO: <Rank1/4> <iteration33> model_0_slice1 Encode Mission OK!  ——————> time: 5.43 seconds
+13:57:44.412 fused_adam.py:413 INFO: <Rank0/4> <iteration33> model_0_slice0 Encode Mission OK!  ——————> time: 6.03 seconds
+13:57:49.482 fused_adam.py:413 INFO: <Rank2/4> <iteration33> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.52 seconds
+13:57:49.482 fused_adam.py:438 INFO: <Rank2/4> <iteration33> All Encode Mission OK!!
+13:57:50.019 fused_adam.py:413 INFO: <Rank3/4> <iteration33> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.61 seconds
+13:57:50.020 fused_adam.py:438 INFO: <Rank3/4> <iteration33> All Encode Mission OK!!
+13:57:50.440 fused_adam.py:413 INFO: <Rank1/4> <iteration33> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.51 seconds
+13:57:50.441 fused_adam.py:438 INFO: <Rank1/4> <iteration33> All Encode Mission OK!!
+13:57:51.254 train.py:222 INFO: [Epoch 0/1] Batch 35, Loss: 3.0829310417175293, Time: 7.332353591918945
+13:57:52.153 fused_adam.py:413 INFO: <Rank0/4> <iteration33> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.74 seconds
+13:57:54.728 fused_adam.py:436 INFO: <Rank0/4> <iteration33> Have cleared old ckpt and ec_parity!!
+13:57:54.728 fused_adam.py:438 INFO: <Rank0/4> <iteration33> All Encode Mission OK!!
+13:57:58.556 fused_adam.py:283 INFO: <Rank2/4> <iteration36> ckpt in memory is beginning!
+13:57:58.556 fused_adam.py:283 INFO: <Rank0/4> <iteration36> ckpt in memory is beginning!
+13:57:58.556 fused_adam.py:283 INFO: <Rank1/4> <iteration36> ckpt in memory is beginning!
+13:57:58.557 fused_adam.py:283 INFO: <Rank3/4> <iteration36> ckpt in memory is beginning!
+13:57:58.613 train.py:222 INFO: [Epoch 0/1] Batch 36, Loss: 3.300980567932129, Time: 7.356530427932739
+13:58:02.440 fused_adam.py:370 INFO: <Rank2/4> <iteration36> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+13:58:02.939 fused_adam.py:370 INFO: <Rank0/4> <iteration36> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+13:58:03.063 fused_adam.py:370 INFO: <Rank3/4> <iteration36> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+13:58:03.147 fused_adam.py:370 INFO: <Rank1/4> <iteration36> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+13:58:05.078 fused_adam.py:413 INFO: <Rank2/4> <iteration36> model_0_slice2 Encode Mission OK!  ——————> time: 5.47 seconds
+13:58:05.501 fused_adam.py:413 INFO: <Rank3/4> <iteration36> model_0_slice3 Encode Mission OK!  ——————> time: 5.39 seconds
+13:58:05.501 fused_adam.py:413 INFO: <Rank1/4> <iteration36> model_0_slice1 Encode Mission OK!  ——————> time: 5.40 seconds
+13:58:05.962 fused_adam.py:235 INFO: <Rank0/4> <iteration37> ckpt blocking cost ——————> 5.4836273193359375e-06
+13:58:05.962 fused_adam.py:235 INFO: <Rank1/4> <iteration37> ckpt blocking cost ——————> 1.2159347534179688e-05
+13:58:05.962 fused_adam.py:235 INFO: <Rank2/4> <iteration37> ckpt blocking cost ——————> 1.0728836059570312e-05
+13:58:05.965 fused_adam.py:235 INFO: <Rank3/4> <iteration37> ckpt blocking cost ——————> 5.4836273193359375e-06
+13:58:05.993 train.py:222 INFO: [Epoch 0/1] Batch 37, Loss: 2.9670448303222656, Time: 7.377779006958008
+13:58:06.090 fused_adam.py:413 INFO: <Rank0/4> <iteration36> model_0_slice0 Encode Mission OK!  ——————> time: 6.01 seconds
+13:58:11.593 fused_adam.py:413 INFO: <Rank2/4> <iteration36> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.51 seconds
+13:58:11.593 fused_adam.py:438 INFO: <Rank2/4> <iteration36> All Encode Mission OK!!
+13:58:12.130 fused_adam.py:413 INFO: <Rank1/4> <iteration36> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.63 seconds
+13:58:12.131 fused_adam.py:438 INFO: <Rank1/4> <iteration36> All Encode Mission OK!!
+13:58:12.131 fused_adam.py:413 INFO: <Rank3/4> <iteration36> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.63 seconds
+13:58:12.131 fused_adam.py:438 INFO: <Rank3/4> <iteration36> All Encode Mission OK!!
+13:58:13.317 train.py:222 INFO: [Epoch 0/1] Batch 38, Loss: 3.3284034729003906, Time: 7.32245135307312
+13:58:13.821 fused_adam.py:413 INFO: <Rank0/4> <iteration36> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.73 seconds
+13:58:16.460 fused_adam.py:436 INFO: <Rank0/4> <iteration36> Have cleared old ckpt and ec_parity!!
+13:58:16.460 fused_adam.py:438 INFO: <Rank0/4> <iteration36> All Encode Mission OK!!
+13:58:20.625 fused_adam.py:283 INFO: <Rank2/4> <iteration39> ckpt in memory is beginning!
+13:58:20.625 fused_adam.py:283 INFO: <Rank0/4> <iteration39> ckpt in memory is beginning!
+13:58:20.625 fused_adam.py:283 INFO: <Rank1/4> <iteration39> ckpt in memory is beginning!
+13:58:20.627 fused_adam.py:283 INFO: <Rank3/4> <iteration39> ckpt in memory is beginning!
+13:58:20.682 train.py:222 INFO: [Epoch 0/1] Batch 39, Loss: 3.284109354019165, Time: 7.362967491149902
+13:58:23.624 fused_adam.py:370 INFO: <Rank2/4> <iteration39> ckpt finished!! in memory cost ——————> 52G	/home/lff/eccheck/ckpt/
+13:58:25.137 fused_adam.py:370 INFO: <Rank3/4> <iteration39> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:58:25.183 fused_adam.py:370 INFO: <Rank1/4> <iteration39> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:58:26.209 fused_adam.py:370 INFO: <Rank0/4> <iteration39> ckpt finished!! in memory cost ——————> 59G	/home/lff/eccheck/ckpt/
+13:58:27.133 fused_adam.py:413 INFO: <Rank2/4> <iteration39> model_0_slice2 Encode Mission OK!  ——————> time: 5.48 seconds
+13:58:27.625 fused_adam.py:413 INFO: <Rank1/4> <iteration39> model_0_slice1 Encode Mission OK!  ——————> time: 5.44 seconds
+13:58:27.634 fused_adam.py:413 INFO: <Rank3/4> <iteration39> model_0_slice3 Encode Mission OK!  ——————> time: 5.43 seconds
+13:58:28.022 fused_adam.py:235 INFO: <Rank0/4> <iteration40> ckpt blocking cost ——————> 1.239776611328125e-05
+13:58:28.022 fused_adam.py:235 INFO: <Rank2/4> <iteration40> ckpt blocking cost ——————> 1.0967254638671875e-05
+13:58:28.022 fused_adam.py:235 INFO: <Rank1/4> <iteration40> ckpt blocking cost ——————> 1.3589859008789062e-05
+13:58:28.024 fused_adam.py:235 INFO: <Rank3/4> <iteration40> ckpt blocking cost ——————> 1.5497207641601562e-05
+13:58:28.053 train.py:222 INFO: [Epoch 0/1] Batch 40, Loss: 3.2195687294006348, Time: 7.368897438049316
+13:58:28.658 fused_adam.py:413 INFO: <Rank0/4> <iteration39> model_0_slice0 Encode Mission OK!  ——————> time: 6.09 seconds
+13:58:33.692 fused_adam.py:413 INFO: <Rank2/4> <iteration39> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.56 seconds
+13:58:33.692 fused_adam.py:438 INFO: <Rank2/4> <iteration39> All Encode Mission OK!!
+13:58:34.224 fused_adam.py:413 INFO: <Rank1/4> <iteration39> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.60 seconds
+13:58:34.224 fused_adam.py:438 INFO: <Rank1/4> <iteration39> All Encode Mission OK!!
+13:58:34.282 fused_adam.py:413 INFO: <Rank3/4> <iteration39> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.65 seconds
+13:58:34.282 fused_adam.py:438 INFO: <Rank3/4> <iteration39> All Encode Mission OK!!
+13:58:35.409 train.py:222 INFO: [Epoch 0/1] Batch 41, Loss: 3.158984899520874, Time: 7.354307174682617
+13:58:36.408 fused_adam.py:413 INFO: <Rank0/4> <iteration39> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.75 seconds
+13:58:38.998 fused_adam.py:436 INFO: <Rank0/4> <iteration39> Have cleared old ckpt and ec_parity!!
+13:58:38.998 fused_adam.py:438 INFO: <Rank0/4> <iteration39> All Encode Mission OK!!
+13:58:42.742 fused_adam.py:283 INFO: <Rank2/4> <iteration42> ckpt in memory is beginning!
+13:58:42.742 fused_adam.py:283 INFO: <Rank0/4> <iteration42> ckpt in memory is beginning!
+13:58:42.742 fused_adam.py:283 INFO: <Rank1/4> <iteration42> ckpt in memory is beginning!
+13:58:42.744 fused_adam.py:283 INFO: <Rank3/4> <iteration42> ckpt in memory is beginning!
+13:58:42.798 train.py:222 INFO: [Epoch 0/1] Batch 42, Loss: 3.154207229614258, Time: 7.3871400356292725
+13:58:45.945 fused_adam.py:370 INFO: <Rank3/4> <iteration42> ckpt finished!! in memory cost ——————> 53G	/home/lff/eccheck/ckpt/
+13:58:46.646 fused_adam.py:370 INFO: <Rank2/4> <iteration42> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+13:58:47.307 fused_adam.py:370 INFO: <Rank1/4> <iteration42> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:58:48.324 fused_adam.py:370 INFO: <Rank0/4> <iteration42> ckpt finished!! in memory cost ——————> 60G	/home/lff/eccheck/ckpt/
+13:58:49.230 fused_adam.py:413 INFO: <Rank3/4> <iteration42> model_0_slice3 Encode Mission OK!  ——————> time: 5.35 seconds
+13:58:49.308 fused_adam.py:413 INFO: <Rank2/4> <iteration42> model_0_slice2 Encode Mission OK!  ——————> time: 5.48 seconds
+13:58:49.682 fused_adam.py:413 INFO: <Rank1/4> <iteration42> model_0_slice1 Encode Mission OK!  ——————> time: 5.36 seconds
+13:58:50.180 fused_adam.py:235 INFO: <Rank1/4> <iteration43> ckpt blocking cost ——————> 9.059906005859375e-06
+13:58:50.180 fused_adam.py:235 INFO: <Rank0/4> <iteration43> ckpt blocking cost ——————> 4.76837158203125e-06
+13:58:50.180 fused_adam.py:235 INFO: <Rank2/4> <iteration43> ckpt blocking cost ——————> 1.1682510375976562e-05
+13:58:50.181 fused_adam.py:235 INFO: <Rank3/4> <iteration43> ckpt blocking cost ——————> 6.4373016357421875e-06
+13:58:50.211 train.py:222 INFO: [Epoch 0/1] Batch 43, Loss: 3.194406747817993, Time: 7.410444498062134
+13:58:50.669 fused_adam.py:413 INFO: <Rank0/4> <iteration42> model_0_slice0 Encode Mission OK!  ——————> time: 6.02 seconds
+13:58:55.775 fused_adam.py:413 INFO: <Rank3/4> <iteration42> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.54 seconds
+13:58:55.775 fused_adam.py:438 INFO: <Rank3/4> <iteration42> All Encode Mission OK!!
+13:58:55.866 fused_adam.py:413 INFO: <Rank2/4> <iteration42> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.56 seconds
+13:58:55.867 fused_adam.py:438 INFO: <Rank2/4> <iteration42> All Encode Mission OK!!
+13:58:56.145 fused_adam.py:413 INFO: <Rank1/4> <iteration42> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.46 seconds
+13:58:56.146 fused_adam.py:438 INFO: <Rank1/4> <iteration42> All Encode Mission OK!!
+13:58:57.526 train.py:222 INFO: [Epoch 0/1] Batch 44, Loss: 3.032416343688965, Time: 7.312727451324463
+13:58:58.429 fused_adam.py:413 INFO: <Rank0/4> <iteration42> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.76 seconds
+13:59:01.086 fused_adam.py:436 INFO: <Rank0/4> <iteration42> Have cleared old ckpt and ec_parity!!
+13:59:01.086 fused_adam.py:438 INFO: <Rank0/4> <iteration42> All Encode Mission OK!!
+13:59:04.823 fused_adam.py:283 INFO: <Rank0/4> <iteration45> ckpt in memory is beginning!
+13:59:04.823 fused_adam.py:283 INFO: <Rank2/4> <iteration45> ckpt in memory is beginning!
+13:59:04.823 fused_adam.py:283 INFO: <Rank1/4> <iteration45> ckpt in memory is beginning!
+13:59:04.825 fused_adam.py:283 INFO: <Rank3/4> <iteration45> ckpt in memory is beginning!
+13:59:04.880 train.py:222 INFO: [Epoch 0/1] Batch 45, Loss: 3.1432440280914307, Time: 7.352326393127441
+13:59:09.131 fused_adam.py:370 INFO: <Rank2/4> <iteration45> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+13:59:09.378 fused_adam.py:370 INFO: <Rank3/4> <iteration45> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:59:09.971 fused_adam.py:370 INFO: <Rank1/4> <iteration45> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+13:59:09.973 fused_adam.py:370 INFO: <Rank0/4> <iteration45> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+13:59:11.772 fused_adam.py:413 INFO: <Rank2/4> <iteration45> model_0_slice2 Encode Mission OK!  ——————> time: 5.49 seconds
+13:59:11.894 fused_adam.py:413 INFO: <Rank3/4> <iteration45> model_0_slice3 Encode Mission OK!  ——————> time: 5.46 seconds
+13:59:12.195 fused_adam.py:235 INFO: <Rank1/4> <iteration46> ckpt blocking cost ——————> 8.58306884765625e-06
+13:59:12.195 fused_adam.py:235 INFO: <Rank2/4> <iteration46> ckpt blocking cost ——————> 1.1444091796875e-05
+13:59:12.195 fused_adam.py:235 INFO: <Rank0/4> <iteration46> ckpt blocking cost ——————> 3.814697265625e-06
+13:59:12.199 fused_adam.py:235 INFO: <Rank3/4> <iteration46> ckpt blocking cost ——————> 1.3589859008789062e-05
+13:59:12.226 train.py:222 INFO: [Epoch 0/1] Batch 46, Loss: 3.350040912628174, Time: 7.343408584594727
+13:59:12.364 fused_adam.py:413 INFO: <Rank0/4> <iteration45> model_0_slice0 Encode Mission OK!  ——————> time: 6.03 seconds
+13:59:12.407 fused_adam.py:413 INFO: <Rank1/4> <iteration45> model_0_slice1 Encode Mission OK!  ——————> time: 5.47 seconds
+13:59:18.272 fused_adam.py:413 INFO: <Rank2/4> <iteration45> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.50 seconds
+13:59:18.272 fused_adam.py:438 INFO: <Rank2/4> <iteration45> All Encode Mission OK!!
+13:59:18.531 fused_adam.py:413 INFO: <Rank3/4> <iteration45> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.64 seconds
+13:59:18.531 fused_adam.py:438 INFO: <Rank3/4> <iteration45> All Encode Mission OK!!
+13:59:18.932 fused_adam.py:413 INFO: <Rank1/4> <iteration45> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.52 seconds
+13:59:18.932 fused_adam.py:438 INFO: <Rank1/4> <iteration45> All Encode Mission OK!!
+13:59:19.611 train.py:222 INFO: [Epoch 0/1] Batch 47, Loss: 3.066065788269043, Time: 7.383221626281738
+13:59:20.159 fused_adam.py:413 INFO: <Rank0/4> <iteration45> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.79 seconds
+13:59:22.914 fused_adam.py:436 INFO: <Rank0/4> <iteration45> Have cleared old ckpt and ec_parity!!
+13:59:22.914 fused_adam.py:438 INFO: <Rank0/4> <iteration45> All Encode Mission OK!!
+13:59:26.940 fused_adam.py:283 INFO: <Rank2/4> <iteration48> ckpt in memory is beginning!
+13:59:26.941 fused_adam.py:283 INFO: <Rank0/4> <iteration48> ckpt in memory is beginning!
+13:59:26.941 fused_adam.py:283 INFO: <Rank1/4> <iteration48> ckpt in memory is beginning!
+13:59:26.942 fused_adam.py:283 INFO: <Rank3/4> <iteration48> ckpt in memory is beginning!
+13:59:26.997 train.py:222 INFO: [Epoch 0/1] Batch 48, Loss: 2.941171407699585, Time: 7.383558511734009
+13:59:29.899 fused_adam.py:370 INFO: <Rank2/4> <iteration48> ckpt finished!! in memory cost ——————> 52G	/home/lff/eccheck/ckpt/
+13:59:31.546 fused_adam.py:370 INFO: <Rank3/4> <iteration48> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:59:31.560 fused_adam.py:370 INFO: <Rank1/4> <iteration48> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:59:32.497 fused_adam.py:370 INFO: <Rank0/4> <iteration48> ckpt finished!! in memory cost ——————> 59G	/home/lff/eccheck/ckpt/
+13:59:33.397 fused_adam.py:413 INFO: <Rank2/4> <iteration48> model_0_slice2 Encode Mission OK!  ——————> time: 5.44 seconds
+13:59:33.897 fused_adam.py:413 INFO: <Rank1/4> <iteration48> model_0_slice1 Encode Mission OK!  ——————> time: 5.40 seconds
+13:59:34.023 fused_adam.py:413 INFO: <Rank3/4> <iteration48> model_0_slice3 Encode Mission OK!  ——————> time: 5.48 seconds
+13:59:34.377 fused_adam.py:235 INFO: <Rank1/4> <iteration49> ckpt blocking cost ——————> 3.814697265625e-06
+13:59:34.377 fused_adam.py:235 INFO: <Rank0/4> <iteration49> ckpt blocking cost ——————> 1.1920928955078125e-05
+13:59:34.377 fused_adam.py:235 INFO: <Rank2/4> <iteration49> ckpt blocking cost ——————> 1.0728836059570312e-05
+13:59:34.379 fused_adam.py:235 INFO: <Rank3/4> <iteration49> ckpt blocking cost ——————> 1.9073486328125e-05
+13:59:34.409 train.py:222 INFO: [Epoch 0/1] Batch 49, Loss: 2.9163239002227783, Time: 7.4101722240448
+13:59:34.855 fused_adam.py:413 INFO: <Rank0/4> <iteration48> model_0_slice0 Encode Mission OK!  ——————> time: 5.99 seconds
+13:59:39.886 fused_adam.py:413 INFO: <Rank2/4> <iteration48> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.49 seconds
+13:59:39.887 fused_adam.py:438 INFO: <Rank2/4> <iteration48> All Encode Mission OK!!
+13:59:40.465 fused_adam.py:413 INFO: <Rank1/4> <iteration48> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.57 seconds
+13:59:40.465 fused_adam.py:438 INFO: <Rank1/4> <iteration48> All Encode Mission OK!!
+13:59:40.588 fused_adam.py:413 INFO: <Rank3/4> <iteration48> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.56 seconds
+13:59:40.588 fused_adam.py:438 INFO: <Rank3/4> <iteration48> All Encode Mission OK!!
+13:59:41.786 train.py:222 INFO: [Epoch 0/1] Batch 50, Loss: 3.843527317047119, Time: 7.374402284622192
+13:59:42.510 fused_adam.py:413 INFO: <Rank0/4> <iteration48> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.65 seconds
+13:59:45.431 fused_adam.py:436 INFO: <Rank0/4> <iteration48> Have cleared old ckpt and ec_parity!!
+13:59:45.431 fused_adam.py:438 INFO: <Rank0/4> <iteration48> All Encode Mission OK!!
+13:59:49.097 fused_adam.py:283 INFO: <Rank2/4> <iteration51> ckpt in memory is beginning!
+13:59:49.097 fused_adam.py:283 INFO: <Rank0/4> <iteration51> ckpt in memory is beginning!
+13:59:49.098 fused_adam.py:283 INFO: <Rank1/4> <iteration51> ckpt in memory is beginning!
+13:59:49.099 fused_adam.py:283 INFO: <Rank3/4> <iteration51> ckpt in memory is beginning!
+13:59:49.153 train.py:222 INFO: [Epoch 0/1] Batch 51, Loss: 3.309159278869629, Time: 7.365558862686157
+13:59:52.942 fused_adam.py:370 INFO: <Rank2/4> <iteration51> ckpt finished!! in memory cost ——————> 54G	/home/lff/eccheck/ckpt/
+13:59:53.676 fused_adam.py:370 INFO: <Rank3/4> <iteration51> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:59:54.036 fused_adam.py:370 INFO: <Rank1/4> <iteration51> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+13:59:54.648 fused_adam.py:370 INFO: <Rank0/4> <iteration51> ckpt finished!! in memory cost ——————> 58G	/home/lff/eccheck/ckpt/
+13:59:55.616 fused_adam.py:413 INFO: <Rank2/4> <iteration51> model_0_slice2 Encode Mission OK!  ——————> time: 5.48 seconds
+13:59:56.149 fused_adam.py:413 INFO: <Rank3/4> <iteration51> model_0_slice3 Encode Mission OK!  ——————> time: 5.43 seconds
+13:59:56.468 fused_adam.py:413 INFO: <Rank1/4> <iteration51> model_0_slice1 Encode Mission OK!  ——————> time: 5.46 seconds
+13:59:56.535 fused_adam.py:235 INFO: <Rank0/4> <iteration52> ckpt blocking cost ——————> 5.245208740234375e-06
+13:59:56.535 fused_adam.py:235 INFO: <Rank2/4> <iteration52> ckpt blocking cost ——————> 1.049041748046875e-05
+13:59:56.539 fused_adam.py:235 INFO: <Rank3/4> <iteration52> ckpt blocking cost ——————> 4.76837158203125e-06
+13:59:56.539 fused_adam.py:235 INFO: <Rank1/4> <iteration52> ckpt blocking cost ——————> 2.3603439331054688e-05
+13:59:56.566 train.py:222 INFO: [Epoch 0/1] Batch 52, Loss: 3.540201425552368, Time: 7.410561561584473
+13:59:57.019 fused_adam.py:413 INFO: <Rank0/4> <iteration51> model_0_slice0 Encode Mission OK!  ——————> time: 6.03 seconds
+14:00:02.140 fused_adam.py:413 INFO: <Rank2/4> <iteration51> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.52 seconds
+14:00:02.141 fused_adam.py:438 INFO: <Rank2/4> <iteration51> All Encode Mission OK!!
+14:00:02.882 fused_adam.py:413 INFO: <Rank3/4> <iteration51> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.73 seconds
+14:00:02.882 fused_adam.py:438 INFO: <Rank3/4> <iteration51> All Encode Mission OK!!
+14:00:03.104 fused_adam.py:413 INFO: <Rank1/4> <iteration51> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.64 seconds
+14:00:03.105 fused_adam.py:438 INFO: <Rank1/4> <iteration51> All Encode Mission OK!!
+14:00:03.899 train.py:222 INFO: [Epoch 0/1] Batch 53, Loss: 3.2359659671783447, Time: 7.331506252288818
+14:00:04.795 fused_adam.py:413 INFO: <Rank0/4> <iteration51> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.78 seconds
+14:00:07.456 fused_adam.py:436 INFO: <Rank0/4> <iteration51> Have cleared old ckpt and ec_parity!!
+14:00:07.456 fused_adam.py:438 INFO: <Rank0/4> <iteration51> All Encode Mission OK!!
+14:00:11.223 fused_adam.py:283 INFO: <Rank0/4> <iteration54> ckpt in memory is beginning!
+14:00:11.223 fused_adam.py:283 INFO: <Rank2/4> <iteration54> ckpt in memory is beginning!
+14:00:11.223 fused_adam.py:283 INFO: <Rank1/4> <iteration54> ckpt in memory is beginning!
+14:00:11.224 fused_adam.py:283 INFO: <Rank3/4> <iteration54> ckpt in memory is beginning!
+14:00:11.278 train.py:222 INFO: [Epoch 0/1] Batch 54, Loss: 3.2792303562164307, Time: 7.3762526512146
+14:00:15.138 fused_adam.py:370 INFO: <Rank2/4> <iteration54> ckpt finished!! in memory cost ——————> 54G	/home/lff/eccheck/ckpt/
+14:00:15.792 fused_adam.py:370 INFO: <Rank3/4> <iteration54> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:00:15.956 fused_adam.py:370 INFO: <Rank1/4> <iteration54> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:00:16.754 fused_adam.py:370 INFO: <Rank0/4> <iteration54> ckpt finished!! in memory cost ——————> 58G	/home/lff/eccheck/ckpt/
+14:00:17.849 fused_adam.py:413 INFO: <Rank2/4> <iteration54> model_0_slice2 Encode Mission OK!  ——————> time: 5.52 seconds
+14:00:18.285 fused_adam.py:413 INFO: <Rank3/4> <iteration54> model_0_slice3 Encode Mission OK!  ——————> time: 5.45 seconds
+14:00:18.353 fused_adam.py:413 INFO: <Rank1/4> <iteration54> model_0_slice1 Encode Mission OK!  ——————> time: 5.44 seconds
+14:00:18.641 fused_adam.py:235 INFO: <Rank2/4> <iteration55> ckpt blocking cost ——————> 4.5299530029296875e-06
+14:00:18.641 fused_adam.py:235 INFO: <Rank1/4> <iteration55> ckpt blocking cost ——————> 2.2411346435546875e-05
+14:00:18.641 fused_adam.py:235 INFO: <Rank0/4> <iteration55> ckpt blocking cost ——————> 1.6450881958007812e-05
+14:00:18.643 fused_adam.py:235 INFO: <Rank3/4> <iteration55> ckpt blocking cost ——————> 2.0742416381835938e-05
+14:00:18.672 train.py:222 INFO: [Epoch 0/1] Batch 55, Loss: 3.1768133640289307, Time: 7.392804145812988
+14:00:19.160 fused_adam.py:413 INFO: <Rank0/4> <iteration54> model_0_slice0 Encode Mission OK!  ——————> time: 6.05 seconds
+14:00:24.398 fused_adam.py:413 INFO: <Rank2/4> <iteration54> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.55 seconds
+14:00:24.399 fused_adam.py:438 INFO: <Rank2/4> <iteration54> All Encode Mission OK!!
+14:00:24.985 fused_adam.py:413 INFO: <Rank1/4> <iteration54> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.63 seconds
+14:00:24.985 fused_adam.py:438 INFO: <Rank1/4> <iteration54> All Encode Mission OK!!
+14:00:24.986 fused_adam.py:413 INFO: <Rank3/4> <iteration54> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.70 seconds
+14:00:24.986 fused_adam.py:438 INFO: <Rank3/4> <iteration54> All Encode Mission OK!!
+14:00:26.052 train.py:222 INFO: [Epoch 0/1] Batch 56, Loss: 3.153942823410034, Time: 7.377331972122192
+14:00:26.897 fused_adam.py:413 INFO: <Rank0/4> <iteration54> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.74 seconds
+14:00:29.606 fused_adam.py:436 INFO: <Rank0/4> <iteration54> Have cleared old ckpt and ec_parity!!
+14:00:29.607 fused_adam.py:438 INFO: <Rank0/4> <iteration54> All Encode Mission OK!!
+14:00:33.403 fused_adam.py:283 INFO: <Rank0/4> <iteration57> ckpt in memory is beginning!
+14:00:33.403 fused_adam.py:283 INFO: <Rank2/4> <iteration57> ckpt in memory is beginning!
+14:00:33.403 fused_adam.py:283 INFO: <Rank1/4> <iteration57> ckpt in memory is beginning!
+14:00:33.404 fused_adam.py:283 INFO: <Rank3/4> <iteration57> ckpt in memory is beginning!
+14:00:33.460 train.py:222 INFO: [Epoch 0/1] Batch 57, Loss: 3.2098546028137207, Time: 7.406646490097046
+14:00:36.601 fused_adam.py:370 INFO: <Rank3/4> <iteration57> ckpt finished!! in memory cost ——————> 53G	/home/lff/eccheck/ckpt/
+14:00:37.295 fused_adam.py:370 INFO: <Rank2/4> <iteration57> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+14:00:38.227 fused_adam.py:370 INFO: <Rank1/4> <iteration57> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:00:38.553 fused_adam.py:370 INFO: <Rank0/4> <iteration57> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:00:39.959 fused_adam.py:413 INFO: <Rank2/4> <iteration57> model_0_slice2 Encode Mission OK!  ——————> time: 5.47 seconds
+14:00:40.019 fused_adam.py:413 INFO: <Rank3/4> <iteration57> model_0_slice3 Encode Mission OK!  ——————> time: 5.49 seconds
+14:00:40.616 fused_adam.py:413 INFO: <Rank1/4> <iteration57> model_0_slice1 Encode Mission OK!  ——————> time: 5.41 seconds
+14:00:40.835 fused_adam.py:235 INFO: <Rank2/4> <iteration58> ckpt blocking cost ——————> 1.2159347534179688e-05
+14:00:40.835 fused_adam.py:235 INFO: <Rank1/4> <iteration58> ckpt blocking cost ——————> 3.409385681152344e-05
+14:00:40.835 fused_adam.py:235 INFO: <Rank0/4> <iteration58> ckpt blocking cost ——————> 4.76837158203125e-06
+14:00:40.839 fused_adam.py:235 INFO: <Rank3/4> <iteration58> ckpt blocking cost ——————> 5.245208740234375e-06
+14:00:40.867 train.py:222 INFO: [Epoch 0/1] Batch 58, Loss: 2.9650681018829346, Time: 7.403982639312744
+14:00:40.951 fused_adam.py:413 INFO: <Rank0/4> <iteration57> model_0_slice0 Encode Mission OK!  ——————> time: 6.05 seconds
+14:00:46.514 fused_adam.py:413 INFO: <Rank2/4> <iteration57> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.55 seconds
+14:00:46.514 fused_adam.py:438 INFO: <Rank2/4> <iteration57> All Encode Mission OK!!
+14:00:46.723 fused_adam.py:413 INFO: <Rank3/4> <iteration57> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.70 seconds
+14:00:46.723 fused_adam.py:438 INFO: <Rank3/4> <iteration57> All Encode Mission OK!!
+14:00:47.189 fused_adam.py:413 INFO: <Rank1/4> <iteration57> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.57 seconds
+14:00:47.189 fused_adam.py:438 INFO: <Rank1/4> <iteration57> All Encode Mission OK!!
+14:00:48.249 train.py:222 INFO: [Epoch 0/1] Batch 59, Loss: 3.414999008178711, Time: 7.380772590637207
+14:00:48.694 fused_adam.py:413 INFO: <Rank0/4> <iteration57> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.74 seconds
+14:00:51.368 fused_adam.py:436 INFO: <Rank0/4> <iteration57> Have cleared old ckpt and ec_parity!!
+14:00:51.368 fused_adam.py:438 INFO: <Rank0/4> <iteration57> All Encode Mission OK!!
+14:00:55.604 fused_adam.py:283 INFO: <Rank2/4> <iteration60> ckpt in memory is beginning!
+14:00:55.604 fused_adam.py:283 INFO: <Rank0/4> <iteration60> ckpt in memory is beginning!
+14:00:55.605 fused_adam.py:283 INFO: <Rank1/4> <iteration60> ckpt in memory is beginning!
+14:00:55.606 fused_adam.py:283 INFO: <Rank3/4> <iteration60> ckpt in memory is beginning!
+14:00:55.655 train.py:222 INFO: [Epoch 0/1] Batch 60, Loss: 3.5864884853363037, Time: 7.403717517852783
+14:00:58.638 fused_adam.py:370 INFO: <Rank2/4> <iteration60> ckpt finished!! in memory cost ——————> 52G	/home/lff/eccheck/ckpt/
+14:01:00.185 fused_adam.py:370 INFO: <Rank3/4> <iteration60> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:01:00.217 fused_adam.py:370 INFO: <Rank1/4> <iteration60> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:01:00.239 fused_adam.py:370 INFO: <Rank0/4> <iteration60> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:01:02.110 fused_adam.py:413 INFO: <Rank2/4> <iteration60> model_0_slice2 Encode Mission OK!  ——————> time: 5.42 seconds
+14:01:02.640 fused_adam.py:413 INFO: <Rank1/4> <iteration60> model_0_slice1 Encode Mission OK!  ——————> time: 5.45 seconds
+14:01:02.686 fused_adam.py:413 INFO: <Rank3/4> <iteration60> model_0_slice3 Encode Mission OK!  ——————> time: 5.47 seconds
+14:01:03.020 fused_adam.py:235 INFO: <Rank2/4> <iteration61> ckpt blocking cost ——————> 1.0251998901367188e-05
+14:01:03.020 fused_adam.py:235 INFO: <Rank0/4> <iteration61> ckpt blocking cost ——————> 3.814697265625e-06
+14:01:03.020 fused_adam.py:235 INFO: <Rank1/4> <iteration61> ckpt blocking cost ——————> 7.3909759521484375e-06
+14:01:03.021 fused_adam.py:235 INFO: <Rank3/4> <iteration61> ckpt blocking cost ——————> 1.9311904907226562e-05
+14:01:03.051 train.py:222 INFO: [Epoch 0/1] Batch 61, Loss: 3.41434907913208, Time: 7.393803834915161
+14:01:03.492 fused_adam.py:413 INFO: <Rank0/4> <iteration60> model_0_slice0 Encode Mission OK!  ——————> time: 6.03 seconds
+14:01:08.653 fused_adam.py:413 INFO: <Rank2/4> <iteration60> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.54 seconds
+14:01:08.654 fused_adam.py:438 INFO: <Rank2/4> <iteration60> All Encode Mission OK!!
+14:01:09.321 fused_adam.py:413 INFO: <Rank1/4> <iteration60> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.68 seconds
+14:01:09.321 fused_adam.py:438 INFO: <Rank1/4> <iteration60> All Encode Mission OK!!
+14:01:09.352 fused_adam.py:413 INFO: <Rank3/4> <iteration60> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.67 seconds
+14:01:09.353 fused_adam.py:438 INFO: <Rank3/4> <iteration60> All Encode Mission OK!!
+14:01:10.419 train.py:222 INFO: [Epoch 0/1] Batch 62, Loss: 3.413327693939209, Time: 7.365830659866333
+14:01:11.211 fused_adam.py:413 INFO: <Rank0/4> <iteration60> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.72 seconds
+14:01:13.961 fused_adam.py:436 INFO: <Rank0/4> <iteration60> Have cleared old ckpt and ec_parity!!
+14:01:13.962 fused_adam.py:438 INFO: <Rank0/4> <iteration60> All Encode Mission OK!!
+14:01:17.744 fused_adam.py:283 INFO: <Rank0/4> <iteration63> ckpt in memory is beginning!
+14:01:17.744 fused_adam.py:283 INFO: <Rank2/4> <iteration63> ckpt in memory is beginning!
+14:01:17.745 fused_adam.py:283 INFO: <Rank1/4> <iteration63> ckpt in memory is beginning!
+14:01:17.746 fused_adam.py:283 INFO: <Rank3/4> <iteration63> ckpt in memory is beginning!
+14:01:17.799 train.py:222 INFO: [Epoch 0/1] Batch 63, Loss: 3.125533103942871, Time: 7.378905296325684
+14:01:21.610 fused_adam.py:370 INFO: <Rank2/4> <iteration63> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+14:01:21.817 fused_adam.py:370 INFO: <Rank3/4> <iteration63> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:01:21.995 fused_adam.py:370 INFO: <Rank0/4> <iteration63> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:01:22.707 fused_adam.py:370 INFO: <Rank1/4> <iteration63> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:01:24.244 fused_adam.py:413 INFO: <Rank2/4> <iteration63> model_0_slice2 Encode Mission OK!  ——————> time: 5.47 seconds
+14:01:24.341 fused_adam.py:413 INFO: <Rank3/4> <iteration63> model_0_slice3 Encode Mission OK!  ——————> time: 5.48 seconds
+14:01:25.146 fused_adam.py:235 INFO: <Rank2/4> <iteration64> ckpt blocking cost ——————> 4.0531158447265625e-06
+14:01:25.146 fused_adam.py:235 INFO: <Rank0/4> <iteration64> ckpt blocking cost ——————> 1.5497207641601562e-05
+14:01:25.146 fused_adam.py:235 INFO: <Rank1/4> <iteration64> ckpt blocking cost ——————> 8.344650268554688e-06
+14:01:25.150 fused_adam.py:235 INFO: <Rank3/4> <iteration64> ckpt blocking cost ——————> 5.4836273193359375e-06
+14:01:25.165 fused_adam.py:413 INFO: <Rank1/4> <iteration63> model_0_slice1 Encode Mission OK!  ——————> time: 5.49 seconds
+14:01:25.177 train.py:222 INFO: [Epoch 0/1] Batch 64, Loss: 3.2254672050476074, Time: 7.375991582870483
+14:01:25.245 fused_adam.py:413 INFO: <Rank0/4> <iteration63> model_0_slice0 Encode Mission OK!  ——————> time: 6.05 seconds
+14:01:30.822 fused_adam.py:413 INFO: <Rank2/4> <iteration63> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.58 seconds
+14:01:30.822 fused_adam.py:438 INFO: <Rank2/4> <iteration63> All Encode Mission OK!!
+14:01:31.107 fused_adam.py:413 INFO: <Rank3/4> <iteration63> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.77 seconds
+14:01:31.108 fused_adam.py:438 INFO: <Rank3/4> <iteration63> All Encode Mission OK!!
+14:01:31.738 fused_adam.py:413 INFO: <Rank1/4> <iteration63> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.57 seconds
+14:01:31.739 fused_adam.py:438 INFO: <Rank1/4> <iteration63> All Encode Mission OK!!
+14:01:32.556 train.py:222 INFO: [Epoch 0/1] Batch 65, Loss: 3.3291501998901367, Time: 7.376532316207886
+14:01:33.097 fused_adam.py:413 INFO: <Rank0/4> <iteration63> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.85 seconds
+14:01:35.780 fused_adam.py:436 INFO: <Rank0/4> <iteration63> Have cleared old ckpt and ec_parity!!
+14:01:35.781 fused_adam.py:438 INFO: <Rank0/4> <iteration63> All Encode Mission OK!!
+14:01:39.914 fused_adam.py:283 INFO: <Rank0/4> <iteration66> ckpt in memory is beginning!
+14:01:39.914 fused_adam.py:283 INFO: <Rank2/4> <iteration66> ckpt in memory is beginning!
+14:01:39.915 fused_adam.py:283 INFO: <Rank1/4> <iteration66> ckpt in memory is beginning!
+14:01:39.916 fused_adam.py:283 INFO: <Rank3/4> <iteration66> ckpt in memory is beginning!
+14:01:39.968 train.py:222 INFO: [Epoch 0/1] Batch 66, Loss: 2.955820083618164, Time: 7.409736156463623
+14:01:43.362 fused_adam.py:370 INFO: <Rank2/4> <iteration66> ckpt finished!! in memory cost ——————> 54G	/home/lff/eccheck/ckpt/
+14:01:43.591 fused_adam.py:370 INFO: <Rank1/4> <iteration66> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+14:01:44.474 fused_adam.py:370 INFO: <Rank3/4> <iteration66> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:01:45.378 fused_adam.py:370 INFO: <Rank0/4> <iteration66> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:01:46.863 fused_adam.py:413 INFO: <Rank1/4> <iteration66> model_0_slice1 Encode Mission OK!  ——————> time: 5.38 seconds
+14:01:46.869 fused_adam.py:413 INFO: <Rank2/4> <iteration66> model_0_slice2 Encode Mission OK!  ——————> time: 5.46 seconds
+14:01:46.946 fused_adam.py:413 INFO: <Rank3/4> <iteration66> model_0_slice3 Encode Mission OK!  ——————> time: 5.44 seconds
+14:01:47.342 fused_adam.py:235 INFO: <Rank2/4> <iteration67> ckpt blocking cost ——————> 1.3113021850585938e-05
+14:01:47.342 fused_adam.py:235 INFO: <Rank1/4> <iteration67> ckpt blocking cost ——————> 9.775161743164062e-06
+14:01:47.342 fused_adam.py:235 INFO: <Rank0/4> <iteration67> ckpt blocking cost ——————> 4.0531158447265625e-06
+14:01:47.343 fused_adam.py:235 INFO: <Rank3/4> <iteration67> ckpt blocking cost ——————> 2.0265579223632812e-05
+14:01:47.373 train.py:222 INFO: [Epoch 0/1] Batch 67, Loss: 3.0648691654205322, Time: 7.403223991394043
+14:01:47.794 fused_adam.py:413 INFO: <Rank0/4> <iteration66> model_0_slice0 Encode Mission OK!  ——————> time: 6.05 seconds
+14:01:53.413 fused_adam.py:413 INFO: <Rank2/4> <iteration66> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.54 seconds
+14:01:53.414 fused_adam.py:438 INFO: <Rank2/4> <iteration66> All Encode Mission OK!!
+14:01:53.597 fused_adam.py:413 INFO: <Rank3/4> <iteration66> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.65 seconds
+14:01:53.597 fused_adam.py:438 INFO: <Rank3/4> <iteration66> All Encode Mission OK!!
+14:01:53.606 fused_adam.py:413 INFO: <Rank1/4> <iteration66> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.74 seconds
+14:01:53.606 fused_adam.py:438 INFO: <Rank1/4> <iteration66> All Encode Mission OK!!
+14:01:54.757 train.py:222 INFO: [Epoch 0/1] Batch 68, Loss: 3.4373011589050293, Time: 7.3823747634887695
+14:01:55.595 fused_adam.py:413 INFO: <Rank0/4> <iteration66> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.80 seconds
+14:01:58.333 fused_adam.py:436 INFO: <Rank0/4> <iteration66> Have cleared old ckpt and ec_parity!!
+14:01:58.333 fused_adam.py:438 INFO: <Rank0/4> <iteration66> All Encode Mission OK!!
+14:02:02.109 fused_adam.py:283 INFO: <Rank0/4> <iteration69> ckpt in memory is beginning!
+14:02:02.109 fused_adam.py:283 INFO: <Rank1/4> <iteration69> ckpt in memory is beginning!
+14:02:02.109 fused_adam.py:283 INFO: <Rank2/4> <iteration69> ckpt in memory is beginning!
+14:02:02.110 fused_adam.py:283 INFO: <Rank3/4> <iteration69> ckpt in memory is beginning!
+14:02:02.166 train.py:222 INFO: [Epoch 0/1] Batch 69, Loss: 3.027021884918213, Time: 7.40756630897522
+14:02:05.948 fused_adam.py:370 INFO: <Rank2/4> <iteration69> ckpt finished!! in memory cost ——————> 54G	/home/lff/eccheck/ckpt/
+14:02:06.717 fused_adam.py:370 INFO: <Rank3/4> <iteration69> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:02:06.759 fused_adam.py:370 INFO: <Rank0/4> <iteration69> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:02:07.033 fused_adam.py:370 INFO: <Rank1/4> <iteration69> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:02:08.592 fused_adam.py:413 INFO: <Rank2/4> <iteration69> model_0_slice2 Encode Mission OK!  ——————> time: 5.46 seconds
+14:02:09.213 fused_adam.py:413 INFO: <Rank3/4> <iteration69> model_0_slice3 Encode Mission OK!  ——————> time: 5.48 seconds
+14:02:09.486 fused_adam.py:413 INFO: <Rank1/4> <iteration69> model_0_slice1 Encode Mission OK!  ——————> time: 5.51 seconds
+14:02:09.541 fused_adam.py:235 INFO: <Rank2/4> <iteration70> ckpt blocking cost ——————> 1.0251998901367188e-05
+14:02:09.541 fused_adam.py:235 INFO: <Rank1/4> <iteration70> ckpt blocking cost ——————> 9.059906005859375e-06
+14:02:09.541 fused_adam.py:235 INFO: <Rank0/4> <iteration70> ckpt blocking cost ——————> 3.337860107421875e-06
+14:02:09.546 fused_adam.py:235 INFO: <Rank3/4> <iteration70> ckpt blocking cost ——————> 5.245208740234375e-06
+14:02:09.572 train.py:222 INFO: [Epoch 0/1] Batch 70, Loss: 3.245924472808838, Time: 7.403623104095459
+14:02:09.993 fused_adam.py:413 INFO: <Rank0/4> <iteration69> model_0_slice0 Encode Mission OK!  ——————> time: 6.05 seconds
+14:02:15.169 fused_adam.py:413 INFO: <Rank2/4> <iteration69> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.58 seconds
+14:02:15.169 fused_adam.py:438 INFO: <Rank2/4> <iteration69> All Encode Mission OK!!
+14:02:15.934 fused_adam.py:413 INFO: <Rank3/4> <iteration69> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.72 seconds
+14:02:15.934 fused_adam.py:438 INFO: <Rank3/4> <iteration69> All Encode Mission OK!!
+14:02:16.110 fused_adam.py:413 INFO: <Rank1/4> <iteration69> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.62 seconds
+14:02:16.110 fused_adam.py:438 INFO: <Rank1/4> <iteration69> All Encode Mission OK!!
+14:02:16.948 train.py:222 INFO: [Epoch 0/1] Batch 71, Loss: 3.512220859527588, Time: 7.373824596405029
+14:02:17.806 fused_adam.py:413 INFO: <Rank0/4> <iteration69> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.81 seconds
+14:02:20.509 fused_adam.py:436 INFO: <Rank0/4> <iteration69> Have cleared old ckpt and ec_parity!!
+14:02:20.509 fused_adam.py:438 INFO: <Rank0/4> <iteration69> All Encode Mission OK!!
+14:02:24.264 fused_adam.py:283 INFO: <Rank0/4> <iteration72> ckpt in memory is beginning!
+14:02:24.265 fused_adam.py:283 INFO: <Rank1/4> <iteration72> ckpt in memory is beginning!
+14:02:24.265 fused_adam.py:283 INFO: <Rank2/4> <iteration72> ckpt in memory is beginning!
+14:02:24.266 fused_adam.py:283 INFO: <Rank3/4> <iteration72> ckpt in memory is beginning!
+14:02:24.320 train.py:222 INFO: [Epoch 0/1] Batch 72, Loss: 3.062286615371704, Time: 7.371038198471069
+14:02:27.530 fused_adam.py:370 INFO: <Rank3/4> <iteration72> ckpt finished!! in memory cost ——————> 53G	/home/lff/eccheck/ckpt/
+14:02:28.552 fused_adam.py:370 INFO: <Rank2/4> <iteration72> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:02:28.887 fused_adam.py:370 INFO: <Rank1/4> <iteration72> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:02:29.763 fused_adam.py:370 INFO: <Rank0/4> <iteration72> ckpt finished!! in memory cost ——————> 59G	/home/lff/eccheck/ckpt/
+14:02:30.827 fused_adam.py:413 INFO: <Rank3/4> <iteration72> model_0_slice3 Encode Mission OK!  ——————> time: 5.39 seconds
+14:02:31.182 fused_adam.py:413 INFO: <Rank2/4> <iteration72> model_0_slice2 Encode Mission OK!  ——————> time: 5.46 seconds
+14:02:31.275 fused_adam.py:413 INFO: <Rank1/4> <iteration72> model_0_slice1 Encode Mission OK!  ——————> time: 5.46 seconds
+14:02:31.677 fused_adam.py:235 INFO: <Rank2/4> <iteration73> ckpt blocking cost ——————> 1.0967254638671875e-05
+14:02:31.677 fused_adam.py:235 INFO: <Rank0/4> <iteration73> ckpt blocking cost ——————> 1.2874603271484375e-05
+14:02:31.677 fused_adam.py:235 INFO: <Rank1/4> <iteration73> ckpt blocking cost ——————> 1.239776611328125e-05
+14:02:31.679 fused_adam.py:235 INFO: <Rank3/4> <iteration73> ckpt blocking cost ——————> 2.193450927734375e-05
+14:02:31.708 train.py:222 INFO: [Epoch 0/1] Batch 73, Loss: 3.166422128677368, Time: 7.385565519332886
+14:02:32.194 fused_adam.py:413 INFO: <Rank0/4> <iteration72> model_0_slice0 Encode Mission OK!  ——————> time: 6.09 seconds
+14:02:37.512 fused_adam.py:413 INFO: <Rank3/4> <iteration72> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.69 seconds
+14:02:37.513 fused_adam.py:438 INFO: <Rank3/4> <iteration72> All Encode Mission OK!!
+14:02:37.733 fused_adam.py:413 INFO: <Rank2/4> <iteration72> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.55 seconds
+14:02:37.734 fused_adam.py:438 INFO: <Rank2/4> <iteration72> All Encode Mission OK!!
+14:02:37.864 fused_adam.py:413 INFO: <Rank1/4> <iteration72> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.59 seconds
+14:02:37.864 fused_adam.py:438 INFO: <Rank1/4> <iteration72> All Encode Mission OK!!
+14:02:39.084 train.py:222 INFO: [Epoch 0/1] Batch 74, Loss: 3.035391092300415, Time: 7.374088764190674
+14:02:39.991 fused_adam.py:413 INFO: <Rank0/4> <iteration72> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.80 seconds
+14:02:42.742 fused_adam.py:436 INFO: <Rank0/4> <iteration72> Have cleared old ckpt and ec_parity!!
+14:02:42.743 fused_adam.py:438 INFO: <Rank0/4> <iteration72> All Encode Mission OK!!
+14:02:46.416 fused_adam.py:283 INFO: <Rank0/4> <iteration75> ckpt in memory is beginning!
+14:02:46.417 fused_adam.py:283 INFO: <Rank2/4> <iteration75> ckpt in memory is beginning!
+14:02:46.417 fused_adam.py:283 INFO: <Rank1/4> <iteration75> ckpt in memory is beginning!
+14:02:46.418 fused_adam.py:283 INFO: <Rank3/4> <iteration75> ckpt in memory is beginning!
+14:02:46.472 train.py:222 INFO: [Epoch 0/1] Batch 75, Loss: 3.1272330284118652, Time: 7.386377573013306
+14:02:49.420 fused_adam.py:370 INFO: <Rank2/4> <iteration75> ckpt finished!! in memory cost ——————> 52G	/home/lff/eccheck/ckpt/
+14:02:50.971 fused_adam.py:370 INFO: <Rank3/4> <iteration75> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:02:51.026 fused_adam.py:370 INFO: <Rank1/4> <iteration75> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:02:51.906 fused_adam.py:370 INFO: <Rank0/4> <iteration75> ckpt finished!! in memory cost ——————> 58G	/home/lff/eccheck/ckpt/
+14:02:52.942 fused_adam.py:413 INFO: <Rank2/4> <iteration75> model_0_slice2 Encode Mission OK!  ——————> time: 5.48 seconds
+14:02:53.451 fused_adam.py:413 INFO: <Rank1/4> <iteration75> model_0_slice1 Encode Mission OK!  ——————> time: 5.47 seconds
+14:02:53.453 fused_adam.py:413 INFO: <Rank3/4> <iteration75> model_0_slice3 Encode Mission OK!  ——————> time: 5.47 seconds
+14:02:53.846 fused_adam.py:235 INFO: <Rank2/4> <iteration76> ckpt blocking cost ——————> 9.5367431640625e-06
+14:02:53.846 fused_adam.py:235 INFO: <Rank1/4> <iteration76> ckpt blocking cost ——————> 7.867813110351562e-06
+14:02:53.846 fused_adam.py:235 INFO: <Rank0/4> <iteration76> ckpt blocking cost ——————> 4.0531158447265625e-06
+14:02:53.847 fused_adam.py:235 INFO: <Rank3/4> <iteration76> ckpt blocking cost ——————> 5.245208740234375e-06
+14:02:53.877 train.py:222 INFO: [Epoch 0/1] Batch 76, Loss: 2.9082276821136475, Time: 7.403043031692505
+14:02:54.349 fused_adam.py:413 INFO: <Rank0/4> <iteration75> model_0_slice0 Encode Mission OK!  ——————> time: 6.09 seconds
+14:02:59.514 fused_adam.py:413 INFO: <Rank2/4> <iteration75> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.57 seconds
+14:02:59.515 fused_adam.py:438 INFO: <Rank2/4> <iteration75> All Encode Mission OK!!
+14:03:00.182 fused_adam.py:413 INFO: <Rank1/4> <iteration75> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.73 seconds
+14:03:00.183 fused_adam.py:438 INFO: <Rank1/4> <iteration75> All Encode Mission OK!!
+14:03:00.189 fused_adam.py:413 INFO: <Rank3/4> <iteration75> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.74 seconds
+14:03:00.189 fused_adam.py:438 INFO: <Rank3/4> <iteration75> All Encode Mission OK!!
+14:03:01.262 train.py:222 INFO: [Epoch 0/1] Batch 77, Loss: 3.457656145095825, Time: 7.38263726234436
+14:03:02.169 fused_adam.py:413 INFO: <Rank0/4> <iteration75> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.82 seconds
+14:03:04.880 fused_adam.py:436 INFO: <Rank0/4> <iteration75> Have cleared old ckpt and ec_parity!!
+14:03:04.880 fused_adam.py:438 INFO: <Rank0/4> <iteration75> All Encode Mission OK!!
+14:03:08.559 fused_adam.py:283 INFO: <Rank0/4> <iteration78> ckpt in memory is beginning!
+14:03:08.559 fused_adam.py:283 INFO: <Rank1/4> <iteration78> ckpt in memory is beginning!
+14:03:08.559 fused_adam.py:283 INFO: <Rank2/4> <iteration78> ckpt in memory is beginning!
+14:03:08.560 fused_adam.py:283 INFO: <Rank3/4> <iteration78> ckpt in memory is beginning!
+14:03:08.614 train.py:222 INFO: [Epoch 0/1] Batch 78, Loss: 3.080768585205078, Time: 7.350230693817139
+14:03:12.001 fused_adam.py:370 INFO: <Rank2/4> <iteration78> ckpt finished!! in memory cost ——————> 53G	/home/lff/eccheck/ckpt/
+14:03:13.119 fused_adam.py:370 INFO: <Rank3/4> <iteration78> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:03:13.233 fused_adam.py:370 INFO: <Rank1/4> <iteration78> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:03:14.055 fused_adam.py:370 INFO: <Rank0/4> <iteration78> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:03:15.513 fused_adam.py:413 INFO: <Rank2/4> <iteration78> model_0_slice2 Encode Mission OK!  ——————> time: 5.47 seconds
+14:03:15.572 fused_adam.py:413 INFO: <Rank3/4> <iteration78> model_0_slice3 Encode Mission OK!  ——————> time: 5.43 seconds
+14:03:15.636 fused_adam.py:413 INFO: <Rank1/4> <iteration78> model_0_slice1 Encode Mission OK!  ——————> time: 5.42 seconds
+14:03:15.990 fused_adam.py:235 INFO: <Rank1/4> <iteration79> ckpt blocking cost ——————> 8.344650268554688e-06
+14:03:15.990 fused_adam.py:235 INFO: <Rank0/4> <iteration79> ckpt blocking cost ——————> 3.5762786865234375e-06
+14:03:15.990 fused_adam.py:235 INFO: <Rank2/4> <iteration79> ckpt blocking cost ——————> 1.1682510375976562e-05
+14:03:15.991 fused_adam.py:235 INFO: <Rank3/4> <iteration79> ckpt blocking cost ——————> 1.6927719116210938e-05
+14:03:16.021 train.py:222 INFO: [Epoch 0/1] Batch 79, Loss: 3.0885543823242188, Time: 7.405081272125244
+14:03:16.487 fused_adam.py:413 INFO: <Rank0/4> <iteration78> model_0_slice0 Encode Mission OK!  ——————> time: 6.06 seconds
+14:03:22.063 fused_adam.py:413 INFO: <Rank2/4> <iteration78> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.55 seconds
+14:03:22.063 fused_adam.py:438 INFO: <Rank2/4> <iteration78> All Encode Mission OK!!
+14:03:22.261 fused_adam.py:413 INFO: <Rank3/4> <iteration78> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.69 seconds
+14:03:22.261 fused_adam.py:438 INFO: <Rank3/4> <iteration78> All Encode Mission OK!!
+14:03:22.273 fused_adam.py:413 INFO: <Rank1/4> <iteration78> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.64 seconds
+14:03:22.274 fused_adam.py:438 INFO: <Rank1/4> <iteration78> All Encode Mission OK!!
+14:03:23.358 train.py:222 INFO: [Epoch 0/1] Batch 80, Loss: 3.2343435287475586, Time: 7.3352210521698
+14:03:24.283 fused_adam.py:413 INFO: <Rank0/4> <iteration78> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.80 seconds
+14:03:27.044 fused_adam.py:436 INFO: <Rank0/4> <iteration78> Have cleared old ckpt and ec_parity!!
+14:03:27.045 fused_adam.py:438 INFO: <Rank0/4> <iteration78> All Encode Mission OK!!
+14:03:30.668 fused_adam.py:283 INFO: <Rank0/4> <iteration81> ckpt in memory is beginning!
+14:03:30.668 fused_adam.py:283 INFO: <Rank2/4> <iteration81> ckpt in memory is beginning!
+14:03:30.669 fused_adam.py:283 INFO: <Rank1/4> <iteration81> ckpt in memory is beginning!
+14:03:30.669 fused_adam.py:283 INFO: <Rank3/4> <iteration81> ckpt in memory is beginning!
+14:03:30.725 train.py:222 INFO: [Epoch 0/1] Batch 81, Loss: 3.356886625289917, Time: 7.364871501922607
+14:03:34.295 fused_adam.py:370 INFO: <Rank1/4> <iteration81> ckpt finished!! in memory cost ——————> 54G	/home/lff/eccheck/ckpt/
+14:03:34.545 fused_adam.py:370 INFO: <Rank2/4> <iteration81> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+14:03:35.218 fused_adam.py:370 INFO: <Rank3/4> <iteration81> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:03:36.205 fused_adam.py:370 INFO: <Rank0/4> <iteration81> ckpt finished!! in memory cost ——————> 59G	/home/lff/eccheck/ckpt/
+14:03:37.056 fused_adam.py:413 INFO: <Rank2/4> <iteration81> model_0_slice2 Encode Mission OK!  ——————> time: 5.34 seconds
+14:03:37.730 fused_adam.py:413 INFO: <Rank1/4> <iteration81> model_0_slice1 Encode Mission OK!  ——————> time: 5.52 seconds
+14:03:37.735 fused_adam.py:413 INFO: <Rank3/4> <iteration81> model_0_slice3 Encode Mission OK!  ——————> time: 5.49 seconds
+14:03:38.080 fused_adam.py:235 INFO: <Rank1/4> <iteration82> ckpt blocking cost ——————> 1.1682510375976562e-05
+14:03:38.080 fused_adam.py:235 INFO: <Rank2/4> <iteration82> ckpt blocking cost ——————> 1.049041748046875e-05
+14:03:38.080 fused_adam.py:235 INFO: <Rank0/4> <iteration82> ckpt blocking cost ——————> 1.5020370483398438e-05
+14:03:38.081 fused_adam.py:235 INFO: <Rank3/4> <iteration82> ckpt blocking cost ——————> 4.76837158203125e-06
+14:03:38.111 train.py:222 INFO: [Epoch 0/1] Batch 82, Loss: 3.372089385986328, Time: 7.384019374847412
+14:03:38.556 fused_adam.py:413 INFO: <Rank0/4> <iteration81> model_0_slice0 Encode Mission OK!  ——————> time: 6.05 seconds
+14:03:43.553 fused_adam.py:413 INFO: <Rank2/4> <iteration81> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.50 seconds
+14:03:43.553 fused_adam.py:438 INFO: <Rank2/4> <iteration81> All Encode Mission OK!!
+14:03:44.469 fused_adam.py:413 INFO: <Rank1/4> <iteration81> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.74 seconds
+14:03:44.469 fused_adam.py:438 INFO: <Rank1/4> <iteration81> All Encode Mission OK!!
+14:03:44.469 fused_adam.py:413 INFO: <Rank3/4> <iteration81> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.73 seconds
+14:03:44.469 fused_adam.py:438 INFO: <Rank3/4> <iteration81> All Encode Mission OK!!
+14:03:45.485 train.py:222 INFO: [Epoch 0/1] Batch 83, Loss: 3.429769277572632, Time: 7.372401475906372
+14:03:46.345 fused_adam.py:413 INFO: <Rank0/4> <iteration81> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.79 seconds
+14:03:49.069 fused_adam.py:436 INFO: <Rank0/4> <iteration81> Have cleared old ckpt and ec_parity!!
+14:03:49.069 fused_adam.py:438 INFO: <Rank0/4> <iteration81> All Encode Mission OK!!
+14:03:52.799 fused_adam.py:283 INFO: <Rank2/4> <iteration84> ckpt in memory is beginning!
+14:03:52.799 fused_adam.py:283 INFO: <Rank0/4> <iteration84> ckpt in memory is beginning!
+14:03:52.800 fused_adam.py:283 INFO: <Rank1/4> <iteration84> ckpt in memory is beginning!
+14:03:52.801 fused_adam.py:283 INFO: <Rank3/4> <iteration84> ckpt in memory is beginning!
+14:03:52.856 train.py:222 INFO: [Epoch 0/1] Batch 84, Loss: 3.190171480178833, Time: 7.36899995803833
+14:03:56.669 fused_adam.py:370 INFO: <Rank2/4> <iteration84> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+14:03:56.865 fused_adam.py:370 INFO: <Rank1/4> <iteration84> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+14:03:57.338 fused_adam.py:370 INFO: <Rank3/4> <iteration84> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:03:58.295 fused_adam.py:370 INFO: <Rank0/4> <iteration84> ckpt finished!! in memory cost ——————> 58G	/home/lff/eccheck/ckpt/
+14:03:59.191 fused_adam.py:413 INFO: <Rank2/4> <iteration84> model_0_slice2 Encode Mission OK!  ——————> time: 5.32 seconds
+14:03:59.807 fused_adam.py:413 INFO: <Rank3/4> <iteration84> model_0_slice3 Encode Mission OK!  ——————> time: 5.44 seconds
+14:04:00.220 fused_adam.py:235 INFO: <Rank2/4> <iteration85> ckpt blocking cost ——————> 8.58306884765625e-06
+14:04:00.220 fused_adam.py:235 INFO: <Rank0/4> <iteration85> ckpt blocking cost ——————> 3.814697265625e-06
+14:04:00.220 fused_adam.py:235 INFO: <Rank1/4> <iteration85> ckpt blocking cost ——————> 1.0251998901367188e-05
+14:04:00.224 fused_adam.py:235 INFO: <Rank3/4> <iteration85> ckpt blocking cost ——————> 2.09808349609375e-05
+14:04:00.236 fused_adam.py:413 INFO: <Rank1/4> <iteration84> model_0_slice1 Encode Mission OK!  ——————> time: 5.47 seconds
+14:04:00.251 train.py:222 INFO: [Epoch 0/1] Batch 85, Loss: 3.323328971862793, Time: 7.39326286315918
+14:04:00.706 fused_adam.py:413 INFO: <Rank0/4> <iteration84> model_0_slice0 Encode Mission OK!  ——————> time: 6.04 seconds
+14:04:05.674 fused_adam.py:413 INFO: <Rank2/4> <iteration84> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.48 seconds
+14:04:05.675 fused_adam.py:438 INFO: <Rank2/4> <iteration84> All Encode Mission OK!!
+14:04:06.491 fused_adam.py:413 INFO: <Rank3/4> <iteration84> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.68 seconds
+14:04:06.492 fused_adam.py:438 INFO: <Rank3/4> <iteration84> All Encode Mission OK!!
+14:04:06.845 fused_adam.py:413 INFO: <Rank1/4> <iteration84> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.61 seconds
+14:04:06.846 fused_adam.py:438 INFO: <Rank1/4> <iteration84> All Encode Mission OK!!
+14:04:07.625 train.py:222 INFO: [Epoch 0/1] Batch 86, Loss: 3.3963677883148193, Time: 7.3714141845703125
+14:04:08.490 fused_adam.py:413 INFO: <Rank0/4> <iteration84> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.78 seconds
+14:04:11.254 fused_adam.py:436 INFO: <Rank0/4> <iteration84> Have cleared old ckpt and ec_parity!!
+14:04:11.254 fused_adam.py:438 INFO: <Rank0/4> <iteration84> All Encode Mission OK!!
+14:04:14.978 fused_adam.py:283 INFO: <Rank0/4> <iteration87> ckpt in memory is beginning!
+14:04:14.978 fused_adam.py:283 INFO: <Rank2/4> <iteration87> ckpt in memory is beginning!
+14:04:14.979 fused_adam.py:283 INFO: <Rank1/4> <iteration87> ckpt in memory is beginning!
+14:04:14.979 fused_adam.py:283 INFO: <Rank3/4> <iteration87> ckpt in memory is beginning!
+14:04:15.035 train.py:222 INFO: [Epoch 0/1] Batch 87, Loss: 3.363053798675537, Time: 7.407641410827637
+14:04:18.871 fused_adam.py:370 INFO: <Rank2/4> <iteration87> ckpt finished!! in memory cost ——————> 54G	/home/lff/eccheck/ckpt/
+14:04:19.590 fused_adam.py:370 INFO: <Rank3/4> <iteration87> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:04:20.121 fused_adam.py:370 INFO: <Rank1/4> <iteration87> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:04:20.584 fused_adam.py:370 INFO: <Rank0/4> <iteration87> ckpt finished!! in memory cost ——————> 58G	/home/lff/eccheck/ckpt/
+14:04:21.387 fused_adam.py:413 INFO: <Rank2/4> <iteration87> model_0_slice2 Encode Mission OK!  ——————> time: 5.32 seconds
+14:04:22.145 fused_adam.py:413 INFO: <Rank3/4> <iteration87> model_0_slice3 Encode Mission OK!  ——————> time: 5.55 seconds
+14:04:22.421 fused_adam.py:235 INFO: <Rank0/4> <iteration88> ckpt blocking cost ——————> 3.5762786865234375e-06
+14:04:22.421 fused_adam.py:235 INFO: <Rank1/4> <iteration88> ckpt blocking cost ——————> 9.059906005859375e-06
+14:04:22.421 fused_adam.py:235 INFO: <Rank2/4> <iteration88> ckpt blocking cost ——————> 1.0013580322265625e-05
+14:04:22.423 fused_adam.py:235 INFO: <Rank3/4> <iteration88> ckpt blocking cost ——————> 5.0067901611328125e-06
+14:04:22.452 train.py:222 INFO: [Epoch 0/1] Batch 88, Loss: 3.0241386890411377, Time: 7.415324449539185
+14:04:22.560 fused_adam.py:413 INFO: <Rank1/4> <iteration87> model_0_slice1 Encode Mission OK!  ——————> time: 5.52 seconds
+14:04:22.939 fused_adam.py:413 INFO: <Rank0/4> <iteration87> model_0_slice0 Encode Mission OK!  ——————> time: 6.08 seconds
+14:04:27.893 fused_adam.py:413 INFO: <Rank2/4> <iteration87> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.51 seconds
+14:04:27.893 fused_adam.py:438 INFO: <Rank2/4> <iteration87> All Encode Mission OK!!
+14:04:28.805 fused_adam.py:413 INFO: <Rank3/4> <iteration87> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.66 seconds
+14:04:28.806 fused_adam.py:438 INFO: <Rank3/4> <iteration87> All Encode Mission OK!!
+14:04:29.126 fused_adam.py:413 INFO: <Rank1/4> <iteration87> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.57 seconds
+14:04:29.126 fused_adam.py:438 INFO: <Rank1/4> <iteration87> All Encode Mission OK!!
+14:04:29.811 train.py:222 INFO: [Epoch 0/1] Batch 89, Loss: 2.8794445991516113, Time: 7.357256174087524
+14:04:30.704 fused_adam.py:413 INFO: <Rank0/4> <iteration87> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.76 seconds
+14:04:33.426 fused_adam.py:436 INFO: <Rank0/4> <iteration87> Have cleared old ckpt and ec_parity!!
+14:04:33.426 fused_adam.py:438 INFO: <Rank0/4> <iteration87> All Encode Mission OK!!
+14:04:37.143 fused_adam.py:283 INFO: <Rank0/4> <iteration90> ckpt in memory is beginning!
+14:04:37.143 fused_adam.py:283 INFO: <Rank2/4> <iteration90> ckpt in memory is beginning!
+14:04:37.144 fused_adam.py:283 INFO: <Rank1/4> <iteration90> ckpt in memory is beginning!
+14:04:37.145 fused_adam.py:283 INFO: <Rank3/4> <iteration90> ckpt in memory is beginning!
+14:04:37.200 train.py:222 INFO: [Epoch 0/1] Batch 90, Loss: 3.4161791801452637, Time: 7.3879334926605225
+14:04:40.848 fused_adam.py:370 INFO: <Rank1/4> <iteration90> ckpt finished!! in memory cost ——————> 54G	/home/lff/eccheck/ckpt/
+14:04:41.494 fused_adam.py:370 INFO: <Rank2/4> <iteration90> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:04:41.704 fused_adam.py:370 INFO: <Rank3/4> <iteration90> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:04:42.223 fused_adam.py:370 INFO: <Rank0/4> <iteration90> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:04:43.927 fused_adam.py:413 INFO: <Rank2/4> <iteration90> model_0_slice2 Encode Mission OK!  ——————> time: 5.27 seconds
+14:04:44.151 fused_adam.py:413 INFO: <Rank1/4> <iteration90> model_0_slice1 Encode Mission OK!  ——————> time: 5.44 seconds
+14:04:44.155 fused_adam.py:413 INFO: <Rank3/4> <iteration90> model_0_slice3 Encode Mission OK!  ——————> time: 5.44 seconds
+14:04:44.566 fused_adam.py:235 INFO: <Rank2/4> <iteration91> ckpt blocking cost ——————> 7.867813110351562e-06
+14:04:44.566 fused_adam.py:235 INFO: <Rank1/4> <iteration91> ckpt blocking cost ——————> 7.3909759521484375e-06
+14:04:44.566 fused_adam.py:235 INFO: <Rank0/4> <iteration91> ckpt blocking cost ——————> 1.1682510375976562e-05
+14:04:44.571 fused_adam.py:235 INFO: <Rank3/4> <iteration91> ckpt blocking cost ——————> 1.8358230590820312e-05
+14:04:44.597 train.py:222 INFO: [Epoch 0/1] Batch 91, Loss: 3.3615500926971436, Time: 7.3946943283081055
+14:04:44.650 fused_adam.py:413 INFO: <Rank0/4> <iteration90> model_0_slice0 Encode Mission OK!  ——————> time: 6.05 seconds
+14:04:50.340 fused_adam.py:413 INFO: <Rank2/4> <iteration90> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.41 seconds
+14:04:50.340 fused_adam.py:438 INFO: <Rank2/4> <iteration90> All Encode Mission OK!!
+14:04:50.885 fused_adam.py:413 INFO: <Rank1/4> <iteration90> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.73 seconds
+14:04:50.885 fused_adam.py:438 INFO: <Rank1/4> <iteration90> All Encode Mission OK!!
+14:04:50.909 fused_adam.py:413 INFO: <Rank3/4> <iteration90> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.75 seconds
+14:04:50.909 fused_adam.py:438 INFO: <Rank3/4> <iteration90> All Encode Mission OK!!
+14:04:51.968 train.py:222 INFO: [Epoch 0/1] Batch 92, Loss: 3.148705244064331, Time: 7.369337558746338
+14:04:52.450 fused_adam.py:413 INFO: <Rank0/4> <iteration90> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.80 seconds
+14:04:55.221 fused_adam.py:436 INFO: <Rank0/4> <iteration90> Have cleared old ckpt and ec_parity!!
+14:04:55.221 fused_adam.py:438 INFO: <Rank0/4> <iteration90> All Encode Mission OK!!
+14:04:59.319 fused_adam.py:283 INFO: <Rank0/4> <iteration93> ckpt in memory is beginning!
+14:04:59.319 fused_adam.py:283 INFO: <Rank2/4> <iteration93> ckpt in memory is beginning!
+14:04:59.320 fused_adam.py:283 INFO: <Rank1/4> <iteration93> ckpt in memory is beginning!
+14:04:59.321 fused_adam.py:283 INFO: <Rank3/4> <iteration93> ckpt in memory is beginning!
+14:04:59.375 train.py:222 INFO: [Epoch 0/1] Batch 93, Loss: 3.390042543411255, Time: 7.404778003692627
+14:05:02.749 fused_adam.py:370 INFO: <Rank2/4> <iteration93> ckpt finished!! in memory cost ——————> 53G	/home/lff/eccheck/ckpt/
+14:05:03.969 fused_adam.py:370 INFO: <Rank3/4> <iteration93> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:05:03.994 fused_adam.py:370 INFO: <Rank0/4> <iteration93> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:05:04.445 fused_adam.py:370 INFO: <Rank1/4> <iteration93> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:05:06.017 fused_adam.py:413 INFO: <Rank2/4> <iteration93> model_0_slice2 Encode Mission OK!  ——————> time: 5.23 seconds
+14:05:06.449 fused_adam.py:413 INFO: <Rank3/4> <iteration93> model_0_slice3 Encode Mission OK!  ——————> time: 5.48 seconds
+14:05:06.753 fused_adam.py:235 INFO: <Rank2/4> <iteration94> ckpt blocking cost ——————> 1.0967254638671875e-05
+14:05:06.753 fused_adam.py:235 INFO: <Rank1/4> <iteration94> ckpt blocking cost ——————> 1.049041748046875e-05
+14:05:06.753 fused_adam.py:235 INFO: <Rank0/4> <iteration94> ckpt blocking cost ——————> 3.814697265625e-06
+14:05:06.754 fused_adam.py:235 INFO: <Rank3/4> <iteration94> ckpt blocking cost ——————> 5.7220458984375e-06
+14:05:06.784 train.py:222 INFO: [Epoch 0/1] Batch 94, Loss: 3.2282605171203613, Time: 7.406574726104736
+14:05:06.901 fused_adam.py:413 INFO: <Rank1/4> <iteration93> model_0_slice1 Encode Mission OK!  ——————> time: 5.53 seconds
+14:05:07.271 fused_adam.py:413 INFO: <Rank0/4> <iteration93> model_0_slice0 Encode Mission OK!  ——————> time: 6.07 seconds
+14:05:12.453 fused_adam.py:413 INFO: <Rank2/4> <iteration93> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.43 seconds
+14:05:12.453 fused_adam.py:438 INFO: <Rank2/4> <iteration93> All Encode Mission OK!!
+14:05:13.140 fused_adam.py:413 INFO: <Rank3/4> <iteration93> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.69 seconds
+14:05:13.140 fused_adam.py:438 INFO: <Rank3/4> <iteration93> All Encode Mission OK!!
+14:05:13.486 fused_adam.py:413 INFO: <Rank1/4> <iteration93> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.58 seconds
+14:05:13.487 fused_adam.py:438 INFO: <Rank1/4> <iteration93> All Encode Mission OK!!
+14:05:14.121 train.py:222 INFO: [Epoch 0/1] Batch 95, Loss: 3.4941983222961426, Time: 7.334686756134033
+14:05:15.066 fused_adam.py:413 INFO: <Rank0/4> <iteration93> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.79 seconds
+14:05:17.798 fused_adam.py:436 INFO: <Rank0/4> <iteration93> Have cleared old ckpt and ec_parity!!
+14:05:17.798 fused_adam.py:438 INFO: <Rank0/4> <iteration93> All Encode Mission OK!!
+14:05:21.456 fused_adam.py:283 INFO: <Rank0/4> <iteration96> ckpt in memory is beginning!
+14:05:21.456 fused_adam.py:283 INFO: <Rank2/4> <iteration96> ckpt in memory is beginning!
+14:05:21.457 fused_adam.py:283 INFO: <Rank1/4> <iteration96> ckpt in memory is beginning!
+14:05:21.458 fused_adam.py:283 INFO: <Rank3/4> <iteration96> ckpt in memory is beginning!
+14:05:21.512 train.py:222 INFO: [Epoch 0/1] Batch 96, Loss: 2.7256667613983154, Time: 7.389902830123901
+14:05:24.713 fused_adam.py:370 INFO: <Rank3/4> <iteration96> ckpt finished!! in memory cost ——————> 54G	/home/lff/eccheck/ckpt/
+14:05:25.325 fused_adam.py:370 INFO: <Rank2/4> <iteration96> ckpt finished!! in memory cost ——————> 55G	/home/lff/eccheck/ckpt/
+14:05:26.045 fused_adam.py:370 INFO: <Rank1/4> <iteration96> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:05:26.605 fused_adam.py:370 INFO: <Rank0/4> <iteration96> ckpt finished!! in memory cost ——————> 58G	/home/lff/eccheck/ckpt/
+14:05:27.764 fused_adam.py:413 INFO: <Rank2/4> <iteration96> model_0_slice2 Encode Mission OK!  ——————> time: 5.25 seconds
+14:05:28.034 fused_adam.py:413 INFO: <Rank3/4> <iteration96> model_0_slice3 Encode Mission OK!  ——————> time: 5.39 seconds
+14:05:28.430 fused_adam.py:413 INFO: <Rank1/4> <iteration96> model_0_slice1 Encode Mission OK!  ——————> time: 5.41 seconds
+14:05:28.865 fused_adam.py:235 INFO: <Rank2/4> <iteration97> ckpt blocking cost ——————> 9.059906005859375e-06
+14:05:28.866 fused_adam.py:235 INFO: <Rank0/4> <iteration97> ckpt blocking cost ——————> 1.0013580322265625e-05
+14:05:28.866 fused_adam.py:235 INFO: <Rank1/4> <iteration97> ckpt blocking cost ——————> 1.1920928955078125e-05
+14:05:28.870 fused_adam.py:235 INFO: <Rank3/4> <iteration97> ckpt blocking cost ——————> 8.58306884765625e-06
+14:05:28.897 train.py:222 INFO: [Epoch 0/1] Batch 97, Loss: 3.318115234375, Time: 7.382246255874634
+14:05:28.971 fused_adam.py:413 INFO: <Rank0/4> <iteration96> model_0_slice0 Encode Mission OK!  ——————> time: 6.07 seconds
+14:05:34.203 fused_adam.py:413 INFO: <Rank2/4> <iteration96> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.44 seconds
+14:05:34.204 fused_adam.py:438 INFO: <Rank2/4> <iteration96> All Encode Mission OK!!
+14:05:34.744 fused_adam.py:413 INFO: <Rank3/4> <iteration96> optimezer_0_slice3 Encode Mission OK!  ——————> time: 6.71 seconds
+14:05:34.744 fused_adam.py:438 INFO: <Rank3/4> <iteration96> All Encode Mission OK!!
+14:05:35.053 fused_adam.py:413 INFO: <Rank1/4> <iteration96> optimezer_0_slice1 Encode Mission OK!  ——————> time: 6.62 seconds
+14:05:35.053 fused_adam.py:438 INFO: <Rank1/4> <iteration96> All Encode Mission OK!!
+14:05:36.268 train.py:222 INFO: [Epoch 0/1] Batch 98, Loss: 3.4296324253082275, Time: 7.369177341461182
+14:05:36.752 fused_adam.py:413 INFO: <Rank0/4> <iteration96> optimezer_0_slice0 Encode Mission OK!  ——————> time: 7.78 seconds
+14:05:39.522 fused_adam.py:436 INFO: <Rank0/4> <iteration96> Have cleared old ckpt and ec_parity!!
+14:05:39.522 fused_adam.py:438 INFO: <Rank0/4> <iteration96> All Encode Mission OK!!
+14:05:43.591 fused_adam.py:283 INFO: <Rank0/4> <iteration99> ckpt in memory is beginning!
+14:05:43.592 fused_adam.py:283 INFO: <Rank2/4> <iteration99> ckpt in memory is beginning!
+14:05:43.592 fused_adam.py:283 INFO: <Rank1/4> <iteration99> ckpt in memory is beginning!
+14:05:43.593 fused_adam.py:283 INFO: <Rank3/4> <iteration99> ckpt in memory is beginning!
+14:05:43.649 train.py:222 INFO: [Epoch 0/1] Batch 99, Loss: 2.8306307792663574, Time: 7.3792500495910645
+14:05:47.521 fused_adam.py:370 INFO: <Rank2/4> <iteration99> ckpt finished!! in memory cost ——————> 56G	/home/lff/eccheck/ckpt/
+14:05:47.867 fused_adam.py:370 INFO: <Rank0/4> <iteration99> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:05:48.011 fused_adam.py:370 INFO: <Rank1/4> <iteration99> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:05:48.167 fused_adam.py:370 INFO: <Rank3/4> <iteration99> ckpt finished!! in memory cost ——————> 57G	/home/lff/eccheck/ckpt/
+14:05:49.911 fused_adam.py:413 INFO: <Rank2/4> <iteration99> model_0_slice2 Encode Mission OK!  ——————> time: 5.25 seconds
+14:05:50.391 fused_adam.py:413 INFO: <Rank1/4> <iteration99> model_0_slice1 Encode Mission OK!  ——————> time: 5.43 seconds
+14:05:50.620 fused_adam.py:413 INFO: <Rank3/4> <iteration99> model_0_slice3 Encode Mission OK!  ——————> time: 5.44 seconds
+14:05:50.989 fused_adam.py:235 INFO: <Rank2/4> <iteration100> ckpt blocking cost ——————> 1.430511474609375e-05
+14:05:50.989 fused_adam.py:235 INFO: <Rank0/4> <iteration100> ckpt blocking cost ——————> 7.62939453125e-06
+14:05:50.989 fused_adam.py:235 INFO: <Rank1/4> <iteration100> ckpt blocking cost ——————> 8.106231689453125e-06
+14:05:50.993 fused_adam.py:235 INFO: <Rank3/4> <iteration100> ckpt blocking cost ——————> 1.6450881958007812e-05
+14:05:51.020 train.py:222 INFO: [Epoch 0/1] Batch 100, Loss: 3.2157652378082275, Time: 7.369176864624023
+14:05:51.169 fused_adam.py:413 INFO: <Rank0/4> <iteration99> model_0_slice0 Encode Mission OK!  ——————> time: 6.11 seconds
+14:05:52.213 train.py:240 INFO: [Rank 0/4] Batch 100  ———————————————>  ALL Time: 760.1538619995117
+14:05:56.740 fused_adam.py:413 INFO: <Rank2/4> <iteration99> optimezer_0_slice2 Encode Mission OK!  ——————> time: 6.83 seconds
+14:05:56.741 fused_adam.py:438 INFO: <Rank2/4> <iteration99> All Encode Mission OK!!
+14:05:57.358 fused_adam.py:323 INFO: <Rank2/4> newopt clean!!!!
+14:05:57.447 fused_adam.py:413 INFO: <Rank1/4> <iteration99> optimezer_0_slice1 Encode Mission OK!  ——————> time: 7.06 seconds
+14:05:57.448 fused_adam.py:438 INFO: <Rank1/4> <iteration99> All Encode Mission OK!!
+14:05:57.681 fused_adam.py:413 INFO: <Rank3/4> <iteration99> optimezer_0_slice3 Encode Mission OK!  ——————> time: 7.06 seconds
+14:05:57.681 fused_adam.py:438 INFO: <Rank3/4> <iteration99> All Encode Mission OK!!
+14:05:58.102 fused_adam.py:323 INFO: <Rank1/4> newopt clean!!!!
+14:05:58.469 fused_adam.py:323 INFO: <Rank3/4> newopt clean!!!!
+14:05:59.486 fused_adam.py:413 INFO: <Rank0/4> <iteration99> optimezer_0_slice0 Encode Mission OK!  ——————> time: 8.32 seconds
+14:06:02.286 fused_adam.py:436 INFO: <Rank0/4> <iteration99> Have cleared old ckpt and ec_parity!!
+14:06:02.286 fused_adam.py:438 INFO: <Rank0/4> <iteration99> All Encode Mission OK!!
+14:06:02.836 fused_adam.py:323 INFO: <Rank0/4> newopt clean!!!!
